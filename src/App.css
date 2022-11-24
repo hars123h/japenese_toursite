@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+.comic {
+	position: relative;
+	padding: 1.125em 1.5em;
+	font-size: 1.25em;
+	border-radius: 0rem;
+    box-shadow:	0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.comic::before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 100%;
+	left: 1.5em;
+	border: .75rem solid transparent;   
+	border-top: none;
+	transform:rotate(180deg);
+	border-bottom-color: #fbee17;
+	filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    
+    border-bottom: 10px solid #fbee17;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 16px solid #fbee17;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
