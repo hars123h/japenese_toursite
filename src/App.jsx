@@ -104,7 +104,7 @@ function App() {
       </div>
 
       {/* Screen 3 */}
-      <div className="screen_3 flex justify-center ">
+      <div className="screen_3 h-screen flex justify-center ">
         <div className='w-screen'>
           <div className="box text-white bg-[#25b7aa] flex p-4 mt-10 w-[60%] mx-auto">
             <div className='flex flex-col justify-center items-center w-[40%]'>
@@ -177,7 +177,7 @@ function App() {
       </div>
 
       {/* Screen 4 */}
-      <div className="screen_4  flex justify-center ">
+      <div className="screen_4 h-screen flex justify-center ">
 
         <div className='w-screen'>
           <div className="box flex p-4 mt-10 w-[60%] mx-auto">
@@ -251,7 +251,7 @@ function App() {
       </div>
 
       {/* Screen 5 */}
-      <div className="screen_5  flex justify-center ">
+      <div className="screen_5 h-screen flex justify-center ">
         <div className='w-screen'>
 
           <div className="box flex p-4 mt-10 w-[60%] mx-auto">
@@ -324,7 +324,7 @@ function App() {
       </div>
 
       {/* Screen 6 */}
-      <div className="screen_6  flex justify-center ">
+      <div className="screen_6 h-screen flex justify-center ">
 
         <div className='w-screen'>
           <div className="box text-white bg-[#f5ac1a] flex p-4 mt-5 w-[60%] mx-auto">
@@ -473,7 +473,7 @@ function App() {
       </div>
 
       {/* Screen 8 */}
-      <div className="screen_8  flex justify-center ">
+      <div className="screen_8 h-screen flex justify-center ">
 
         <div className='w-screen'>
 
@@ -556,7 +556,7 @@ function App() {
       </div>
 
       {/* Screen 9 */}
-      <div className="screen_9  flex justify-center mt-16">
+      <div className="screen_9 h-screen flex justify-center ">
         <div className='w-screen'>
 
           <div className="box flex p-4 mt-10 w-[60%] mx-auto">
@@ -623,7 +623,7 @@ function App() {
       </div>
 
       {/* Screen 10 */}
-      <div className="screen_10  flex justify-center ">
+      <div className="screen_10 h-screen flex justify-center ">
 
         <div className='w-screen'>
 
@@ -702,7 +702,7 @@ function App() {
       </div>
 
       {/* Screen 11 */}
-      <div className="screen_11  flex justify-center ">
+      <div className="screen_11 h-screen flex justify-center ">
         <div className='w-screen'>
           <div className="box text-white bg-[#00afde] flex p-4 mt-5 w-[60%] mx-auto">
             <div className='flex flex-col justify-center items-center w-[40%]'>
@@ -803,7 +803,7 @@ function App() {
       </div>
 
       {/* Screen 12 */}
-      <div className="screen_12  flex justify-center ">
+      <div className="screen_12 h-screen flex justify-center ">
 
         <div className='w-screen'>
 
@@ -883,7 +883,7 @@ function App() {
       </div>
 
       {/* Screen 13 */}
-      <div className="screen_13  flex justify-center ">
+      <div className="screen_13 h-screen flex justify-center ">
         <div className='w-screen'>
 
           <div className="box flex p-4 mt-5 w-[60%] mx-auto">
