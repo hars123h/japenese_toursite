@@ -413,7 +413,7 @@ function App() {
       </div>
 
       {/* Screen 7 */}
-      <div className="screen_7  flex justify-center ">
+      <div className="screen_7 h-screen flex justify-center ">
         <div className='w-screen'>
 
 
