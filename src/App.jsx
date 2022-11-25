@@ -101,7 +101,7 @@ function App() {
           </div>
 
         </div> */}
-        <div className="bg-white p-2 flex flex-col md:flex-row relative sm:w-[80%] md:w-[60%]">
+        <div className="bg-white p-2 flex flex-col md:flex-row relative sm:w-[80%] md:w-[60%] max-w-3xl">
           <img src={happy_girl1} alt="happy_girl" className='absolute -bottom-3 -left-16 z-10 invisible md:visible' />
           <div className="par1 relative">
             <img src={girl_image1} alt="girl_image" />
