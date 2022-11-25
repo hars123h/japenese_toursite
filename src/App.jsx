@@ -362,7 +362,7 @@ function App() {
             <div className='flex flex-col md:w-[60%]'>
               <div className='relative  font-bold text-lg'>
                 <img src={s6girl} alt="" className='p-4' />
-                <img src={s6text} alt="text" className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2' />
+                <img src={s6text} alt="text" className='absolute md:w-[70%] xcstm:w-[200px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2' />
                 {/* <img src={s6border} alt="text" className='absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2' /> */}
                 <div className="absolute -top-6 -left-10 w-[230px]">
                   <div className='bg-[#fbee17] flex h-[80px]'>
@@ -402,7 +402,7 @@ function App() {
                 SHIBUYASKY」は、街を一望できる絶景スポット。 屋内展望回廊 「SKY- <br />
                 GALLERY」では映像による空間演出や期間限定の展示が楽しめる。
               </div>
-              <div className="part3 flex flex-col md:flex-row p-1 justify-between mt-5 text-[1.1rem]">
+              <div className="part3 flex flex-col md:flex-row p-1 justify-between mt-5 xcstm:text-[0.8rem] md:text-[1.1rem]">
                 <div>
                   <div className='text-[#f5ac1a] font-bold'>●SHIBUYA SKY (渋谷スカイ)</div>
                   <div className='text-black font-bold'>東京都渋谷区2-24-12 (渋谷駅直結・直上)</div>
@@ -418,7 +418,7 @@ function App() {
                   <img src={s6cupimg} alt="tower" />
                 </div>
 
-                <div className="absolute bg-[#f5ac1a] md:-bottom-12 md:right-56 -bottom-[240px] right-48 text-sm font-bold text-white p-3">
+                <div className="absolute bg-[#f5ac1a] md:-bottom-12 md:right-56 -bottom-[240px] right-48 md:text-sm xcstm:text-[0.6rem] font-bold text-white p-3">
                   <div className='mb-1'>渋谷のシンボル</div>
                   <div className='mb-1'>忠犬ハチ公」の</div>
                   <div className='mb-1'>グッズがズラリ!</div>
@@ -578,11 +578,11 @@ function App() {
         <div className='w-screen'>
           <div className="box flex flex-col md:flex-row p-4 mt-32 md:w-[60%] mx-auto cstm:w-[80%] max-w-6xl">
             <div className='flex flex-col  md:w-[60%]'>
-              <div className="part1 p-2 text-3xl text-[#f3bc3c] font-bold border-b-4 border-[#f3bc3c]">
+              <div className="part1 p-2 md:text-3xl xcstm:text-[1.0rem] text-[#f3bc3c] font-bold border-b-4 border-[#f3bc3c]">
                 渋谷区民のみならず <br />
                 多くの来街者に親しまれている場所
               </div>
-              <div className="part2 text-black font-bold p-2 mt-4 text-[0.9rem]">
+              <div className="part2 text-black font-bold p-2 mt-4 xcstm:text-[0.5rem] md:text-[0.9rem]">
                 芝生ひろばをはじめ、ボルダリングウォール・スケート場・多目的運動施設 <br />
                 (サンドコート)を併設。
               </div>
