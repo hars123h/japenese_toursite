@@ -9,7 +9,9 @@ module.exports = {
         'hannari': ['Hannari', 'sans-serif']
       },
       screens: {
-        'cstm':'1100px'
+        'cstm':'1100px',
+        'xcstm':'320px',
+        'nokn':'480px'
       }
     },
   },
