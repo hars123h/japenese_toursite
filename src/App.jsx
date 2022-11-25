@@ -237,11 +237,11 @@ function App() {
 
 
             <div className='flex flex-col relative  md:w-[60%]'>
-              <div className="part1 p-1 text-3xl text-[#25b7aa] xcstm:text-sm font-bold border-b-4 border-[#25b7aa]">
+              <div className="part1 p-1 md:text-3xl text-[#25b7aa] xcstm:text-sm font-bold border-b-4 border-[#25b7aa]">
                 下町と新しい文化を融合した<br />
                 カジュアルダイニング
               </div>
-              <div className="part2 text-black text-[0.7rem] font-bold p-1 mt-4 xcstm:text-[0.4rem]">
+              <div className="part2 text-black md:text-[0.7rem] font-bold p-1 mt-4 xcstm:text-[0.4rem]">
                 自家農園の野菜や産地にこだわった食材で作る料理が人気。テイクアウトで <br />
                 きるデリや、テラスでBBQなど、さまざまな楽しみ方ができるのもGood
               </div>
@@ -278,11 +278,11 @@ function App() {
 
           <div className="box flex  md:flex-row flex-col-reverse p-4 mt-10 w-[90%] md:w-[60%] mx-auto cstm:w-[80%] max-w-6xl">
             <div className='flex flex-col  md:w-[60%]'>
-              <div className="part1 p-2 text-3xl text-[#25b7aa] font-bold border-b-4 border-[#25b7aa] xcstm:text-sm">
+              <div className="part1 p-2 md:text-3xl text-[#25b7aa] font-bold border-b-4 border-[#25b7aa] xcstm:text-sm">
                 墨田区の魅力を発見できる<br />
                 ショップ&ワークショップの店
               </div>
-              <div className="part2 text-black font-semibold p-2 mt-4 text-[15px] xcstm:text-[0.45rem]">
+              <div className="part2 text-black font-semibold p-2 mt-4 md:text-[15px] xcstm:text-[0.45rem]">
                 墨田区が運営するこちら。 1階では「すみだモダン」認証商品をはじめ墨 <br />
                 田区内の事業者が作った工芸品や雑貨を販売。 2階ではものづくり体験 <br />
                 イベントが行われることも。
@@ -352,7 +352,7 @@ function App() {
               <div className='text-bold text-3xl mb-2'>Shibuya</div>
               <div className='font-bold text-5xl'>渋谷</div>
             </div>
-            <div className='md:w-[60%] border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold text-md xcstm:text-[0.53rem] nokn:text-xs'>
+            <div className='md:w-[60%] border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold md:text-sm xcstm:text-[0.53rem] nokn:text-xs'>
               若者や外国人観光客が集まる流行の発信地・渋谷で、東京の“いま” <br />
               を体感!
             </div>
@@ -393,11 +393,11 @@ function App() {
 
 
             <div className='flex flex-col relative  md:w-[60%]'>
-              <div className="part1 p-1 text-3xl text-[#f7aa17] font-bold border-b-4 border-[#f7aa17] xcstm:text-sm">
+              <div className="part1 p-1 md:text-3xl text-[#f7aa17] font-bold border-b-4 border-[#f7aa17] xcstm:text-sm">
                 ありとあらゆるものが集まる <br />
                 渋谷の最新スポットを巡る
               </div>
-              <div className="part2 text-black text-[0.8rem] font-bold p-1 mt-4 xcstm:text-[0.54rem]">
+              <div className="part2 text-black md:text-[0.8rem] font-bold p-1 mt-4 xcstm:text-[0.54rem]">
                 2019年に開業した『渋谷スクランブルスクエア」にある展望施設「 <br />
                 SHIBUYASKY」は、街を一望できる絶景スポット。 屋内展望回廊 「SKY- <br />
                 GALLERY」では映像による空間演出や期間限定の展示が楽しめる。
@@ -437,11 +437,11 @@ function App() {
         <div className='w-screen'>
           <div className="box flex flex-col md:flex-row p-4 mt-36 md:w-[60%] mx-auto cstm:w-[80%] max-w-6xl">
             <div className='flex flex-col  md:w-[60%]'>
-              <div className="part1 p-2 text-3xl text-[#f7aa17] font-bold border-b-4 border-[#f7aa17] xcstm:text-xs">
+              <div className="part1 p-2 md:text-3xl text-[#f7aa17] font-bold border-b-4 border-[#f7aa17] xcstm:text-xs">
                 公園・商業施設・ホテルが融合した <br />
                 渋谷の新たなランドマーク
               </div>
-              <div className="part2 text-black font-bold p-2 mt-4 xcstm:text-[0.5rem] nokn:text-[0.6rem]">
+              <div className="part2 text-black font-bold p-2 mt-4 md:text-[0.7rem] xcstm:text-[0.5rem] nokn:text-[0.6rem]">
                 2020年、 渋谷区立宮下公園が新しく生まれ変わり、ショッピングや食べ歩き、スポーツが <br />
                 楽しめる低層複合施設に。
               </div>
