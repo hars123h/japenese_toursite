@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         'hannari': ['Hannari', 'sans-serif']
       },
+      screens: {
+        'cstm':'1100px'
+      }
     },
   },
   plugins: [],
