@@ -1,6 +1,6 @@
 import './App.css';
 // Screen 1 Images
-import home_img from './images/home_img.jpg';
+// import home_img from './images/home_img.jpg';
 // Screen 2 Images
 // import bg_image1 from './images/bg_image1.jpg';
 import s1newimage from './images/s1newimage.png';
@@ -22,7 +22,7 @@ import s5door from './images/s5door.png';
 import s5shop from './images/s5shop.png';
 // Screen 6 Images
 import s6girl from './images/s6girl.png';
-import s6border from './images/s6border.png';
+// import s6border from './images/s6border.png';
 import s6cupimg from './images/s6cupimg.png';
 import s6text from './images/s6text.png';
 import s6smallimg from './images/s6smallimg.png';
