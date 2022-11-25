@@ -2,7 +2,7 @@ import './App.css';
 // Screen 1 Images
 import home_img from './images/home_img.jpg';
 // Screen 2 Images
-import bg_image1 from './images/bg_image1.jpg';
+// import bg_image1 from './images/bg_image1.jpg';
 import girl_image1 from './images/girl_image1.jpg';
 import textbox_image2 from './images/textbox_image2.png';
 import plane_image1 from './images/plane_image1.png';
@@ -73,7 +73,7 @@ function App() {
 
       {/* Screen 2 */}
       <div className='screen_2 relative flex justify-center items-center'>
-        <img src={bg_image1} alt="bg_image1" className='w-screen absolute' />
+        {/* <img src={bg_image1} alt="bg_image1" className='w-screen  absolute' /> */}
         <div className='bg-white p-3 flex w-4/6 z-5'>
           <img src={happy_girl1} alt="happy_girl" className='absolute z-10 -bottom-0.5 left-56' />
           <div className='w-3/6 relative bg-white flex items-center'>

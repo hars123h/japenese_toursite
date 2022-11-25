@@ -37,3 +37,8 @@
     border-top: 16px solid #fbee17;
   }
   
+
+  .screen_2 {
+	background-image: url('./images/bg_image1.jpg');
+	padding: 10px;
+  }
