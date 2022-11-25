@@ -807,7 +807,7 @@ function App() {
 
         <div className='w-screen'>
 
-          <div className="box flex p-4 mt-32 w-[60%] mx-auto">
+          <div className="box flex p-4 mt-40 w-[60%] mx-auto">
             <div className='flex flex-col w-[60%]'>
               <div className='relative  font-bold text-lg'>
                 <img src={s12coffee} alt="storefront_image" className='p-4' />
@@ -886,7 +886,7 @@ function App() {
       <div className="screen_13 h-screen flex justify-center ">
         <div className='w-screen'>
 
-          <div className="box flex p-4 mt-10 w-[60%] mx-auto">
+          <div className="box flex p-4 mt-20 w-[60%] mx-auto">
             <div className='flex flex-col  w-[60%]'>
               <div className="part1 p-2 text-3xl text-[#00afde] font-bold border-b-4 border-[#00afde]">
                 アートを身近に感じられる <br /> 清澄白河のランドマーク
