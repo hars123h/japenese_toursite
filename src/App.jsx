@@ -900,25 +900,25 @@ function App() {
       </div>
 
       {/* Screen 13 */}
-      <div className="screen_13 h-screen flex justify-center cstm:mt-[150px]">
+      <div className="screen_13 flex justify-center mt-[20px]">
         <div className='w-screen'>
 
-          <div className="box flex p-4 mt-48 w-[60%] mx-auto cstm:w-[80%]">
-            <div className='flex flex-col  w-[60%]'>
-              <div className="part1 p-2 text-3xl text-[#00afde] font-bold border-b-4 border-[#00afde]">
+          <div className="box flex flex-col md:flex-row p-4 mt-4 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[80%] max-w-6xl">
+            <div className='flex flex-col  md:w-[60%]'>
+              <div className="part1 p-2 md:text-3xl xcstm:text-xl text-[#00afde] font-bold border-b-4 border-[#00afde]">
                 アートを身近に感じられる <br /> 清澄白河のランドマーク
               </div>
-              <div className="part2 text-black text-[0.8rem] font-bold p-2 mt-4">
+              <div className="part2 text-black xcstm:text-[0.4rem] md:text-[0.8rem] font-bold p-2 mt-4">
                 豊かな木場公園内にある現代美術専門の美術館図書室には「こども <br />
                 としょしつ」、エントランスや中庭にはベンチがあり、寛ぐことができる。 ア <br />
                 ートに触れて、心安らぐひと時を
               </div>
-              <div className="part3 flex p-2 justify-between mt-5">
+              <div className="part3 flex p-2 justify-between mt-5 xcstm:text-xs md:text-md">
                 <div>
-                  <div className='text-[#00aee0] font-bold'>●東京都現代美術館</div>
-                  <div className='text-black font-bold'>東京都江東区三好4-1-1 (木場公園内)</div>
-                  <div className='text-black font-bold'>閉館/10:00~18:00 (展示室入室は17:30まで)</div>
-                  <div className='text-black font-bold'>休/月曜(祝日の場合は翌平日) <br />
+                  <div className='text-[#00aee0] '>●東京都現代美術館</div>
+                  <div className='text-black '>東京都江東区三好4-1-1 (木場公園内)</div>
+                  <div className='text-black '>閉館/10:00~18:00 (展示室入室は17:30まで)</div>
+                  <div className='text-black '>休/月曜(祝日の場合は翌平日) <br />
                     展示入替期間、年末年始は休館</div>
                   <div className='text-black font-bold'>/入館のみは無料観覧料は展覧会により異なる</div>
 
@@ -926,20 +926,20 @@ function App() {
               </div>
             </div>
 
-            <div className='w-[40%] relative border-l-2 border-white pl-5 font-bold text-lg'>
+            <div className='md:w-[40%] relative xcstm:mt-20 md:mt-0 border-l-2 border-white pl-5 font-bold text-lg'>
               <div className='relative'>
                 <img src={s13corridor} alt="couple_date" />
-                <div className='text-black font-semibold text-xs text-center absolute bottom-1 w-full'>写真:アンソニー・カロ〈発見の塔 1991年</div>
+                <div className='text-black font-semibold md:text-xs xcstm:text-[0.6rem] text-center absolute bottom-1 w-full'>写真:アンソニー・カロ〈発見の塔 1991年</div>
               </div>
 
-              <div className="absolute -top-6 -right-10 w-[300px]">
+              <div className="absolute -top-6 -right-10 xcstm:w-[290px]  md:w-[300px]">
 
                 <div className='bg-[#fbee17] flex h-[80px]'>
 
                   <div className='w-1/5 flex relative'>
                     <div className='relative w-[80%] mx-auto h-[60px] bg-black text-white flex flex-col justify-center items-center'>
-                      <div className='text-xs'>スポット</div>
-                      <div className='text-2xl'>03</div>
+                      <div className='md:text-xs xcstm:text-[0.6rem]'>スポット</div>
+                      <div className='md:text-2xl xcstm:text-xl'>03</div>
                       <div className="arrow-up absolute bottom-0"></div>
                     </div>
                     <div className="arrow-down absolute -bottom-1.5 left-2"></div>
@@ -956,12 +956,12 @@ function App() {
             </div>
           </div>
 
-          <div className="box2 flex justify-between p-4 mx-auto w-[60%]">
-            <div className='mt-20'>
+          <div className="box2 flex flex-col md:flex-row justify-between p-4 mx-auto md:w-[60%] max-w-6xl">
+            <div className='md:mt-20 xcstm:mt-8'>
               <img src={s13bluebox} alt="bluebox" />
             </div>
 
-            <div className="image_part flex justify-center items-center">
+            <div className="image_part flex flex-col md:flex-row xcstm:translate-y-24 md:translate-y-0 justify-center items-center">
               <div className='relative translate-x-10 -translate-y-20'>
                 <img src={s13moplus} alt="leftimage" className='' />
                 <div className='w-[80px] opacity-80 h-[25px] bg-[#fee33d] absolute -top-1 rotate-[20deg] left-[35%] z-10'> </div>
@@ -971,7 +971,7 @@ function App() {
               <div className='relative '>
                 <img src={s13officeroom} alt="rightimage" className='' />
                 <div className='w-[80px] opacity-80 h-[25px] bg-[#fee33d] absolute -top-1 rotate-[20deg] left-[35%] z-10'> </div>
-                <img src={s13ideabox} alt="ideabox" className='absolute -right-28 -top-10' />
+                <img src={s13ideabox} alt="ideabox" className='absolute md:-right-28 md:-top-10 xcstm:-right-16 xcstm:-top-20 ' />
                 <div className='text-black text-xs font-semibold text-center'>ミュージアムショップ「NADiff contemporary」</div>
               </div>
 
@@ -981,22 +981,22 @@ function App() {
       </div>
 
       {/* Screen 14 */}
-      <div className="screen_14  flex justify-center cstm:mt-[150px]">
+      <div className="screen_14  flex justify-center md:mt-[20px] xcstm:mt-[60px]">
 
         <div className='w-screen'>
-          <div className="box text-white bg-[#ee798c] flex p-4 mt-32 w-[60%] mx-auto cstm:w-[80%]">
-            <div className='flex flex-col justify-center items-center w-[40%]'>
+          <div className="box text-white bg-[#ee798c] flex flex-col md:flex-row p-4 mt-10 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[80%] max-w-6xl">
+            <div className='flex flex-col justify-center items-center md:w-[40%] xcstm:mb-3 md:mb-0'>
               <div className='text-bold text-3xl mb-2'>Shimokitazawa</div>
               <div className='font-bold text-5xl'>下北沢</div>
             </div>
-            <div className='w-[60%] border-l-2 border-white pl-5 font-bold text-md'>
+            <div className='md:w-[60%]  md:border-l-2 xcstm:border-l-0 xcstm:border-t-2 md:border-t-0  border-white pl-5 font-bold xcstm:text-[0.45rem] md:text-[1rem]'>
               小田急線線路跡の開発が進み、変化がめまぐるしい下北沢、新しい <br />
               発見がある“街ぶら”に最適なエリア。
             </div>
           </div>
 
-          <div className="box flex p-4 mt-10 w-[60%] mx-auto cstm:w-[80%]">
-            <div className='flex flex-col w-[50%]'>
+          <div className="box flex flex-col md:flex-row p-4 mt-10 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[80%] max-w-6xl">
+            <div className='flex flex-col md:w-[50%]'>
               <div className='relative  font-bold text-lg'>
                 <img src={s14library} alt="" className='p-4' />
                 {/* <img src={s6border} alt="text" className='absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2' /> */}
@@ -1020,15 +1020,15 @@ function App() {
               </div>
 
 
-              <div className="part1 p-1 text-[1.4rem] text-[#ee798c] font-bold border-b-4 border-[#ee798c] mt-24">
+              <div className="part1 p-1 md:text-[1.4rem] xcstm:text-sm text-[#ee798c] font-bold border-b-4 border-[#ee798c] sm:mt-10 md:mt-24">
                 新しい出会いや感性が刺激される<br />
                 カルチャーの発信地!
               </div>
-              <div className="part2 text-black text-[0.7rem] font-bold p-1 mt-4">
+              <div className="part2 text-black xcstm:text-[0.5rem] md:text-[0.7rem] font-bold p-1 mt-4">
                 2020年 「下北線路街」 の一角にOPEN。 個性豊かな13のお店が軒を <br />
                 重ね、小さな街を形成、不定期で開催されるイベントもCheck!
               </div>
-              <div className="part3 flex p-1 justify-between mt-5 text-[0.7rem]">
+              <div className="part3 flex flex-col md:flex-row p-1 justify-between mt-5 text-[0.7rem]">
                 <div>
                   <div className='text-[#ee798c] font-bold'>●BONUS TRACK</div>
                   <div className='text-black font-bold'>東京都世田谷区代田2-36-12~15</div>
@@ -1038,16 +1038,16 @@ function App() {
               </div>
             </div>
 
-            <div className='flex flex-col relative  w-[60%]'>
-              <div className="part1 p-1 text-3xl text-[#ee798c] font-bold border-b-4 border-[#ee798c]">
+            <div className='flex flex-col relative  md:w-[60%]'>
+              <div className="part1 p-1 md:text-3xl xcstm:text-xl text-[#ee798c] font-bold border-b-4 border-[#ee798c]">
                 人と本がつながる場所
               </div>
-              <div className="part2 text-black text-[0.8rem] font-bold p-1 mt-4">
+              <div className="part2 text-black xcstm:text-[0.45rem] md:text-[0.8rem] font-bold p-1 mt-4">
                 店名の「B&B」は “BOOKS & BEER"の略で、本はもちろん、アルコール <br />
                 や こだわりのコーヒーも購入できる。独自のセレクションによる本棚から、<br />
                 あ なたが気になる一冊を見つけて。
               </div>
-              <div className="part3 flex p-1 justify-between mt-5 text-[0.7rem]">
+              <div className="part3 flex flex-col md:flex-row p-1 justify-between mt-5 text-[0.7rem]">
                 <div>
                   <div className='text-[#ee798c] font-bold'>●本屋 B&B</div>
                   <div className='text-black font-bold'>東京都世田谷区代田2-36-15</div>
@@ -1098,7 +1098,7 @@ function App() {
       </div>
 
       <div className='flex justify-center p-2'>
-        <button className='mx-auto w-[40%] bg-[#ef7625] rounded-sm cursor-pointer text-center text-xl text-white py-2'>高松成田線のお得な情報はこちら</button>
+        <button className='mx-auto md:w-[40%] xcstm:w-[90%] bg-[#ef7625] rounded-sm cursor-pointer text-center xcstm:text-md md:text-xl text-white py-2'>高松成田線のお得な情報はこちら</button>
       </div>
 
       <div className='flex justify-center p-7 bg-[#212121] mt-7'>
