@@ -327,7 +327,7 @@ function App() {
       <div className="screen_6 h-screen flex justify-center ">
 
         <div className='w-screen'>
-          <div className="box text-white bg-[#f5ac1a] flex p-4 mt-5 w-[60%] mx-auto">
+          <div className="box text-white bg-[#f5ac1a] flex p-4 mt-10 w-[60%] mx-auto">
             <div className='flex flex-col justify-center items-center w-[40%]'>
               <div className='text-bold text-3xl mb-2'>Shibuya</div>
               <div className='font-bold text-5xl'>渋谷</div>
@@ -417,7 +417,7 @@ function App() {
         <div className='w-screen'>
 
 
-          <div className="box flex p-4 mt-4 w-[60%] mx-auto">
+          <div className="box flex p-4 mt-10 w-[60%] mx-auto">
             <div className='flex flex-col  w-[60%]'>
               <div className="part1 p-2 text-3xl text-[#f7aa17] font-bold border-b-4 border-[#f7aa17]">
                 公園・商業施設・ホテルが融合した <br />
@@ -477,7 +477,7 @@ function App() {
 
         <div className='w-screen'>
 
-          <div className="box flex p-4 mt-3 w-[60%] mx-auto">
+          <div className="box flex p-4 mt-10 w-[60%] mx-auto">
             <div className='flex flex-col w-[60%]'>
               <div className='relative  font-bold text-lg'>
                 <img src={s8girl} alt="" className='p-4' />
@@ -704,7 +704,7 @@ function App() {
       {/* Screen 11 */}
       <div className="screen_11 h-screen flex justify-center ">
         <div className='w-screen'>
-          <div className="box text-white bg-[#00afde] flex p-4 mt-5 w-[60%] mx-auto">
+          <div className="box text-white bg-[#00afde] flex p-4 mt-8 w-[60%] mx-auto">
             <div className='flex flex-col justify-center items-center w-[40%]'>
               <div className='text-bold text-3xl mb-2'>Kiyosumishirakawa</div>
               <div className='font-bold text-5xl'>清澄白河</div>
@@ -886,7 +886,7 @@ function App() {
       <div className="screen_13 h-screen flex justify-center ">
         <div className='w-screen'>
 
-          <div className="box flex p-4 mt-5 w-[60%] mx-auto">
+          <div className="box flex p-4 mt-10 w-[60%] mx-auto">
             <div className='flex flex-col  w-[60%]'>
               <div className="part1 p-2 text-3xl text-[#00afde] font-bold border-b-4 border-[#00afde]">
                 アートを身近に感じられる <br /> 清澄白河のランドマーク
@@ -967,7 +967,7 @@ function App() {
       <div className="screen_14  flex justify-center ">
 
         <div className='w-screen'>
-          <div className="box text-white bg-[#ee798c] flex p-4 mt-5 w-[60%] mx-auto">
+          <div className="box text-white bg-[#ee798c] flex p-4 mt-9 w-[60%] mx-auto">
             <div className='flex flex-col justify-center items-center w-[40%]'>
               <div className='text-bold text-3xl mb-2'>Shimokitazawa</div>
               <div className='font-bold text-5xl'>下北沢</div>
