@@ -101,7 +101,7 @@ function App() {
           </div>
 
         </div> */}
-        <div className="bg-white p-2 flex flex-col md:flex-row relative sm:w-[80%] md:w-[60%] lg:w-[40%]">
+        <div className="bg-white p-2 flex flex-col md:flex-row relative sm:w-[80%] md:w-[60%]">
           <img src={happy_girl1} alt="happy_girl" className='absolute -bottom-3 -left-16 z-10 invisible md:visible' />
           <div className="par1 relative">
             <img src={girl_image1} alt="girl_image" />
@@ -109,12 +109,12 @@ function App() {
           </div>
           <div className="part2 flex flex-col p-2 ml-2">
             <img src={plane_image1} alt="plane_image" className='md:-translate-y-6 translate-y-0' />
-            <div className="big_text text-[#e97a27] xcstm:text-xl font-bold text-2xl  sm:text-3xl md:-translate-y-6 translate-y-0 lg:text-4xl">
+            <div className="big_text text-[#e97a27] xcstm:text-xl font-bold md:text-2xl  sm:text-3xl md:-translate-y-6 translate-y-0 ">
               快適な機内&サービスで <br />
               成田空港まで のフライトも <br />
               あっという間に感じる! <br />
             </div>
-            <div className="small_text xcstm:text-[0.50rem] mt-2 md:text-md text-[0.65rem] font-semibold md:-translate-y-6 translate-y-0 lg:text-[0.95rem]">
+            <div className="small_text xcstm:text-[0.50rem] mt-2 md:text-[0.65rem]  font-semibold md:-translate-y-6 translate-y-0 ">
               ジェットスターの機内はグレーのレザーシートで統一された <br />
               落ち着いた雰囲気で、シートポケットを上部に配置して足元 <br />
               の広さを確保。さらに足元に十分の広さを確保した 「エクス<br />

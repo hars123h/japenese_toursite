@@ -42,3 +42,7 @@
 	background-image: url('./images/bg_image1.jpg');
 	padding: 10px;
   }
+
+  body {
+	overflow-x: hidden;
+  }
