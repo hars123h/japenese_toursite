@@ -43,6 +43,11 @@
 	padding: 10px;
   }
 
+  .s5NewImage {
+    background-image: url('./images/s5newImage.png');
+    width:51%;
+  }
+
   html, body {
     max-width: 100%;
     overflow-x: hidden;
