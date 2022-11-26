@@ -322,7 +322,7 @@ function App() {
               </div>
               <div className="part2 text-black md:text-[0.8rem]  font-bold p-1 mt-4 xcstm:text-[0.54rem] cstm:text-[11.5px] shiPara" style={{lineHeight:'20px'}}>
                 <div>2019年に開業した「渋谷スクランブルスクエア」にある展望施設「</div>
-                <div>SHIBUYASKY」は、街を一望できる絶景スポット。 屋内展望回廊 「SKY-</div>
+                <div>SHIBUYASKY」は、街を一望できる絶景スポット。 屋内展望回廊「SKY-</div>
                 GALLERY」では映像による空間演出や期間限定の展示が楽しめる。
               </div>
               <div className="part3 flex flex-col md:flex-row p-1 justify-between mt-5 xcstm:text-[0.8rem] md:text-[1.1rem] cstm:text-[0.8rem] shiPara2" style={{lineHeight:'20px'}}>
