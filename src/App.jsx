@@ -210,7 +210,7 @@ function App() {
                 下町と新しい文化を融合した<br />
                 カジュアルダイニング
               </div>
-              <div className="part2 text-black cstm:text-[12px] md:text-[0.7rem] font-bold p-1 mt-4 xcstm:text-[10px]" style={{lineHeight:'24px'}}>
+              <div className="part2 text-black cstm:text-[12px] md:text-[0.7rem] font-bold p-1 mt-4 xcstm:text-[10px] screen4Para" style={{lineHeight:'24px'}}>
                 自家農園の野菜や産地にこだわった食材で作る料理が人気。テイクアウトで <br />
                 きるデリや、テラスでBBQなど、さまざまな楽しみ方ができるのもGood!
               </div>

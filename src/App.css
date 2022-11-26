@@ -70,7 +70,7 @@
     width: 70% !important;
   }
   .towerOuter {
-    padding-left: 15px !important;
+    padding-left: 10px !important;
   }
   .towerImg {
     margin-top: 20px !important;
@@ -133,6 +133,9 @@
   .shiPara2 {
     font-size: 14px !important;
 
+  }
+  .screen4Para {
+    font-size: 9px !important;
   }
   .s6cupImg {
     top:340px !important;
