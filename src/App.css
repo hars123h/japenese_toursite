@@ -59,3 +59,81 @@
   margin-right: -50px !important;
 
 }
+@media only screen and (max-width: 500px) {
+  .imageS4 {
+    width: 70% !important;
+  }
+  .towerOuter {
+    padding-left: 15px !important;
+  }
+  .towerImg {
+    margin-top: 20px !important;
+    margin-right:80px !important;
+    width: 170px !important;
+    
+  }
+  .towerStrip {
+    margin-top: 20px !important;
+  }
+  .towerBox {
+    margin-right: -30px !important;
+    margin-bottom: 50px !important;
+  }
+  .shop03Image {
+    /* margin-bottom: 20px !important; */
+    margin-top: 0px !important;
+    padding-left: 50px !important;
+  }
+  .shop03Image img {
+    width: 300px !important;
+    padding-left: 0 !important;
+  }
+  .shop03ImageGirl {
+    top:400px !important
+  }
+  .shop03ImageGirl img {
+    width: 60%!important
+  }
+  .shop03Outer {
+    padding: 0 !important;
+  }
+  .shop03Para {
+    font-size: 9.7px !important;
+  }
+  .shop03OuterTeaxt {
+    margin-top: 30px !important;
+  }
+  .shiEng {
+    font-size: 25px !important;
+  }
+  .shijpy {
+    font-size: 35px !important;
+  }
+  .shibSmall {
+    font-size: 10px !important;
+
+  }
+  .s6shibuya_sky_new {
+    width: 90% !important;
+  }
+  .s6shibuyaOuter {
+    padding:15px !important;
+  }
+  .shiPara {
+    font-size: 9.7px !important;
+  }
+  .shiPara2 {
+    font-size: 14px !important;
+
+  }
+  .s6cupImg {
+    top:340px !important;
+    right:35px !important
+  }
+  .screen7Outer {
+    margin-top: 120px !important;
+  }
+  .s6cupImgBox {
+    right: 250px !important;
+  }
+}

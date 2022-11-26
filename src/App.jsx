@@ -102,7 +102,7 @@ function App() {
               <div className='text-bold text-3xl md:text-[1.5rem] mb-2 text-center cstm:text-[1.5rem] '>Tokyo mizumachi</div>
               <div className='font-bold md:text-[2.8rem] sm:text-lg   font:bold cstm:text-[2rem]'>東京ミズマチ &#174;</div>
             </div>
-            <div className='md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center cstm:leading-6  xcstm:text-[8px] border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold text-[0.60rem] md:text-[16px]'>
+            <div className='md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center cstm:leading-6  xcstm:text-[10px] border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold text-[0.60rem] md:text-[16px]'>
               <div className=' cstm:text-[12.5px] cstm:tracking-widest'>2020年開業。浅草~東京スカイツリータウン&#174;エリアを散策できる</div>
               <div className=' cstm:text-[12.5px] cstm:tracking-widest'>新机点。</div>
               <div className=' cstm:text-[12.5px] cstm:tracking-widest'>カフェ・雑貨・ホステルなど個性豊かなお店が集結!</div>
@@ -115,11 +115,11 @@ function App() {
                 東京スカイツリー® の近く
                 <br /> 地域に根付いた下町の魅力に出会える場所
               </div>
-              <div className="part2 text-black font-bold  mt-4 cstm:text-[12px] text-[0.60rem] md:text-lg">
+              <div className="part2 text-black font-bold  mt-4 cstm:text-[12px] text-[0.60rem] md:text-lg xcstm:text-[11.5px]">
                 夜はスカイツリーのライティングを眺めることができる。<br />
                 ライティングスケジュールはスカイツリー公式HPをチェック。
               </div>
-              <div className="part3 flex p-2 justify-between mt-5 cstm:text-[12px]" style={{lineHeight:'24px'}}>
+              <div className="part3 flex p-2 justify-between mt-5 cstm:text-[12px] xcstm:text-[15px]" style={{lineHeight:'24px'}}>
                 <div>
                   <div className='text-[#25b7aa] font-bold'>●東京ミズマチ</div>
                   <div className='text-black font-bold'>東京都墨田区向島1</div>
@@ -176,7 +176,7 @@ function App() {
           <div className="box flex flex-col md:flex-row  lg:mt-0 md:w-[60%] w-[120%] mx-auto cstm:w-[58%] max-w-6xl">
             <div className='flex flex-col md:w-[65%]'>
               <div className='relative border-l-2 border-white pl-5 font-bold text-lg'>
-                <img src={s4new02} alt="building" className='pr-4 p-y-4 w-[100%]' />
+                <img src={s4new02} alt="building" className='pr-4 p-y-4 w-[100%] imageS4' />
                 {/* <img src={s4ideabox} alt="ideabox" className='absolute left-2 top-[25%] w-[120px] md:w-[180px]' /> */}
                 {/* <div className="absolute -top-6 -left-10 w-[200px]">
                   <div className='bg-[#fbee17] flex h-[80px]'>
@@ -205,12 +205,12 @@ function App() {
             </div>
 
 
-            <div className='flex flex-col relative  md:w-[70%]'>
+            <div className='flex flex-col relative towerOuter  md:w-[70%]'>
               <div className="part1 p-1 md:text-3xl cstm:text-[1.5rem] text-[#25b7aa] xcstm:text-sm font-bold border-b-4 border-[#25b7aa]">
                 下町と新しい文化を融合した<br />
                 カジュアルダイニング
               </div>
-              <div className="part2 text-black cstm:text-[12px] md:text-[0.7rem] font-bold p-1 mt-4 xcstm:text-[0.4rem]" style={{lineHeight:'24px'}}>
+              <div className="part2 text-black cstm:text-[12px] md:text-[0.7rem] font-bold p-1 mt-4 xcstm:text-[10px]" style={{lineHeight:'24px'}}>
                 自家農園の野菜や産地にこだわった食材で作る料理が人気。テイクアウトで <br />
                 きるデリや、テラスでBBQなど、さまざまな楽しみ方ができるのもGood!
               </div>
@@ -225,11 +225,11 @@ function App() {
                 </div>
 
                 <div className='relative'>
-                  <img src={s4lunch} alt="tower" className='cstm:w-[230px] cstm:translate-y-6' style={{marginRight:'70px'}} />
-                  <div className='w-[80px] opacity-80 h-[25px] bg-[#fee33d] absolute cstm:translate-y-6 -top-0.5 rotate-[20deg] left-[35%] z-10'> </div>
+                  <img src={s4lunch} alt="tower" className='cstm:w-[230px] cstm:translate-y-6 towerImg' style={{marginRight:'70px'}} />
+                  <div className='w-[80px] opacity-80 h-[25px] bg-[#fee33d] absolute cstm:translate-y-6 -top-0.5 rotate-[20deg] left-[35%] z-10 towerStrip'> </div>
                 </div>
 
-                <div className="absolute cstm:text-[0.6rem] bg-[#25b7aa] cstm:bottom-4  cstm:left-4 bottom-12 text-sm font-bold text-white p-3 lg:bottom-40 lg:left-28 xcstm:text-xs xcstm:-bottom-24">
+                <div className="absolute cstm:text-[0.6rem] bg-[#25b7aa] cstm:bottom-4  cstm:left-4 bottom-12 text-sm font-bold text-white p-3 lg:bottom-40 lg:left-28 xcstm:text-xs xcstm:-bottom-24 towerBox">
                   <div className='mb-1'>プロシュートと丸ごとブッラータ</div>
                   <div className='mb-1'>チーズのビアンカビッツァ (3,500円)</div>
                   <div className='mb-1'>LAND特製コブサラダ(R1,800円)</div>
@@ -245,13 +245,13 @@ function App() {
       <div className="screen_5   flex justify-center mt-[20px]">
         <div className='w-screen'>
 
-          <div className="box flex  md:flex-row flex-col-reverse p-4 mt-10 w-[90%] md:w-[60%] mx-auto cstm:w-[51%] max-w-6xl">
-            <div className='flex flex-col  md:w-[60%]  relative'>
+          <div className="box flex  md:flex-row flex-col p-4 mt-10 w-[90%] md:w-[60%] mx-auto cstm:w-[51%] max-w-6xl shop03Outer">
+            <div className='flex flex-col  md:w-[60%]  relative shop03OuterTeaxt'>
               <div className="part1 p-2 md:text-3xl cstm:text-[1.4rem] text-[#25b7aa] font-bold border-b-4 border-[#25b7aa] xcstm:text-sm">
                 墨田区の魅力を発見できる<br />
                 ショップ&ワークショップの店
               </div>
-              <div className="part2  text-black font-semibold cstm:text-[9px] cstm:scale-125  cstm:translate-x-10  p-2 mt-4 md:text-[15px] xcstm:text-[0.45rem]"style={{lineHeight:'18px'}}>
+              <div className="part2  text-black font-semibold cstm:text-[9px] cstm:scale-125  cstm:translate-x-10  p-2 mt-4 md:text-[15px] xcstm:text-[0.45rem] shop03Para"style={{lineHeight:'18px'}}>
                 <div>墨田区が運営するこちら。1階では「すみだモダン」認証商品をはじめ墨</div>
                 <div>田区内の事業者が作った工芸品や雑貨を販売。 2階ではものづくり体験</div>
                 <div>イベントが行われることも。</div>
@@ -267,14 +267,14 @@ function App() {
                 </div>
 
 
-                <div className='absolute md:translate-x-16 z-20 mt-5 md:mt-0  -right-48 cstm:translate-x-52 top-[11rem]'>
+                <div className='absolute md:translate-x-16 z-20 mt-5 md:mt-0  -right-48 cstm:translate-x-52 top-[11rem] shop03ImageGirl '>
                   <img src={s5lower_image} alt="tower" className='cstm:w-[600px]' />
                   {/* <div className='w-[80px] opacity-80 h-[25px] bg-[#fee33d] absolute -top-1  rotate-[20deg] left-[35%] z-10'> </div> */}
                 </div>
               </div>
             </div>
 
-            <div className='md:w-[40%] cstm:w-[70%] cstm:translate-x-10 relative  pl-5 font-bold text-lg md:mt-0 mt-10 max-w-6xl'>
+            <div className='md:w-[40%] cstm:w-[70%] cstm:translate-x-10 relative  pl-5 font-bold text-lg md:mt-0 mt-10 max-w-6xl shop03Image'>
               <img src={s503image} alt="building" />
               {/* <div className='relative float-right mt-7'>
                 <img src={s5door} alt="tower" />
@@ -292,19 +292,19 @@ function App() {
         <div className='w-screen'>
           <div className="box text-white bg-[#f5ac1a] flex flex-col md:flex-row p-4 w-[60%] mx-auto cstm:w-[51%] xcstm:w-[90%] max-w-6xl">
             <div className='flex flex-col justify-center items-center md:w-[40%] pb-5 md:pb-0'>
-              <div className='text-bold md:text-3xl cstm:text-xl'>Shibuya</div>
-              <div className='font-bold md:text-5xl cstm:text-3xl'>渋谷</div>
+              <div className='text-bold md:text-3xl cstm:text-xl shiEng'>Shibuya</div>
+              <div className='font-bold md:text-5xl cstm:text-3xl shijpy'>渋谷</div>
             </div>
-            <div className='md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold md:text-sm xcstm:text-[0.53rem] nokn:text-xs'>
+            <div className='md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold md:text-sm xcstm:text-[0.53rem] nokn:text-xs shibSmall'>
               <div>若者や外国人観光客が集まる流行の発信地・渋谷で、東京の“いま”</div>
               <div>を体感!</div>
             </div>
           </div>
 
-          <div className="box flex flex-col md:flex-row  mt-10 md:w-[60%] mx-auto cstm:w-[51%] max-w-6xl">
+          <div className="box flex flex-col md:flex-row  mt-10 md:w-[60%] mx-auto cstm:w-[51%] max-w-6xl s6shibuyaOuter ">
             <div className='flex flex-col md:w-[60%] cstm:w-[80%]'>
-              <div className='relative  font-bold text-lg cstm:-translate-x-12'>
-                <img src={s6shibuya_sky_new} alt="" className='' />
+              <div className='relative  font-bold text-lg cstm:-translate-x-12 '>
+                <img src={s6shibuya_sky_new} alt="" className='s6shibuya_sky_new' />
               </div>
 
 
@@ -320,12 +320,12 @@ function App() {
                 ありとあらゆるものが集まる <br />
                 渋谷の最新スポットを巡る
               </div>
-              <div className="part2 text-black md:text-[0.8rem]  font-bold p-1 mt-4 xcstm:text-[0.54rem] cstm:text-[11.5px]" style={{lineHeight:'20px'}}>
+              <div className="part2 text-black md:text-[0.8rem]  font-bold p-1 mt-4 xcstm:text-[0.54rem] cstm:text-[11.5px] shiPara" style={{lineHeight:'20px'}}>
                 <div>2019年に開業した「渋谷スクランブルスクエア」にある展望施設「</div>
                 <div>SHIBUYASKY」は、街を一望できる絶景スポット。 屋内展望回廊 「SKY-</div>
                 GALLERY」では映像による空間演出や期間限定の展示が楽しめる。
               </div>
-              <div className="part3 flex flex-col md:flex-row p-1 justify-between mt-5 xcstm:text-[0.8rem] md:text-[1.1rem] cstm:text-[0.8rem]" style={{lineHeight:'20px'}}>
+              <div className="part3 flex flex-col md:flex-row p-1 justify-between mt-5 xcstm:text-[0.8rem] md:text-[1.1rem] cstm:text-[0.8rem] shiPara2" style={{lineHeight:'20px'}}>
                 <div>
                   <div className='text-[#f5ac1a] font-bold'>●SHIBUYA SKY (渋谷スカイ)</div>
                   <div className='text-black font-bold'>東京都渋谷区2-24-12 (渋谷駅直結・直上)</div>
@@ -337,11 +337,11 @@ function App() {
                     <span className='pl-4'>小学生1,000円、幼児600円</span> </div>
                 </div>
 
-                <div className='absolute z-20 md:-bottom-12 md:right-0 -bottom-52 cstm:-right-12 right-0 text-sm font-bold text-white p-3'>
-                  <img src={s6cupimg} alt="tower" />
+                <div className='absolute z-20 md:-bottom-12 md:right-0 -bottom-52 cstm:-right-12 right-0 text-sm font-bold text-white p-3 s6cupImg'>
+                  <img src={s6cupimg} alt="tower" className='mb-5 s6cupImg' />
                 </div>
 
-                <div className="absolute bg-[#f5ac1a] md:-bottom-12 md:right-56 -bottom-[240px] cstm:-bottom-6 cstm:right-48 right-48 md:text-sm xcstm:text-[0.6rem] font-bold text-white p-3">
+                <div className="absolute bg-[#f5ac1a] md:-bottom-12 md:right-56 -bottom-[240px] cstm:-bottom-6 cstm:right-48 right-48 md:text-sm xcstm:text-[0.6rem] font-bold text-white p-3 s6cupImgBox">
                   <div className='mb-1'>渋谷のシンボル</div>
                   <div className='mb-1'>｢忠犬ハチ公｣の</div>
                   <div className='mb-1'>グッズがズラリ!</div>
@@ -356,7 +356,7 @@ function App() {
       </div>
 
       {/* Screen 7 */}
-      <div className="screen_7 flex justify-center mt-[-40px]">
+      <div className="screen_7 flex justify-center mt-[-40px] screen7Outer">
         <div className='w-screen'>
           <div className="box flex flex-col md:flex-row mt-36 md:w-[60%] mx-auto pt-4 cstm:w-[51%] max-w-6xl">
             <div className='flex flex-col  md:w-[60%] cstm:w-[145%]'>
