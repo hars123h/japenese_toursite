@@ -60,6 +60,12 @@
 
 }
 @media only screen and (max-width: 500px) {
+  .s3Para {
+    font-size: 9.4px !important;
+  }
+  .s3li {
+    font-size: 13px !important;
+  }
   .imageS4 {
     width: 70% !important;
   }
@@ -95,10 +101,12 @@
     width: 60%!important
   }
   .shop03Outer {
-    padding: 0 !important;
+    padding: 15px !important;
+    width: 100%;
+
   }
   .shop03Para {
-    font-size: 9.7px !important;
+    font-size: 9.3px !important;
   }
   .shop03OuterTeaxt {
     margin-top: 30px !important;
@@ -110,7 +118,7 @@
     font-size: 35px !important;
   }
   .shibSmall {
-    font-size: 10px !important;
+    font-size: 9.5px !important;
 
   }
   .s6shibuya_sky_new {
@@ -174,6 +182,7 @@
   }
   .screen_10para {
     font-size: 8.6px !important;
+    margin-left: -10px !important;
   }
   .screen_10li {
     font-size: 14px !important;
@@ -215,7 +224,7 @@
     width: 85% !important;
   }
   .screen13Para {
-    font-size: 9.2px !important;
+    font-size: 8.6px !important;
   }
   .screen13Wrap {
     width: 100% !important;
@@ -232,10 +241,20 @@
     margin-top: 0 !important;
   }
   .screen14Para {
-    font-size: 9.7px;
+    font-size: 8.9px;
   }
   .imageWid2 {
     margin-right: 0 !important;
     width: 90%;
+   }
+   .planeOuter {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0;
+    margin-right: 0;
+   }
+   .planePadding {
+    padding-left: 1rem;
+    padding-right: 1rem;
    }
 }

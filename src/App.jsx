@@ -69,18 +69,18 @@ function App() {
 
       {/* Screen 2 */}
       <div className='screen_2 relative flex justify-center items-center'>
-        <div className="bg-white pt-[1.6rem] pl-6 pr-6  cstm:pt-[1.8rem] cstm:m-3  m-5 flex flex-col md:flex-row relative  sm:w-[80%] md:w-[60%] max-w-3xl">
+        <div className="bg-white pt-[1.6rem] pl-6 pr-6  cstm:pt-[1.8rem] cstm:m-3  m-5 flex flex-col md:flex-row relative  sm:w-[80%] md:w-[60%] max-w-3xl planePadding">
           <img src={happy_girl1} alt="happy_girl" className='absolute -bottom-8 cstm:-bottom-6 -left-16 z-10 invisible md:visible md:w-[125px]' />
           <div className="par1 relative">
             <img src={girl_image1} alt="girl_image" />
             <img src={textbox_image2} alt="idea box" className='absolute top-2 right-2 w-[100px] md:w-[130px]' />
           </div>
-          <div className="part2 flex flex-col p-2 ml-2">
+          <div className="part2 flex flex-col p-2 ml-2 planeOuter">
             <img src={plane_image1} alt="plane_image" className='md:-translate-y-10 translate-y-0' />
             <div className="big_text text-[#e97a27] xcstm:text-xl font-bold md:text-[1.64rem]   sm:text-3xl md:-translate-y-6 translate-y-0 ">
               <img src={s2bannerImage} alt="banner text" />
             </div>
-            <div className="small_text xcstm:text-[0.50rem]  mt-2 md:text-[0.65rem] md:leading-5  font-semibold md:-translate-y-6 translate-y-0 ">
+            <div className="small_text xcstm:text-[0.50rem]  mt-2 md:text-[0.65rem] md:leading-5  font-semibold md:-translate-y-6 translate-y-0 planePara">
               <div className='md:tracking-widest cstm:tracking-normal'>ジェットスターの機内はグレーのレザーシートで統一された</div>
               <div className='md:tracking-widest cstm:tracking-normal'>落ち着いた雰囲気で、シートポケットを上部に配置して足元 </div>
               <div className='md:tracking-widest cstm:tracking-normal'>の広さを確保。さらに足元に十分の広さを確保した 「エクス</div>
@@ -102,7 +102,7 @@ function App() {
               <div className='text-bold text-3xl md:text-[1.5rem] mb-2 text-center cstm:text-[1.5rem] '>Tokyo mizumachi</div>
               <div className='font-bold md:text-[2.8rem] sm:text-lg   font:bold cstm:text-[2rem]'>東京ミズマチ &#174;</div>
             </div>
-            <div className='md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center cstm:leading-6  xcstm:text-[10px] border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold text-[0.60rem] md:text-[16px]'>
+            <div className='md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center cstm:leading-6  xcstm:text-[10px] border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold text-[0.60rem] md:text-[16px] s3Para'>
               <div className=' cstm:text-[12.5px] cstm:tracking-widest'>2020年開業。浅草~東京スカイツリータウン&#174;エリアを散策できる</div>
               <div className=' cstm:text-[12.5px] cstm:tracking-widest'>新机点。</div>
               <div className=' cstm:text-[12.5px] cstm:tracking-widest'>カフェ・雑貨・ホステルなど個性豊かなお店が集結!</div>
@@ -119,7 +119,7 @@ function App() {
                 夜はスカイツリーのライティングを眺めることができる。<br />
                 ライティングスケジュールはスカイツリー公式HPをチェック。
               </div>
-              <div className="part3 flex p-2 justify-between mt-5 cstm:text-[12px] xcstm:text-[15px]" style={{lineHeight:'24px'}}>
+              <div className="part3 flex p-2 justify-between mt-5 cstm:text-[12px] xcstm:text-[15px] s3li" style={{lineHeight:'24px'}}>
                 <div>
                   <div className='text-[#25b7aa] font-bold'>●東京ミズマチ</div>
                   <div className='text-black font-bold'>東京都墨田区向島1</div>
