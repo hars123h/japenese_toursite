@@ -479,7 +479,7 @@ function App() {
             <div className='md:w-[40%] relative xcstm:mt-10 md:mt-0  pl-5 font-bold text-lg cstm:w-[70%]'>
               <img src={s9new_image} alt="building" />
 
-              <img src={s9belowImage} alt="2nd Image" className='absolute cstm:-bottom-[100px] cstm:-left-36 w-[220px]' />
+              <img src={s9belowImage} alt="2nd" className='absolute cstm:-bottom-[100px] cstm:-left-36 w-[220px]' />
 
             </div>
           </div>
