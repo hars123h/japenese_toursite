@@ -356,15 +356,15 @@ function App() {
       </div>
 
       {/* Screen 7 */}
-      <div className="screen_7 flex justify-center mt-[-40px] screen7Outer">
+      <div className="screen_7 flex justify-center mt-[-40px] screen7Outer ">
         <div className='w-screen'>
           <div className="box flex flex-col md:flex-row mt-36 md:w-[60%] mx-auto pt-4 cstm:w-[51%] max-w-6xl">
             <div className='flex flex-col  md:w-[60%] cstm:w-[145%]'>
-              <div className=" part1 md:text-3xl  cstm:text-[24px] text-[#f7aa17] cstm:-translate-x-6 font-bold border-b-4 border-[#f7aa17] xcstm:text-xs">
+              <div className=" part1 md:text-3xl  cstm:text-[24px] text-[#f7aa17] cstm:-translate-x-6 font-bold border-b-4 border-[#f7aa17] xcstm:text-xs ">
                 公園・商業施設・ホテルが融合した <br />
                 渋谷の新たなランドマーク
               </div>
-              <div className="part2 text-black cstm:text-[12px] cstm:-translate-x-6 font-bold mt-4 md:text-[0.7rem] xcstm:text-[0.5rem] nokn:text-[0.6rem]"style={{lineHeight:'20px'}}>
+              <div className="part2 text-black cstm:text-[12px] cstm:-translate-x-6 font-bold mt-4 md:text-[0.7rem] xcstm:text-[0.5rem] nokn:text-[0.6rem] screenpara"style={{lineHeight:'20px'}}>
                 <div className=' tracking-tighter'>2020年、渋谷区立宮下公園が新しく生まれ変わり、ショッピングや食べ歩き、スポーツが</div>
                 <div>楽しめる低層複合施設に。</div>
               </div>
@@ -380,7 +380,7 @@ function App() {
               </div>
             </div>
 
-            <div className='md:w-[40%]  cstm:w-[95%] cstm:translate-x-[30px] relative font-bold text-lg'>
+            <div className='md:w-[40%]  cstm:w-[95%] cstm:translate-x-[30px] relative font-bold text-lg miyashitaImg'>
               <img src={miyashita_part} alt="building" />
             </div>
           </div>
@@ -389,14 +389,14 @@ function App() {
       </div>
 
       {/* Screen 8 */}
-      <div className="screen_8 flex justify-center mt-[40px] ">
+      <div className="screen_8 flex justify-center mt-[40px] screen_8Outer">
 
         <div className='w-screen'>
 
           <div className="relative box flex flex-col md:flex-row mt-10 md:w-[60%] mx-auto cstm:w-[65%] max-w-6xl">
             <div className=' flex flex-col md:w-[60%] cstm:w-[120%]  '>
               <div className='relative  font-bold text-lg'>
-                <img src={s8main_image} alt="" className='p-4' />
+                <img src={s8main_image} alt="" className='p-4 s8main_image' />
               </div>
 
 
@@ -407,12 +407,12 @@ function App() {
             </div>
 
 
-            <div className=' flex flex-col relative  md:w-[60%]  cstm:w-[100%] '>
-              <div className="part1 p-1 text-3xl text-[#f7aa17] font-bold border-b-4 border-[#f7aa17]">
+            <div className=' flex flex-col relative  md:w-[60%]  cstm:w-[100%] screen_8wrap'>
+              <div className="part1 p-1 text-3xl text-[#f7aa17] font-bold border-b-4 border-[#f7aa17] screen_8head">
                 パンとコーヒーで <br />
                 素敵なカフェタイムを
               </div>
-              <div className="part2 text-black md:text-[0.7rem] font-bold p-1 mt-4 xcstm:text-[0.5rem]"style={{lineHeight:'20px'}}>
+              <div className="part2 text-black md:text-[0.7rem] font-bold p-1 mt-4 xcstm:text-[0.5rem] screen_8p"style={{lineHeight:'20px'}}>
                 「パンとエスプレッソと」 の姉妹店。こだわり卵を使った限定料理が味わえ <br />
                 るのはここだけ。 1日の始まりと終わりに足を運んでみて。
               </div>
@@ -461,7 +461,7 @@ function App() {
                 渋谷区民のみならず <br />
                 多くの来街者に親しまれている場所
               </div>
-              <div className="part2 text-black cstm:text-[12px] font-bold p-2 mt-4 xcstm:text-[0.5rem] md:text-[0.9rem]"style={{lineHeight:'20px'}}>
+              <div className="part2 text-black cstm:text-[12px] font-bold p-2 mt-4 xcstm:text-[0.5rem] md:text-[0.9rem] screen_9para"style={{lineHeight:'20px'}}>
                 芝生ひろばをはじめ、ボルダリングウォール・スケート場・多目的運動施設 <br />
                 (サンドコート)を併設。
               </div>
@@ -479,9 +479,9 @@ function App() {
             </div>
 
             <div className='md:w-[40%] relative xcstm:mt-10 md:mt-0  pl-5 font-bold text-lg cstm:w-[70%]'>
-              <img src={s9new_image} alt="building" />
+              <img src={s9new_image} alt="building" className='s9new_image' />
 
-              <img src={s9belowImage} alt="2nd" className='absolute cstm:-bottom-[100px] cstm:-left-36 w-[220px]' />
+              <img src={s9belowImage} alt="2nd" className='absolute cstm:-bottom-[100px] cstm:-left-36 w-[220px] s9belowImage' />
 
             </div>
           </div>
@@ -490,14 +490,14 @@ function App() {
       </div>
 
       {/* Screen 10 */}
-      <div className="screen_10  flex justify-center mt-[100px]">
+      <div className="screen_10  flex justify-center mt-[100px] s">
 
         <div className='w-screen'>
 
           <div className="box flex flex-col md:flex-row p-4 mt-10 md:w-[60%] mx-auto cstm:w-[65%] max-w-6xl">
             <div className='flex flex-col md:w-[60%] xcstm:w-[90%]'>
               <div className='relative  font-bold text-lg'>
-                <img src={s10newImage} alt="storefront_image" className='p-4' />
+                <img src={s10newImage} alt="storefront_image" className='p-4 s10newImage' />
               </div>
             </div>
 
@@ -507,12 +507,12 @@ function App() {
                 日本初出店!世界一の <br />
                 ピンチョスが楽しめるバル
               </div>
-              <div className="part2 text-black md:text-[0.7rem] cstm:text-[12px] xcstm:text-[0.45rem] font-bold p-1 mt-4" style={{lineHeight:'20px'}}>
+              <div className="part2 text-black md:text-[0.7rem] cstm:text-[12px] xcstm:text-[0.45rem] font-bold p-1 mt-4 screen_10para" style={{lineHeight:'20px'}}>
                 世界ピンチョス・タパスコンクールでチャンピオンに輝いた名店「GRAN- SOL」<br />
                 の日本1号店 3周年を記念し、東京オリジナルピンチョスが登場予
                 <br /> 定!
               </div>
-              <div className="part3 flex p-1 justify-between mt-5 xcstm:text-[0.6rem] cstm:text-[12px] md:text-[0.8rem]" style={{lineHeight:'20px'}}>
+              <div className="part3 flex p-1 justify-between mt-5 xcstm:text-[0.6rem] cstm:text-[12px] md:text-[0.8rem] screen_10li" style={{lineHeight:'20px'}}>
                 <div>
                   <div className='text-[#f5ac1a] font-bold'>●GRAN SOL TOKYO</div>
                   <div className='text-black font-bold'>東京都渋谷区神宮前6-20-10</div>
@@ -529,7 +529,7 @@ function App() {
 
           <div className="flex flex-col md:flex-row md:mt-5 cstm:w-[65%] md:w-[60%] xcstm:w-[90%] mx-auto cstm:items-center justify-center md:translate-x-20 xcstm:mt-10">
 
-            <img src={s10combined} alt="combined" className='w-[80%]' />
+            <img src={s10combined} alt="combined" className='w-[80%] s10bottom' />
 
           </div>
 
@@ -557,7 +557,7 @@ function App() {
                 コーヒーをもっと好きになる <br />
                 ここにしかない新しい体験
               </div>
-              <div className="part2 text-black cstm:-translate-x-2 cstm:text-[11.5px] font-bold p-2 mt-4 md:text-[15px] xcstm:text-[8px] flex flex-col items-center " style={{lineHeight:'20px'}}>
+              <div className="part2 text-black cstm:-translate-x-2 cstm:text-[11.5px] font-bold p-2 mt-4 md:text-[15px] xcstm:text-[8px] flex flex-col items-center screen11Para " style={{lineHeight:'20px'}}>
                 <div>世界各国から厳選したロースターの豆を扱うコーヒー専門店。豆の産地 <br />
                   や品種の違い、ローストの違いをコース仕立てで体感することができる。</div>
               </div>
@@ -581,7 +581,7 @@ function App() {
 
           <div className="box2 flex flex-col md:flex-row justify-between p-4 mx-auto md:w-[60%] cstm:[60%] max-w-6xl">
             <div className='cstm:translate-x-10 cstm:text-[12px]' style={{lineHeight:'20px'}}>
-              <div className="part2 text-black text-[12px] font-bold p-1 mb-4" style={{lineHeight:'20px'}}>
+              <div className="part2 text-black text-[12px] font-bold p-1 mb-4 screen11Para2" style={{lineHeight:'20px'}}>
                 築50年ほどの倉庫をリノベーションした店舗、能の舞台を彷彿させ <br />
                 るような凛としたおしゃれな空間が広がる。
               </div>
@@ -594,13 +594,13 @@ function App() {
             </div>
 
             <div className="image_part flex justify-center items-center xcstm:translate-y-20 md:translate-y-0 cstm:-translate-x-5">
-              <div className='relative translate-x-12'>
+              <div className='relative translate-x-12 screen11Right'>
                 <img src={s11downleft} alt="leftimage" className='w-[270px]' />
                 <div className='w-[80px] opacity-80 h-[25px] bg-[#fee33d] absolute -top-1 rotate-[20deg] left-[35%] z-10'> </div>
               </div>
 
               <div className='relative -translate-y-14'>
-                <img src={s11downright} alt="rightimage" className='w-[240px]' />
+                <img src={s11downright} alt="rightimage" className='w-[240px] screen11Left' />
                 <div className='w-[60px] opacity-80 h-[25px] bg-[#fee33d] absolute -top-1 rotate-[20deg] left-[35%] z-10'> </div>
               </div>
 
@@ -617,10 +617,10 @@ function App() {
 
         <div className='w-screen'>
 
-          <div className="box flex flex-col md:flex-row p-4 xcstm:mt-20 md:mt-10 md:w-[60%] mx-auto xcstm:w-[90%] cstm:w-[60%] max-w-6xl">
+          <div className="box flex flex-col md:flex-row p-4 xcstm:mt-20 md:mt-10 md:w-[60%] mx-auto xcstm:w-[90%] cstm:w-[60%] max-w-6xl screen_12wrap">
             <div className='flex flex-col md:w-[60%]'>
               <div className='relative  font-bold xcstm:text-sm md:text-lg cstm:w-[110%] cstm:-translate-x-10'>
-                <img src={s12allpress} alt="storefront_image" className='p-4 ' />
+                <img src={s12allpress} alt="storefront_image" className='p-4 s12allpress' />
 
               </div>
             </div>
@@ -631,7 +631,7 @@ function App() {
                 明るく開かれた心地よい空間で <br />
                 美味しいコーヒーとの出会いを
               </div>
-              <div className="part2 text-black xcstm:text-[0.45rem] cstm:text-[12px] md:text-[0.8rem] font-bold p-1 mt-4" style={{lineHeight:'20px'}}>
+              <div className="part2 text-black xcstm:text-[0.45rem] cstm:text-[12px] md:text-[0.8rem] font-bold p-1 mt-4 screen12Para" style={{lineHeight:'20px'}}>
                 ニュージーランド発のロースター&カフェ、2022年4月に、 店舗&メニュー <br />
                 をリニューアル。 焙煎士との距離が近いので、好みの味を探したい方はぜ <br />
                 ひ。
@@ -652,7 +652,7 @@ function App() {
 
           <div className="flex flex-col md:flex-row  mt-[-8px] md:w-[60%] mx-auto justify-center">
 
-            <img src={s12allpress02} alt="all_press" />
+            <img src={s12allpress02} alt="all_press" className='s12allpress02' />
           </div>
 
         </div>
@@ -663,12 +663,12 @@ function App() {
       <div className="screen_13 flex justify-center mt-[20px]">
         <div className='w-screen'>
 
-          <div className="box flex flex-col md:flex-row  mt-4 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[60%] max-w-6xl">
+          <div className="box flex flex-col md:flex-row  mt-4 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[60%] max-w-6xl screen13Wrap">
             <div className='flex flex-col  md:w-[60%] cstm:w-[50%] cstm:translate-x-10'>
               <div className="part1 p-2 md:text-3xl cstm:text-[24px] xcstm:text-xl text-[#00afde] font-bold border-b-4 border-[#00afde]">
                 アートを身近に感じられる <br /> 清澄白河のランドマーク
               </div>
-              <div className="part2 text-black xcstm:text-[0.4rem] cstm:text-[11.5px] md:text-[0.8rem] font-bold  mt-4" style={{lineHeight:'20px'}}>
+              <div className="part2 text-black xcstm:text-[0.4rem] cstm:text-[11.5px] md:text-[0.8rem] font-bold  mt-4 screen13Para" style={{lineHeight:'20px'}}>
                 豊かな木場公園内にある現代美術専門の美術館図書室には「こども <br />
                 としょしつ」、エントランスや中庭にはベンチがあり、寛ぐことができる。ア <br />
                 ートに触れて、心安らぐひと時を
@@ -702,7 +702,7 @@ function App() {
       <div className="screen_14  flex justify-center md:mt-[20px] xcstm:mt-[60px]">
 
         <div className='w-screen'>
-          <div className="box text-white bg-[#ee798c] flex flex-col md:flex-row p-4 mt-10 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[55%] max-w-6xl">
+          <div className="box text-white bg-[#ee798c] flex flex-col md:flex-row p-4 mt-10 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[55%] max-w-6xl ">
             <div className='flex flex-col justify-center items-center md:w-[40%] xcstm:mb-3 md:mb-0 '>
               <div className='text-bold text-3xl mb-2 cstm:text-xl'>Shimokitazawa</div>
               <div className='font-bold text-5xl cstm:text-4xl'>下北沢</div>
@@ -713,18 +713,18 @@ function App() {
             </div>
           </div>
 
-          <div className="box flex flex-col md:flex-row p-4 mt-5 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[58%] max-w-6xl">
+          <div className="box flex flex-col md:flex-row p-4 mt-5 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[58%] max-w-6xl screen14Wrap">
             <div className='flex flex-col md:w-[60%]'>
               <div className='relative  font-bold text-lg cstm:w-[120%] cstm:-translate-x-16'>
                 <img src={s14new_image} alt="" className='p-4 imageWid' />
               </div>
 
 
-              <div className="part1 p-1 md:text-[1.4rem] cstm:text-[24px] xcstm:text-sm text-[#ee798c] font-bold border-b-4 border-[#ee798c]  sm:mt-10 md:mt-24" style={{lineHeight:'36px', marginTop:'115px'}}>
+              <div className="part1 p-1 md:text-[1.4rem] cstm:text-[24px] xcstm:text-sm text-[#ee798c] font-bold border-b-4 border-[#ee798c]  sm:mt-10 md:mt-24 screen14Part1" style={{lineHeight:'36px', marginTop:'115px'}}>
                 新しい出会いや感性が刺激される<br />
                 カルチャーの発信地!
               </div>
-              <div className="part2 text-black cstm:text-[12px]  xcstm:text-[0.5rem] md:text-[0.7rem] font-bold p-1 mt-4" style={{lineHeight:'20px'}}>
+              <div className="part2 text-black cstm:text-[12px]  xcstm:text-[0.5rem] md:text-[0.7rem] font-bold p-1 mt-4 screen14Para" style={{lineHeight:'20px'}}>
                 2020年春「下北線路街」 の一角にOPEN。 個性豊かな13のお店が軒を <br />
                 重ね、小さな街を形成、不定期で開催されるイベントもCheck!
               </div>
@@ -742,7 +742,7 @@ function App() {
               <div className="part1 p-1 md:text-3xl xcstm:text-xl cstm:text-[24px] text-[#ee798c] font-bold border-b-4 border-[#ee798c]">
                 人と本がつながる場所
               </div>
-              <div className="part2 text-black xcstm:text-[0.45rem] cstm:text-[12px] md:text-[0.8rem] font-bold p-1 mt-4" style={{lineHeight:'20px'}}>
+              <div className="part2 text-black xcstm:text-[0.45rem] cstm:text-[12px] md:text-[0.8rem] font-bold p-1 mt-4 screen14Para" style={{lineHeight:'20px'}}>
                 店名の「B&B」は “BOOKS & BEER"の略で、本はもちろん、アルコールや<br />
                  こだわりのコーヒーも購入できる。独自のセレクションによる本棚から、あ<br />
                  なたが気になる一冊を見つけて。
