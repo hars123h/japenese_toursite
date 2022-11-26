@@ -11,7 +11,8 @@ module.exports = {
       screens: {
         'cstm':'1100px',
         'xcstm':'320px',
-        'nokn':'480px'
+        'nokn':'480px',
+        
       }
     },
   },

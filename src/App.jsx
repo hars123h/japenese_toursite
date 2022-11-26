@@ -3,19 +3,24 @@ import './App.css';
 // import home_img from './images/home_img.jpg';
 // Screen 2 Images
 // import bg_image1 from './images/bg_image1.jpg';
+import instagram_icon from './images/instagram_icon.png';
 import s1newimage from './images/s1newimage.png';
 import girl_image1 from './images/girl_image1.jpg';
 import textbox_image2 from './images/textbox_image2.png';
 import plane_image1 from './images/plane_image1.png';
 import happy_girl1 from './images/happy_girl1.png';
+import s2bannerImage from './images/s2bannerImage.png';
 // Screen 3 Images
 import small_building from './images/small_building.png';
 import big_building from './images/big_building.png';
+import s3border_new from './images/s3border_new.png';
+import s3rightImage from './images/s3rightImage.png';
 // Screen 4 Images
 import s4girl from './images/s4girl.png';
 import s4ideabox from './images/s4ideabox.png';
 import s4land from './images/s4land.png';
 import s4lunch from './images/s4lunch.png';
+import s4new02 from './images/s4new02.png';
 // Screen 5 Images
 import s5girl from './images/s5girl.png';
 import s5door from './images/s5door.png';
@@ -74,54 +79,25 @@ function App() {
 
       {/* Screen 2 */}
       <div className='screen_2 relative flex justify-center items-center'>
-        {/* <div className='bg-white cstm:p-2 p-3 flex flex-col md:flex-row w-4/6 cstm:w-[80%] z-5'>
-          <img src={happy_girl1} alt="happy_girl" className='absolute z-10 -bottom-0.5 left-56 invisible md:visible md:left-20' />
-          <div className='cstm:w-4/6 md:w-3/6 relative bg-white flex items-center'>
-
-            <img src={girl_image1} alt="girl_image" className="mx-auto" />
-            <img src={textbox_image2} alt="girl_image" className='absolute md:top-6 md:right-14 top-1 right-1 w-20 md:w-[140px] cstm:top-14 cstm:right-10' />
-
-          </div>
-          <div className='cstm:w-[80%] md:w-3/6 relative bg-white p-4 cstm:ml-2 cstm:p-1'>
-            <img src={plane_image1} alt="plane_image" className='absolute md:-top-6 right-1 md:right-0 top-5 w-full'  />
-            <div className='text-[13px] md:text-[36px]  text-[#e97a27] font-bold md:mt-10 cstm:mt-12'>
-              快適な機内&サービスで <br />
-              成田空港まで のフライトも <br />
-              あっという間に感じる! <br />
-            </div>
-            <div className='font-semibold mt-3 text-[5px] md:text-[15px] cstm:text-[13px]'>
-              ジェットスターの機内はグレーのレザーシートで統一された <br />
-              落ち着いた雰囲気で、シートポケットを上部に配置して足元 <br />
-              の広さを確保。さらに足元に十分の広さを確保した 「エクス<br />
-              トラ・レッグルーム・シート」や、乗り降りがしやすい「アップ・<br />
-              フロントシートなどのオプション(有料) も選択可能! また、<br />
-              機内メニュー「Jetstar Cafe」では幅広いメニューをスタン<br />
-              バイ。 選べるオプションで自分らしい空の旅を叶えよう!
-            </div>
-          </div>
-
-        </div> */}
-        <div className="bg-white p-2 flex flex-col md:flex-row relative sm:w-[80%] md:w-[60%] max-w-3xl">
-          <img src={happy_girl1} alt="happy_girl" className='absolute -bottom-3 -left-16 z-10 invisible md:visible' />
+        <div className="bg-white pt-[1.6rem] pl-6 pr-6  cstm:pt-[1.8rem] cstm:m-3  m-5 flex flex-col md:flex-row relative  sm:w-[80%] md:w-[60%] max-w-3xl">
+          <img src={happy_girl1} alt="happy_girl" className='absolute -bottom-8 cstm:-bottom-6 -left-16 z-10 invisible md:visible md:w-[125px]' />
           <div className="par1 relative">
             <img src={girl_image1} alt="girl_image" />
-            <img src={textbox_image2} alt="idea box" className='absolute top-5 right-5 w-[100px] md:w-[150px]' />
+            <img src={textbox_image2} alt="idea box" className='absolute top-2 right-2 w-[100px] md:w-[130px]' />
           </div>
           <div className="part2 flex flex-col p-2 ml-2">
-            <img src={plane_image1} alt="plane_image" className='md:-translate-y-6 translate-y-0' />
-            <div className="big_text text-[#e97a27] xcstm:text-xl font-bold md:text-2xl  sm:text-3xl md:-translate-y-6 translate-y-0 ">
-              快適な機内&サービスで <br />
-              成田空港まで のフライトも <br />
-              あっという間に感じる! <br />
+            <img src={plane_image1} alt="plane_image" className='md:-translate-y-10 translate-y-0' />
+            <div className="big_text text-[#e97a27] xcstm:text-xl font-bold md:text-[1.64rem]   sm:text-3xl md:-translate-y-6 translate-y-0 ">
+              <img src={s2bannerImage} alt="banner text" />
             </div>
-            <div className="small_text xcstm:text-[0.50rem] mt-2 md:text-[0.65rem]  font-semibold md:-translate-y-6 translate-y-0 ">
-              ジェットスターの機内はグレーのレザーシートで統一された <br />
-              落ち着いた雰囲気で、シートポケットを上部に配置して足元 <br />
-              の広さを確保。さらに足元に十分の広さを確保した 「エクス<br />
-              トラ・レッグルーム・シート」や、乗り降りがしやすい「アップ・<br />
-              フロントシートなどのオプション(有料) も選択可能! また、<br />
-              機内メニュー「Jetstar Cafe」では幅広いメニューをスタン<br />
-              バイ。 選べるオプションで自分らしい空の旅を叶えよう!
+            <div className="small_text xcstm:text-[0.50rem]  mt-2 md:text-[0.65rem] md:leading-5  font-semibold md:-translate-y-6 translate-y-0 ">
+              <div className='md:tracking-widest cstm:tracking-normal'>ジェットスターの機内はグレーのレザーシートで統一された</div> 
+              <div className='md:tracking-widest cstm:tracking-normal'>落ち着いた雰囲気で、シートポケットを上部に配置して足元 </div>
+              <div className='md:tracking-widest cstm:tracking-normal'>の広さを確保。さらに足元に十分の広さを確保した 「エクス</div>
+              <div className='cstm:text-[0.59rem]' >トラ・レッグルーム・シート」や、乗り降りがしやすい「アップ・</div>
+              <div className='md:tracking-widest cstm:tracking-normal'>フロントシートなどのオプション(有料) も選択可能! また、</div>
+              <div className='md:tracking-widest cstm:tracking-normal'>機内メニュー「Jetstar Cafe」では幅広いメニューをスタン</div>
+              <div className='md:tracking-widest cstm:tracking-normal'>バイ。 選べるオプションで自分らしい空の旅を叶えよう!</div>
             </div>
           </div>
 
@@ -131,25 +107,25 @@ function App() {
       {/* Screen 3 */}
       <div className="screen_3 flex justify-center">
         <div className='w-screen'>
-          <div className="box text-white bg-[#25b7aa] flex flex-col md:flex-row p-4 mt-10 md:w-[60%] w-[90%] mx-auto cstm:w-[80%] max-w-6xl">
-            <div className='flex flex-col justify-center items-center md:w-[40%] pb-5 md:pb-0'>
-              <div className='text-bold text-3xl mb-2 text-center '>Tokyo mizumachi</div>
-              <div className='font-bold md:text-5xl sm:text-lg'>東京ミズマチ &#174;</div>
+          <div className="box text-white bg-[#25b7aa] flex flex-col md:flex-row  p-4 mt-10 md:w-[60%] w-[90%] mx-auto cstm:w-[51%] max-w-6xl">
+            <div className='flex flex-col justify-center items-center md:w-[40%] pb-5 md:pb-0 md:-translate-y-2'>
+              <div className='text-bold text-3xl md:text-[1.5rem] mb-2 text-center cstm:text-[1.5rem] '>Tokyo mizumachi</div>
+              <div className='font-bold md:text-[2.8rem] sm:text-lg   font:bold cstm:text-[2rem]'>東京ミズマチ &#174;</div>
             </div>
-            <div className='md:w-[60%]  xcstm:text-[8px] border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold text-[0.60rem] md:text-[16px]'>
-              <div>2020年開業。 浅草~東京スカイツリータウン・エリアを散策できる</div>
-              <div>新机点。</div>
-              <div>カフェ・雑貨・ホステルなど個性豊かなお店が集結</div>
+            <div className='md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center  xcstm:text-[8px] border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold text-[0.60rem] md:text-[16px]'>
+              <div className=' cstm:text-[10.5px]'>2020年開業。浅草~東京スカイツリータウン&#174;エリアを散策できる</div>
+              <div className=' cstm:text-[10.5px]'>新机点。</div>
+              <div className=' cstm:text-[10.5px]'>カフェ・雑貨・ホステルなど個性豊かなお店が集結!</div>
             </div>
           </div>
 
-          <div className="box flex flex-col md:flex-row p-4 mt-10 md:w-[60%] w-[90%] mx-auto cstm:w-[80%] lg:w-[40%] max-w-6xl">
+          <div className="box flex flex-col md:flex-row mt-10 md:w-[60%] w-[90%]  mx-auto cstm:w-[51%] lg:w-[40%] max-w-6xl">
             <div className='flex flex-col  md:w-[60%]'>
-              <div className="part1 p-2 text-sm md:text-2xl text-[#25b7aa] font-bold border-b-4 border-[#25b7aa]">
+              <div className="part1  text-sm md:text-2xl cstm:text-[1.2rem] text-[#25b7aa] font-bold border-b-4 border-[#25b7aa]">
                 東京スカイツリー® の近く
                 <br /> 地域に根付いた下町の魅力に出会える場所
               </div>
-              <div className="part2 text-black font-bold p-2 mt-4 text-[0.60rem] md:text-lg">
+              <div className="part2 text-black font-bold  mt-4 cstm:text-[0.8rem] text-[0.60rem] md:text-lg">
                 夜はスカイツリーのライティングを眺めることができる。<br />
                 ライティングスケジュールはスカイツリー公式HPをチェック。
               </div>
@@ -158,7 +134,7 @@ function App() {
                   <div className='text-[#25b7aa] font-bold'>●東京ミズマチ</div>
                   <div className='text-black font-bold'>東京都墨田区向島1</div>
                   <div className='text-black font-bold'>※各店舗にお問合せください</div>
-                  <div className='text-black font-bold'>W1@tokyo_mizumachi</div>
+                  <div className='text-black font-bold'> <img src={instagram_icon} alt="insta_icon" className=' inline' /> W1@tokyo_mizumachi</div>
                 </div>
 
                 <div className='relative'>
@@ -169,8 +145,11 @@ function App() {
             </div>
 
             <div className='md:w-[40%] relative border-l-2 border-white pl-5 font-bold text-lg mt-10 md:mt-0'>
-              <img src={big_building} alt="building" />
-              <div className="absolute -top-6 -right-10 w-[200px]  lg:right-[40%]">
+              <div className="relative">
+                <img src={s3rightImage} alt="building" />
+                {/* <img src={s3border_new} alt="border" className='absolute  top-1/2 left-1/2 transform -translate-x-[208px] -translate-y-1/2'/> */}
+              </div>
+              {/* <div className="absolute -top-6 -right- w-[200px]  lg:right-[40%]">
 
                 <div className='bg-[#fbee17] flex h-[80px]'>
 
@@ -194,7 +173,7 @@ function App() {
                   </div>
 
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -204,12 +183,12 @@ function App() {
       <div className="screen_4 flex justify-center mt-[20px] ">
 
         <div className='w-screen'>
-          <div className="box flex flex-col md:flex-row p-4 lg:mt-0 md:w-[60%] w-[90%] mx-auto cstm:w-[80%] max-w-6xl">
+          <div className="box flex flex-col md:flex-row  lg:mt-0 md:w-[60%] w-[90%] mx-auto cstm:w-[51%] max-w-6xl">
             <div className='flex flex-col md:w-[60%]'>
               <div className='relative border-l-2 border-white pl-5 font-bold text-lg'>
-                <img src={s4girl} alt="building" className='p-4' />
-                <img src={s4ideabox} alt="ideabox" className='absolute left-2 top-[25%] w-[120px] md:w-[180px]' />
-                <div className="absolute -top-6 -left-10 w-[200px]">
+                <img src={s4new02} alt="building" className='pr-4 p-y-4' />
+                {/* <img src={s4ideabox} alt="ideabox" className='absolute left-2 top-[25%] w-[120px] md:w-[180px]' /> */}
+                {/* <div className="absolute -top-6 -left-10 w-[200px]">
                   <div className='bg-[#fbee17] flex h-[80px]'>
                     <div className='w-2/5 flex relative'>
                       <div className='relative w-[65%] mx-auto h-[60px] bg-black text-white flex flex-col justify-center items-center'>
@@ -225,7 +204,7 @@ function App() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
 
 
@@ -237,33 +216,33 @@ function App() {
 
 
             <div className='flex flex-col relative  md:w-[60%]'>
-              <div className="part1 p-1 md:text-3xl text-[#25b7aa] xcstm:text-sm font-bold border-b-4 border-[#25b7aa]">
+              <div className="part1 p-1 md:text-3xl cstm:text-[1.5rem] text-[#25b7aa] xcstm:text-sm font-bold border-b-4 border-[#25b7aa]">
                 下町と新しい文化を融合した<br />
                 カジュアルダイニング
               </div>
-              <div className="part2 text-black md:text-[0.7rem] font-bold p-1 mt-4 xcstm:text-[0.4rem]">
+              <div className="part2 text-black cstm:text-[0.65rem] md:text-[0.7rem] font-bold p-1 mt-4 xcstm:text-[0.4rem]">
                 自家農園の野菜や産地にこだわった食材で作る料理が人気。テイクアウトで <br />
-                きるデリや、テラスでBBQなど、さまざまな楽しみ方ができるのもGood
+                きるデリや、テラスでBBQなど、さまざまな楽しみ方ができるのもGood!
               </div>
-              <div className="part3 flex p-1 justify-between mt-5 text-[0.8rem]">
+              <div className="part3 flex p-1 justify-between mt-5 text-[0.8rem] cstm:text-[0.7rem]">
                 <div>
                   <div className='text-[#25b7aa] font-bold'>●LAND A</div>
                   <div className='text-black'>東京都墨田区向島1-2-4</div>
                   <div className='text-black'>03-5637-0107</div>
-                  <div className='text-black'>営/平日 9:00~20:00 <br />土日祝9:00~20:00</div>
+                  <div className='text-black'>営/平日 9:00~20:00 <br /> <span className='pl-4'>土日祝9:00~20:00</span> </div>
                   <div className='text-black'>休/不定休</div>
                   <div className='text-black'>@land_a_mizumachi</div>
                 </div>
 
                 <div className='relative'>
-                  <img src={s4lunch} alt="tower" />
+                  <img src={s4lunch} alt="tower" className='cstm:w-[250px]'/>
                   <div className='w-[80px] opacity-80 h-[25px] bg-[#fee33d] absolute -top-0.5 rotate-[20deg] left-[35%] z-10'> </div>
                 </div>
 
-                <div className="absolute bg-[#25b7aa] bottom-12 text-sm font-bold text-white p-3 lg:bottom-40 lg:left-28 xcstm:text-xs xcstm:-bottom-24">
+                <div className="absolute cstm:text-[0.6rem] bg-[#25b7aa] cstm:-bottom-6 bottom-12 text-sm font-bold text-white p-3 lg:bottom-40 lg:left-28 xcstm:text-xs xcstm:-bottom-24">
                   <div className='mb-1'>プロシュートと丸ごとブッラータ</div>
                   <div className='mb-1'>チーズのビアンカビッツァ (3,500円)</div>
-                  <div className='mb-1'>LAND特製コブサラダ(R-1,800円)</div>
+                  <div className='mb-1'>LAND特製コブサラダ(R1,800円)</div>
                 </div>
               </div>
             </div>
@@ -276,25 +255,25 @@ function App() {
       <div className="screen_5   flex justify-center mt-[20px]">
         <div className='w-screen'>
 
-          <div className="box flex  md:flex-row flex-col-reverse p-4 mt-10 w-[90%] md:w-[60%] mx-auto cstm:w-[80%] max-w-6xl">
+          <div className="box flex  md:flex-row flex-col-reverse p-4 mt-10 w-[90%] md:w-[60%] mx-auto cstm:w-[51%] max-w-6xl">
             <div className='flex flex-col  md:w-[60%]'>
-              <div className="part1 p-2 md:text-3xl text-[#25b7aa] font-bold border-b-4 border-[#25b7aa] xcstm:text-sm">
+              <div className="part1 p-2 md:text-3xl cstm:text-[1.4rem] text-[#25b7aa] font-bold border-b-4 border-[#25b7aa] xcstm:text-sm">
                 墨田区の魅力を発見できる<br />
                 ショップ&ワークショップの店
               </div>
-              <div className="part2 text-black font-semibold p-2 mt-4 md:text-[15px] xcstm:text-[0.45rem]">
-                墨田区が運営するこちら。 1階では「すみだモダン」認証商品をはじめ墨 <br />
+              <div className="part2 text-black font-semibold cstm:text-[10px] p-2 mt-4 md:text-[15px] xcstm:text-[0.45rem]">
+                墨田区が運営するこちら。1階では「すみだモダン」認証商品をはじめ墨 <br />
                 田区内の事業者が作った工芸品や雑貨を販売。 2階ではものづくり体験 <br />
                 イベントが行われることも。
               </div>
               <div className="part3 flex flex-col md:flex-row p-2 justify-between mt-5 xcstm:text-xs">
                 <div>
-                  <div className='text-[#25b7aa] font-bold text-[15px]'>●SHOP & WORKSHOP すみずみ</div>
+                  <div className='text-[#25b7aa] font-bold text-[15px] cstm:text-[11px]'>●SHOP & WORKSHOP すみずみ</div>
                   <div className='text-black '>東京都墨田区向島 1-23-9</div>
                   <div className='text-black '>03-6284-1731</div>
                   <div className='text-black '>11:00-19:00</div>
                   <div className='text-black '>休/月曜(祝日の場合は翌日)</div>
-                  <div className='text-black '>@shopandworkshopsumizumi</div>
+                  <div className='text-black '>  @shopandworkshopsumizumi</div>
                 </div>
 
 
@@ -347,7 +326,7 @@ function App() {
       <div className="screen_6 flex justify-center mt-[5px] ">
 
         <div className='w-screen'>
-          <div className="box text-white bg-[#f5ac1a] flex flex-col md:flex-row p-4 w-[60%] mx-auto cstm:w-[80%] xcstm:w-[90%] max-w-6xl">
+          <div className="box text-white bg-[#f5ac1a] flex flex-col md:flex-row p-4 w-[60%] mx-auto cstm:w-[51%] xcstm:w-[90%] max-w-6xl">
             <div className='flex flex-col justify-center items-center md:w-[40%] pb-5 md:pb-0'>
               <div className='text-bold text-3xl mb-2'>Shibuya</div>
               <div className='font-bold text-5xl'>渋谷</div>
@@ -358,7 +337,7 @@ function App() {
             </div>
           </div>
 
-          <div className="box flex flex-col md:flex-row p-4 mt-10 md:w-[60%] mx-auto cstm:w-[80%] max-w-6xl">
+          <div className="box flex flex-col md:flex-row p-4 mt-10 md:w-[60%] mx-auto cstm:w-[51%] max-w-6xl">
             <div className='flex flex-col md:w-[60%]'>
               <div className='relative  font-bold text-lg'>
                 <img src={s6girl} alt="" className='p-4' />
