@@ -117,15 +117,30 @@
 .jpy22 {
   font-size: 14px;
 }
+.screen4Head {
+  /* margin-left: -10px !important; */
+}
 @media only screen and (max-width: 1500px) {
   .planePadding {
     width: 70% !important;
+  }
+  .shop03Li {
+    margin-left: -15px !important;
+  }
+  .screen4Head {
+    margin-left: -15px !important;
   }
   .widthOuter {
     width: 70%;
   }
 }
 @media only screen and (max-width: 500px) {
+  .shop03Li {
+    margin-left: -0px !important;
+  }
+  .screen4Head {
+    margin-left: 0px !important;
+  }
   .planePadding {
     width: 100% !important;
   }
@@ -359,6 +374,7 @@
   }
   .screen11Head {
     font-size: 11px;
+    text-align: center !important;
   }
   .screen11Right {
     width: 110%;

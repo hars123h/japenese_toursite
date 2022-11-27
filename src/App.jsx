@@ -119,7 +119,7 @@ function App() {
                 夜はスカイツリーのライティングを眺めることができる。<br />
                 ライティングスケジュールはスカイツリー公式HPをチェック。
               </div>
-              <div className="part3 flex p-2 justify-between mt-5 cstm:text-[12px] xcstm:text-[15px] s3li" style={{ lineHeight: '24px' }}>
+              <div className="part3 flex  justify-between mt-5 cstm:text-[12px] xcstm:text-[15px] s3li" style={{ lineHeight: '24px' }}>
                 <div>
                   <div className='text-[#25b7aa]'>●東京ミズマチ</div>
                   <div className='text-black '>東京都墨田区向島1</div>
@@ -251,7 +251,7 @@ function App() {
 
           <div className="box flex  md:flex-row flex-col p-4 mt-10 w-[90%] md:w-[60%] mx-auto cstm:w-[51%] max-w-6xl shop03Outer widthOuter">
             <div className='flex flex-col  md:w-[60%]  relative shop03OuterTeaxt'>
-              <div className="part1 p-2 md:text-3xl cstm:text-[1.4rem] text-[#25b7aa] font-bold border-b-4 border-[#25b7aa] xcstm:text-sm screen4Head">
+              <div className="part1 p-2 md:text-3xl cstm:text-[1.4rem]  text-[#25b7aa] font-bold border-b-4 border-[#25b7aa] xcstm:text-sm screen4Head">
                 墨田区の魅力を発見できる<br />
                 ショップ&ワークショップの店
               </div>
