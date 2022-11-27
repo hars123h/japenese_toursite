@@ -905,8 +905,8 @@ function App() {
         <button className='mx-auto md:w-[40%] xcstm:w-[90%] bg-[#ef7625] cstm:text-[18px] rounded-sm cursor-pointer text-center xcstm:text-md md:text-xl text-white py-2'>高松-成田線のお得な情報はこちら</button>
       </div>
 
-      <div className='flex justify-center p-7 bg-[#212121] mt-7'>
-        <div className="text-center text-white p-3 text-sm">Copyright(C)2022 All rights reserved.</div>
+      <div className='flex justify-center p-7 bg-[#212121] mt-7 footerRes'>
+        <div className="text-center text-white p-3 text-sm">Copyright(C)2022 高松空港振興期成会 All rights reserved.</div>
       </div>
 
 
