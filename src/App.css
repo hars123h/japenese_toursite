@@ -102,6 +102,21 @@
 .shibSmallMobile {
   display: none;
 }
+
+.japFont {
+  font-size: 45px;
+  line-height: 56px;
+}
+.engFont {
+  font-size: 20px;
+}
+.screen11Head {
+  font-size: 14px;
+}
+
+.jpy22 {
+  font-size: 14px;
+}
 @media only screen and (max-width: 1500px) {
   .planePadding {
     width: 70% !important;
@@ -113,6 +128,9 @@
 @media only screen and (max-width: 500px) {
   .planePadding {
     width: 100% !important;
+  }
+  .mobilePad {
+    padding-left: 10px !important;
   }
   .widthOuter {
     width: 100%;

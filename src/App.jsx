@@ -100,7 +100,7 @@ function App() {
           <div className="box text-white bg-[#25b7aa] flex flex-col md:flex-row  p-4 mt-10 md:w-[60%] w-[90%] mx-auto cstm:w-[51%] max-w-6xl widthOuter">
             <div className='flex flex-col justify-center items-center md:w-[40%] pb-5 md:pb-0 md:-translate-y-2'>
               <div className='text-bold text-3xl md:text-[1.5rem] mb-2 text-center cstm:text-[1.5rem] '>Tokyo mizumachi</div>
-              <div className='font-bold md:text-[2.8rem] sm:text-lg   font:bold cstm:text-[2rem]'>東京ミズマチ &#174;</div>
+              <div className='font-bold md:text-[2.8rem] sm:text-lg   font:bold cstm:text-[2rem] '>東京ミズマチ &#174;</div>
             </div>
             <div className='md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center cstm:leading-6  xcstm:text-[10px] border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold text-[0.60rem] md:text-[16px] s3Para'>
               <div className=' cstm:text-[12.5px] cstm:tracking-widest'>2020年開業。浅草~東京スカイツリータウン&#174;エリアを散策できる</div>
@@ -110,7 +110,7 @@ function App() {
           </div>
 
           <div className="box flex flex-col md:flex-row mt-10 md:w-[60%] w-[90%]  mx-auto cstm:w-[51%] lg:w-[40%] max-w-6xl widthOuter">
-            <div className='flex flex-col  md:w-[60%]'>
+            <div className='flex flex-col  md:w-[60%] mobilePad'>
               <div className="part1  text-sm md:text-2xl cstm:text-[1.2rem] text-[#25b7aa] font-bold border-b-4 border-[#25b7aa]">
                 東京スカイツリー® の近く
                 <br /> 地域に根付いた下町の魅力に出会える場所
@@ -301,8 +301,8 @@ function App() {
         <div className='w-screen'>
           <div className="box text-white bg-[#f5ac1a] flex flex-col md:flex-row p-4 w-[60%] mx-auto cstm:w-[51%] xcstm:w-[90%] max-w-6xl widthOuter">
             <div className='flex flex-col justify-center items-center md:w-[40%] pb-5 md:pb-0'>
-              <div className='text-bold md:text-3xl cstm:text-xl shiEng'>Shibuya</div>
-              <div className='font-bold md:text-5xl cstm:text-3xl shijpy'>渋谷</div>
+              <div className='text-bold md:text-3xl cstm:text-xl shiEng engFont'>Shibuya</div>
+              <div className='font-bold md:text-5xl cstm:text-3xl shijpy japFont'>渋谷</div>
             </div>
             <div className='md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold md:text-sm xcstm:text-[0.53rem] nokn:text-xs shibSmall '>
               <div>若者や外国人観光客が集まる流行の発信地・渋谷で、東京の“いま”</div>
@@ -580,8 +580,8 @@ function App() {
         <div className='w-screen'>
           <div className="box text-white bg-[#00afde] flex flex-col md:flex-row p-4 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[52%] max-w-6xl widthOuter">
             <div className='flex flex-col justify-center items-center md:w-[40%] xcstm:w-[90%] xcstm:pb-3 md:pb-0'>
-              <div className='text-bold md:text-3xl xcstm:text-2xl mb-2 xcstm:text-center'>Kiyosumishirakawa</div>
-              <div className='font-bold text-5xl'>清澄白河</div>
+              <div className='text-bold md:text-3xl xcstm:text-2xl mb-2 xcstm:text-center engFont'>Kiyosumishirakawa</div>
+              <div className='font-bold text-5xl japFont'>清澄白河</div>
             </div>
             <div className='flex flex-col justify-center md:w-[60%] xcstm:w-[90%] md:border-l-2 xcstm:border-t-2 md:border-t-0 border-white md:pl-5 xcstm:pl-0 font-bold xcstm:text-[0.65rem] xcstm:pt-2 md:pt-0 md:text-lg screen11Head'>
               <div>"コーヒーの街として話題沸騰中の清澄白河。</div>
@@ -756,10 +756,10 @@ function App() {
         <div className='w-screen'>
           <div className="box text-white bg-[#ee798c] flex flex-col md:flex-row p-4 mt-10 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[55%] max-w-6xl widthOuter ">
             <div className='flex flex-col justify-center items-center md:w-[40%] xcstm:mb-3 md:mb-0 '>
-              <div className='text-bold text-3xl mb-2 cstm:text-xl'>Shimokitazawa</div>
-              <div className='font-bold text-5xl cstm:text-4xl'>下北沢</div>
+              <div className='text-bold text-3xl mb-2 cstm:text-xl engFont'>Shimokitazawa</div>
+              <div className='font-bold text-5xl cstm:text-4xl japFont'>下北沢</div>
             </div>
-            <div className='md:w-[60%] cstm:flex cstm:flex-col-reverse justify-center cstm:text-[14px]  md:border-l-2 xcstm:border-l-0 xcstm:border-t-2 md:border-t-0  border-white pl-5 font-bold xcstm:text-[0.45rem] md:text-[1rem] shibSmall'>
+            <div className='md:w-[60%] cstm:flex cstm:flex-col-reverse justify-center cstm:text-[14px]  md:border-l-2 xcstm:border-l-0 xcstm:border-t-2 md:border-t-0  border-white pl-5 font-bold xcstm:text-[0.45rem] md:text-[1rem] shibSmall jpy22'>
               <div>小田急線線路跡の開発が進み、変化がめまぐるしい下北沢。新しい <br />
                 発見がある“街ぶら”に最適なエリア。</div>
             </div>
