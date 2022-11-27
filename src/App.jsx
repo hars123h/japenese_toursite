@@ -765,30 +765,58 @@ function App() {
               <div className='relative  font-bold text-lg cstm:w-[120%] cstm:-translate-x-16'>
                 <img src={s14new_image} alt="" className='p-4 imageWid' />
               </div>
-              <div className="part1 p-1 md:text-3xl xcstm:text-xl cstm:text-[24px] text-[#ee798c] font-bold border-b-4 border-[#ee798c]">
-                人と本がつながる場所
-              </div>
-              <div className="part2 text-black xcstm:text-[0.45rem] cstm:text-[12px] md:text-[0.8rem] font-bold p-1 mt-4 screen14Para" style={{ lineHeight: '20px' }}>
-                店名の「B&B」は “BOOKS & BEER"の略で、本はもちろん、アルコールや<br />
-                こだわりのコーヒーも購入できる。独自のセレクションによる本棚から、あ<br />
-                なたが気になる一冊を見つけて。
-              </div>
-              <div className="part3 flex flex-col md:flex-row p-1 cstm:text-[12px] justify-between mt-5 text-[0.7rem]" style={{ lineHeight: '20px' }}>
-                <div>
-                  <div className='text-[#ee798c] font-bold'>●本屋 B&B</div>
-                  <div className='text-black font-bold'>東京都世田谷区代田2-36-15</div>
-                  <div className='text-black font-bold'>BONUS TRACK 2F</div>
-                  <div className='text-black font-bold'><span><img src={phone_image} alt="phone" className='inline w-[15px] mr-1' /></span>03-6450-8272</div>
-                  <div className='text-black font-bold'>営/11:00-19:00 <br /> &nbsp; &nbsp;(日によって変動あり)</div>
-                  <div className='text-black font-bold'> 休/無休(年末年始および <br />&nbsp; &nbsp; 特別な場合を除く)</div>
-                  <div className='text-black font-bold'><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@books_and_beer_"}</div>
-
+              <div className='lastSectionMobile'>
+                <div className="part1 p-1 md:text-3xl xcstm:text-xl cstm:text-[24px] text-[#ee798c] font-bold border-b-4 border-[#ee798c]">
+                  人と本がつながる場所
                 </div>
+                <div className="part2 text-black xcstm:text-[0.45rem] cstm:text-[12px] md:text-[0.8rem]  p-1 mt-4 screen14ParaMobile" style={{ lineHeight: '20px' }}>
+                  店名の「B&B」は “BOOKS & BEER"の略で、本はもちろん、アルコールや
+                  こだわりのコーヒーも購入できる。独自のセレクションによる本棚から、あ
+                  なたが気になる一冊を見つけて。
+                </div>
+                <div className="part3 flex flex-col md:flex-row p-1 cstm:text-[12px] justify-between mt-5 text-[0.7rem]" style={{ lineHeight: '20px' }}>
+                  <div>
+                    <div className='text-[#ee798c]'>●本屋 B&B</div>
+                    <div className='text-black'>東京都世田谷区代田2-36-15</div>
+                    <div className='text-black'>BONUS TRACK 2F</div>
+                    <div className='text-black'><span><img src={phone_image} alt="phone" className='inline w-[15px] mr-1' /></span>03-6450-8272</div>
+                    <div className='text-black'>営/11:00-19:00 <br /> &nbsp; &nbsp;(日によって変動あり)</div>
+                    <div className='text-black'> 休/無休(年末年始および <br />&nbsp; &nbsp; 特別な場合を除く)</div>
+                    <div className='text-black'><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@books_and_beer_"}</div>
 
-                <div>
-                  <img src={s14outdoorstairs} alt="outdoorstairs" className='w-[80%] ' />
+                  </div>
+
+                  <div>
+                    <img src={s14outdoorstairs} alt="outdoorstairs" className='w-[80%] ' />
+                  </div>
                 </div>
               </div>
+
+              <div className='lastSection2'>
+                <div className="part1 p-1 md:text-[1.4rem] cstm:text-[24px] xcstm:text-sm text-[#ee798c] font-bold border-b-4 border-[#ee798c]  sm:mt-10 md:mt-24 screen14Part1" style={{ lineHeight: '36px', marginTop: '115px' }}>
+                  新しい出会いや感性が刺激される<br />
+                  カルチャーの発信地!
+                </div>
+                <div className="part2 text-black cstm:text-[12px]  xcstm:text-[0.5rem] md:text-[0.7rem] p-1 mt-4 screen14Para" style={{ lineHeight: '20px' }}>
+                  2020年春「下北線路街」 の一角にOPEN。 個性豊かな13のお店が軒を <br />
+                  重ね、小さな街を形成、不定期で開催されるイベントもCheck!
+                </div>
+                <div className="part2 text-black cstm:text-[12px]  xcstm:text-[0.5rem] md:text-[0.7rem] p-1 mt-4 screen14ParaMobile" style={{ lineHeight: '20px' }}>
+                  2020年春「下北線路街」 の一角にOPEN。 個性豊かな13のお店が軒を
+                  重ね、小さな街を形成、不定期で開催されるイベントもCheck!
+                </div>
+                <div className="part3 flex flex-col cstm:text-[12px] md:flex-row p-1 justify-between mt-5 text-[0.7rem] screen14Li" style={{ lineHeight: '20px' }}>
+                  <div>
+                    <div className='text-[#ee798c] '>●BONUS TRACK</div>
+                    <div className='text-black '>東京都世田谷区代田2-36-12~15</div>
+                    <div className='text-black '><span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span><span>※各店舗へお問合せください</span></div>
+                    <div className='text-black '><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@bonustrack_skz"}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='flex flex-col relative  md:w-[66%]'>
 
               {/* <div className="part1 p-1 md:text-[1.4rem] cstm:text-[24px] xcstm:text-sm text-[#ee798c] font-bold border-b-4 border-[#ee798c]  sm:mt-10 md:mt-24 screen14Part1" style={{ lineHeight: '36px', marginTop: '115px' }}>
                 新しい出会いや感性が刺激される<br />
@@ -810,63 +838,64 @@ function App() {
                   <div className='text-black '><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@bonustrack_skz"}</div>
                 </div>
               </div> */}
-            </div>
-
-            <div className='flex flex-col relative  md:w-[66%]'>
-
-            <div className="part1 p-1 md:text-[1.4rem] cstm:text-[24px] xcstm:text-sm text-[#ee798c] font-bold border-b-4 border-[#ee798c]  sm:mt-10 md:mt-24 screen14Part1" style={{ lineHeight: '36px', marginTop: '115px' }}>
-                新しい出会いや感性が刺激される<br />
-                カルチャーの発信地!
-              </div>
-              <div className="part2 text-black cstm:text-[12px]  xcstm:text-[0.5rem] md:text-[0.7rem] p-1 mt-4 screen14Para" style={{ lineHeight: '20px' }}>
-                2020年春「下北線路街」 の一角にOPEN。 個性豊かな13のお店が軒を <br />
-                重ね、小さな街を形成、不定期で開催されるイベントもCheck!
-              </div>
-              <div className="part2 text-black cstm:text-[12px]  xcstm:text-[0.5rem] md:text-[0.7rem] p-1 mt-4 screen14ParaMobile" style={{ lineHeight: '20px' }}>
-                2020年春「下北線路街」 の一角にOPEN。 個性豊かな13のお店が軒を
-                重ね、小さな街を形成、不定期で開催されるイベントもCheck!
-              </div>
-              <div className="part3 flex flex-col cstm:text-[12px] md:flex-row p-1 justify-between mt-5 text-[0.7rem] screen14Li" style={{ lineHeight: '20px' }}>
-                <div>
-                  <div className='text-[#ee798c] '>●BONUS TRACK</div>
-                  <div className='text-black '>東京都世田谷区代田2-36-12~15</div>
-                  <div className='text-black '><span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span><span>※各店舗へお問合せください</span></div>
-                  <div className='text-black '><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@bonustrack_skz"}</div>
-                </div>
-              </div>
-              {/* <div className="part1 p-1 md:text-3xl xcstm:text-xl cstm:text-[24px] text-[#ee798c] font-bold border-b-4 border-[#ee798c]">
+               <div className="lastSection">
+             <div className="part1 p-1 md:text-3xl xcstm:text-xl cstm:text-[24px] text-[#ee798c] font-bold border-b-4 border-[#ee798c]">
                 人と本がつながる場所
               </div>
-              <div className="part2 text-black xcstm:text-[0.45rem] cstm:text-[12px] md:text-[0.8rem] font-bold p-1 mt-4 screen14Para" style={{ lineHeight: '20px' }}>
+              <div className="part2 text-black xcstm:text-[0.45rem] cstm:text-[12px] md:text-[0.8rem]  p-1 mt-4 screen14Para" style={{ lineHeight: '20px' }}>
                 店名の「B&B」は “BOOKS & BEER"の略で、本はもちろん、アルコールや<br />
                 こだわりのコーヒーも購入できる。独自のセレクションによる本棚から、あ<br />
                 なたが気になる一冊を見つけて。
               </div>
               <div className="part3 flex flex-col md:flex-row p-1 cstm:text-[12px] justify-between mt-5 text-[0.7rem]" style={{ lineHeight: '20px' }}>
                 <div>
-                  <div className='text-[#ee798c] font-bold'>●本屋 B&B</div>
-                  <div className='text-black font-bold'>東京都世田谷区代田2-36-15</div>
-                  <div className='text-black font-bold'>BONUS TRACK 2F</div>
-                  <div className='text-black font-bold'><span><img src={phone_image} alt="phone" className='inline w-[15px] mr-1' /></span>03-6450-8272</div>
-                  <div className='text-black font-bold'>営/11:00-19:00 <br /> &nbsp; &nbsp;(日によって変動あり)</div>
-                  <div className='text-black font-bold'> 休/無休(年末年始および <br />&nbsp; &nbsp; 特別な場合を除く)</div>
-                  <div className='text-black font-bold'><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@books_and_beer_"}</div>
+                  <div className='text-[#ee798c]'>●本屋 B&B</div>
+                  <div className='text-black'>東京都世田谷区代田2-36-15</div>
+                  <div className='text-black'>BONUS TRACK 2F</div>
+                  <div className='text-black'><span><img src={phone_image} alt="phone" className='inline w-[15px] mr-1' /></span>03-6450-8272</div>
+                  <div className='text-black'>営/11:00-19:00 <br /> &nbsp; &nbsp;(日によって変動あり)</div>
+                  <div className='text-black'> 休/無休(年末年始および <br />&nbsp; &nbsp; 特別な場合を除く)</div>
+                  <div className='text-black'><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@books_and_beer_"}</div>
 
                 </div>
 
                 <div>
                   <img src={s14outdoorstairs} alt="outdoorstairs" className='w-[80%] ' />
                 </div>
-              </div> */}
+              </div>
+             </div>
+            <div className='flexLast'>
+            <div className='lastSectionMobile2'>
+                <div className="part1 p-1 md:text-[1.4rem] cstm:text-[24px] xcstm:text-sm text-[#ee798c] font-bold border-b-4 border-[#ee798c]  sm:mt-10 md:mt-24 screen14Part1" style={{ lineHeight: '36px', marginTop: '115px' }}>
+                  新しい出会いや感性が刺激される<br />
+                  カルチャーの発信地!
+                </div>
+                <div className="part2 text-black cstm:text-[12px]  xcstm:text-[0.5rem] md:text-[0.7rem] p-1 mt-4 screen14Para" style={{ lineHeight: '20px' }}>
+                  2020年春「下北線路街」 の一角にOPEN。 個性豊かな13のお店が軒を <br />
+                  重ね、小さな街を形成、不定期で開催されるイベントもCheck!
+                </div>
+                <div className="part2 text-black cstm:text-[12px]  xcstm:text-[0.5rem] md:text-[0.7rem] p-1 mt-4 screen14ParaMobile" style={{ lineHeight: '20px' }}>
+                  2020年春「下北線路街」 の一角にOPEN。 個性豊かな13のお店が軒を
+                  重ね、小さな街を形成、不定期で開催されるイベントもCheck!
+                </div>
+                <div className="part3 flex flex-col cstm:text-[12px] md:flex-row p-1 justify-between mt-5 text-[0.7rem] screen14Li" style={{ lineHeight: '20px' }}>
+                  <div>
+                    <div className='text-[#ee798c] '>●BONUS TRACK</div>
+                    <div className='text-black '>東京都世田谷区代田2-36-12~15</div>
+                    <div className='text-black '><span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span><span>※各店舗へお問合せください</span></div>
+                    <div className='text-black '><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@bonustrack_skz"}</div>
+                  </div>
+                </div>
+              </div>
+            
 
               <div className='relative mt-10'>
                 <div className='relative flex justify-center cstm:w-[120%]'>
                   <img src={s14bonus_track} alt="couple_date" className=' w-[85%] imageWid2' />
                   {/* <img src={s6border} alt="text" className='absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2' /> */}
                 </div>
-
-
               </div>
+            </div>
             </div>
           </div>
         </div>

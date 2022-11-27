@@ -93,6 +93,12 @@
 .screen14ParaMobile {
   display: none;
 }
+.lastSectionMobile {
+  display: none;
+}
+.lastSectionMobile2 {
+  display: none;
+}
 @media only screen and (max-width: 500px) {
   .s3Para {
     font-size: 9.4px !important;
@@ -403,5 +409,21 @@
   .s13rightPart {
     margin-top: 0;
     margin-bottom: 50px !important;
+  }
+  .lastSection2 {
+    display: none;
+  }
+  .lastSection {
+    display: none;
+  }
+  .lastSectionMobile {
+    display: block;
+  }
+  .lastSectionMobile2 {
+    display: block;
+  }
+  .flexLast {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
