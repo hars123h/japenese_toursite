@@ -115,16 +115,16 @@ function App() {
                 東京スカイツリー® の近く
                 <br /> 地域に根付いた下町の魅力に出会える場所
               </div>
-              <div className="part2 text-black font-bold  mt-4 cstm:text-[12px] text-[0.60rem] md:text-lg xcstm:text-[11.5px]">
+              <div className="part2 text-black   mt-4 cstm:text-[12px] text-[0.60rem] md:text-lg xcstm:text-[11.5px]">
                 夜はスカイツリーのライティングを眺めることができる。<br />
                 ライティングスケジュールはスカイツリー公式HPをチェック。
               </div>
               <div className="part3 flex p-2 justify-between mt-5 cstm:text-[12px] xcstm:text-[15px] s3li" style={{lineHeight:'24px'}}>
                 <div>
-                  <div className='text-[#25b7aa] font-bold'>●東京ミズマチ</div>
-                  <div className='text-black font-bold'>東京都墨田区向島1</div>
-                  <div className='text-black font-bold'><img src={phone_image} alt="phone" className='inline w-[14px]' />※各店舗にお問合せください</div>
-                  <div className='text-black font-bold'> <img src={instagram_icon} alt="insta_icon" className=' inline' />@tokyo_mizumachi</div>
+                  <div className='text-[#25b7aa]'>●東京ミズマチ</div>
+                  <div className='text-black '>東京都墨田区向島1</div>
+                  <div className='text-black '><img src={phone_image} alt="phone" className='inline w-[14px]' />※各店舗にお問合せください</div>
+                  <div className='text-black '> <img src={instagram_icon} alt="insta_icon" className=' inline' />@tokyo_mizumachi</div>
                 </div>
 
                 <div className='relative cstm:w-[40%] cstm:translate-x-10 cstm:translate-y-6'>
@@ -210,7 +210,7 @@ function App() {
                 下町と新しい文化を融合した<br />
                 カジュアルダイニング
               </div>
-              <div className="part2 text-black cstm:text-[12px] md:text-[0.7rem] font-bold p-1 mt-4 xcstm:text-[10px] screen4Para" style={{lineHeight:'24px'}}>
+              <div className="part2 text-black cstm:text-[12px] md:text-[0.7rem]  p-1 mt-4 xcstm:text-[10px] screen4Para" style={{lineHeight:'24px'}}>
                 自家農園の野菜や産地にこだわった食材で作る料理が人気。テイクアウトで <br />
                 きるデリや、テラスでBBQなど、さまざまな楽しみ方ができるのもGood!
               </div>
@@ -251,7 +251,7 @@ function App() {
                 墨田区の魅力を発見できる<br />
                 ショップ&ワークショップの店
               </div>
-              <div className="part2  text-black font-semibold cstm:text-[9px] cstm:scale-125  cstm:translate-x-10  p-2 mt-4 md:text-[15px] xcstm:text-[0.45rem] shop03Para"style={{lineHeight:'18px'}}>
+              <div className="part2  text-black  cstm:text-[9px] cstm:scale-125  cstm:translate-x-10  p-2 mt-4 md:text-[15px] xcstm:text-[0.45rem] shop03Para"style={{lineHeight:'18px'}}>
                 <div>墨田区が運営するこちら。1階では「すみだモダン」認証商品をはじめ墨</div>
                 <div>田区内の事業者が作った工芸品や雑貨を販売。 2階ではものづくり体験</div>
                 <div>イベントが行われることも。</div>
@@ -320,20 +320,20 @@ function App() {
                 ありとあらゆるものが集まる <br />
                 渋谷の最新スポットを巡る
               </div>
-              <div className="part2 text-black md:text-[0.8rem]  font-bold p-1 mt-4 xcstm:text-[0.54rem] cstm:text-[11.5px] shiPara" style={{lineHeight:'20px'}}>
+              <div className="part2 text-black md:text-[0.8rem] p-1 mt-4 xcstm:text-[0.54rem] cstm:text-[11.5px] shiPara" style={{lineHeight:'20px'}}>
                 <div>2019年に開業した「渋谷スクランブルスクエア」にある展望施設「</div>
                 <div>SHIBUYASKY」は、街を一望できる絶景スポット。 屋内展望回廊「SKY-</div>
                 GALLERY」では映像による空間演出や期間限定の展示が楽しめる。
               </div>
               <div className="part3 flex flex-col md:flex-row p-1 justify-between mt-5 xcstm:text-[0.8rem] md:text-[1.1rem] cstm:text-[0.8rem] shiPara2" style={{lineHeight:'20px'}}>
                 <div>
-                  <div className='text-[#f5ac1a] font-bold'>●SHIBUYA SKY (渋谷スカイ)</div>
-                  <div className='text-black font-bold'>東京都渋谷区2-24-12 (渋谷駅直結・直上)</div>
-                  <div className='text-black font-bold'> <img src={phone_image} alt="phone" className='inline w-[12px]' /> 03-4221-0229 (受付10:00-20:00)</div>
-                  <div className='text-black font-bold'>営/ 10:00~22:30 (最終入場21:20) <br />
+                  <div className='text-[#f5ac1a]'>●SHIBUYA SKY (渋谷スカイ)</div>
+                  <div className='text-black '>東京都渋谷区2-24-12 (渋谷駅直結・直上)</div>
+                  <div className='text-black '> <img src={phone_image} alt="phone" className='inline w-[12px]' /> 03-4221-0229 (受付10:00-20:00)</div>
+                  <div className='text-black '>営/ 10:00~22:30 (最終入場21:20) <br />
                     <span className='pl-4'>※屋外は悪天時閉鎖</span> </div>
-                  <div className='text-black font-bold'>休/無休</div>
-                  <div className='text-black font-bold'>料/大人2,000円、中高生1,600円、 <br />
+                  <div className='text-black '>休/無休</div>
+                  <div className='text-black '>料/大人2,000円、中高生1,600円、 <br />
                     <span className='pl-4'>小学生1,000円、幼児600円</span> </div>
                 </div>
 
@@ -364,16 +364,16 @@ function App() {
                 公園・商業施設・ホテルが融合した <br />
                 渋谷の新たなランドマーク
               </div>
-              <div className="part2 text-black cstm:text-[12px] cstm:-translate-x-6 font-bold mt-4 md:text-[0.7rem] xcstm:text-[0.5rem] nokn:text-[0.6rem] screenpara"style={{lineHeight:'20px'}}>
+              <div className="part2 text-black cstm:text-[12px] cstm:-translate-x-6  mt-4 md:text-[0.7rem] xcstm:text-[0.5rem] nokn:text-[0.6rem] screenpara"style={{lineHeight:'20px'}}>
                 <div className=' tracking-tighter'>2020年、渋谷区立宮下公園が新しく生まれ変わり、ショッピングや食べ歩き、スポーツが</div>
                 <div>楽しめる低層複合施設に。</div>
               </div>
               <div className="part3 cstm:-translate-x-6  mt-5 xcstm:text-sm xcstm:mb-8"style={{lineHeight:'20px'}}>
                 <div>
-                  <div className='text-[#f7aa17] font-bold'>●MIYASHITA PARK</div>
-                  <div className='text-black font-bold'>東京都渋谷区神宮前6-20-10</div>
-                  <div className='text-black font-bold'><span><img src={phone_image} alt="phone" className='inline w-[14px]' /></span> 03-6712-5630 (代) <br /> <span className='pl-4'>(受付 11:00~18:00)</span> </div>
-                  <div className='text-black font-bold'><span><img src={instagram_icon} alt="insta" className='inline' /></span> {"@miyashitapark_"}</div>
+                  <div className='text-[#f7aa17] '>●MIYASHITA PARK</div>
+                  <div className='text-black '>東京都渋谷区神宮前6-20-10</div>
+                  <div className='text-black '><span><img src={phone_image} alt="phone" className='inline w-[14px]' /></span> 03-6712-5630 (代) <br /> <span className='pl-4'>(受付 11:00~18:00)</span> </div>
+                  <div className='text-black '><span><img src={instagram_icon} alt="insta" className='inline' /></span> {"@miyashitapark_"}</div>
                 </div>
 
 
@@ -412,20 +412,20 @@ function App() {
                 パンとコーヒーで <br />
                 素敵なカフェタイムを
               </div>
-              <div className="part2 text-black md:text-[0.7rem] font-bold p-1 mt-4 xcstm:text-[0.5rem] screen_8p"style={{lineHeight:'20px'}}>
+              <div className="part2 text-black md:text-[0.7rem]  p-1 mt-4 xcstm:text-[0.5rem] screen_8p"style={{lineHeight:'20px'}}>
                 「パンとエスプレッソと」 の姉妹店。こだわり卵を使った限定料理が味わえ <br />
                 るのはここだけ。 1日の始まりと終わりに足を運んでみて。
               </div>
               <div className="part3 flex p-1 justify-between mt-5 text-[0.8rem] cstm:text-[12px]" style={{lineHeight:'20px'}}>
                 <div>
-                  <div className='text-[#f5ac1a] font-bold'>●パンとエスプレッソとまちあわせ</div>
-                  <div className='text-black font-bold'>東京都渋谷区神宮前6-20-10</div>
-                  <div className='text-black font-bold'>MIYASHITA PARK South2F</div>
-                  <div className='text-black font-bold'> <span><img src={phone_image} alt="phone" className='inline w-[14px]' /></span> 03-6805-0830</div>
-                  <div className='text-black font-bold'>営/8:00~23:00 <br />
+                  <div className='text-[#f5ac1a] '>●パンとエスプレッソとまちあわせ</div>
+                  <div className='text-black '>東京都渋谷区神宮前6-20-10</div>
+                  <div className='text-black '>MIYASHITA PARK South2F</div>
+                  <div className='text-black '> <span><img src={phone_image} alt="phone" className='inline w-[14px]' /></span> 03-6805-0830</div>
+                  <div className='text-black '>営/8:00~23:00 <br />
                     <span className='pl-4'>(フードLO20:30、 その他LO22:00)</span> </div>
-                  <div className='text-black font-bold'>休/施設に準ずる</div>
-                  <div className='text-black font-bold'><span><img src={instagram_icon} alt="instal" className='inline' /> </span> {"@bread.espresso.and.machiawase"}</div>
+                  <div className='text-black '>休/施設に準ずる</div>
+                  <div className='text-black '><span><img src={instagram_icon} alt="instal" className='inline' /> </span> {"@bread.espresso.and.machiawase"}</div>
                 </div>
 
               </div>
