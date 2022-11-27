@@ -72,6 +72,27 @@
 .screenparaMobile {
   display: none;
 }
+.screen_8pMobile {
+  display: none;
+}
+.screen_9paraMobile {
+  display: none;
+}
+.screen_10paraMobile {
+  display: none;
+}
+.screen11ParaMobile {
+  display: none;
+}
+.screen12ParaMobile {
+  display: none;
+}
+.screen13ParaMobile {
+  display: none;
+}
+.screen14ParaMobile {
+  display: none;
+}
 @media only screen and (max-width: 500px) {
   .s3Para {
     font-size: 9.4px !important;
@@ -132,6 +153,7 @@
   .shop03ParaMobile {
     font-size: 11px !important;
     display: block;
+    padding: 0 !important;
   }
   .shop03OuterTeaxt {
     margin-top: 30px !important;
@@ -210,9 +232,23 @@
   }
   .screen_8p {
     font-size: 9.1px !important;
+    display: none;
+  }
+  .screen_8pMobile {
+    font-size: 11px !important;
+    display: block;
+  }
+  .screen_8pLi {
+    font-size: 11px !important;
   }
   .screen_9para {
     font-size: 9px !important;
+    display: none;
+  }
+  .screen_9paraMobile {
+    font-size: 11px !important;
+    display: block;
+    padding: 0;
   }
   .s9new_image {
     padding: 0 !important;
@@ -228,9 +264,18 @@
   .screen_10para {
     font-size: 8.2px !important;
     margin-left: -10px !important;
+    display: none;
+
+  }
+  .screen_10paraMobile {
+    font-size: 11px !important;
+    /* margin-left: -10px !important; */
+    display: block;
+    padding: 0 !important;
+
   }
   .screen_10li {
-    font-size: 14px !important;
+    font-size: 11px !important;
   }
   .s10bottom {
     width: 90% !important;
@@ -238,11 +283,19 @@
   .screen11Para {
     font-size: 9.4px !important;
     padding: 0 !important;
+    display: none;
+   
+  }
+  .screen11ParaMobile {
+    font-size: 11px !important;
+    padding: 0 !important;
+    display: block;
    
   }
   .screen11Para2 {
-    font-size: 9.8px !important;
+    font-size: 10px !important;
     padding: 0 !important;
+    margin-top: 62px
    
   }
   .screen11Right {
@@ -264,12 +317,34 @@
   }
   .screen12Para {
     font-size: 9.3px !important;
+    display: none;
+  }
+  .screen12ParaMobile {
+    font-size: 11px !important;
+    display: block;
+    padding: 0 !important;
+  }
+  .screen12Li {
+    font-size: 11px !important;
+    display: block;
+    padding: 0 !important;
   }
   .s12allpress02 {
     width: 85% !important;
   }
   .screen13Para {
     font-size: 8.6px !important;
+    display: none;
+  }
+  .screen13ParaMobile {
+    font-size: 11px !important;
+    display: block;
+    padding: 0;
+  }
+  .screen13Li {
+    font-size: 11px !important;
+    display: block;
+    padding: 0;
   }
   .screen13Wrap {
     width: 100% !important;
@@ -287,6 +362,17 @@
   }
   .screen14Para {
     font-size: 8.9px;
+    display: none;
+  }
+  .screen14ParaMobile {
+    font-size: 11px;
+    padding: 0;
+    display: block;
+  }
+  .screen14Li {
+    font-size: 11px;
+    padding: 0;
+    display: block;
   }
   .imageWid2 {
     margin-right: 0 !important;
@@ -309,5 +395,13 @@
   .screen4ParaLi {
     font-size: 11px !important;
     line-height: 18px !important;
+  }
+  .s11Koffee {
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+  }
+  .s13rightPart {
+    margin-top: 0;
+    margin-bottom: 50px !important;
   }
 }
