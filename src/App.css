@@ -124,17 +124,23 @@
   .planePadding {
     width: 70% !important;
   }
+  .boxXy {
+    right:-10.8rem
+  }
   .shop03Li {
     margin-left: -15px !important;
   }
   .screen4Head {
-    margin-left: -15px !important;
+    margin-left: -0px !important;
   }
   .widthOuter {
     width: 70%;
   }
 }
 @media only screen and (max-width: 500px) {
+  .boxXy {
+    right:0rem
+  }
   .shop03Li {
     margin-left: -0px !important;
   }

@@ -608,7 +608,7 @@ function App() {
                 <div className='relative cstm:-translate-x-5'>
                   <img src={s11cupimage} alt="cupimage" />
                   <div className='w-[80px] opacity-80 h-[25px] bg-[#fee33d] absolute -top-1 rotate-[20deg] left-[35%] z-10'> </div>
-                  <div className="bg-[#00afde] absolute -z-10 text-sm xcstm:-bottom-20 cstm:-right-40 md:-bottom-3 md:-right-44 xcstm:-right-0  font-bold text-white p-4">
+                  <div className="bg-[#00afde] absolute -z-10 text-sm xcstm:-bottom-20 cstm:-right-40 md:-bottom-3 md:-right-44 xcstm:-right-0  font-bold text-white p-4 boxXy">
                     <div className='mb-1'>Koffee Mameya Course <br /> コーヒーマメヤコース <br /> (3,000円)
                     </div>
                   </div>
