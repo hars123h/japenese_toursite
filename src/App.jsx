@@ -308,6 +308,11 @@ function App() {
               <div>若者や外国人観光客が集まる流行の発信地・渋谷で、東京の“いま”</div>
               <div>を体感!</div>
             </div>
+
+            <div className='md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold md:text-sm xcstm:text-[0.53rem] nokn:text-xs shibSmallMobile'>
+              <div>若者や外国人観光客が集まる流行の発信地・渋谷で、東京の“いま” を体感!</div>
+              {/* <div>を体感!</div> */}
+            </div>
           </div>
 
           <div className="box flex flex-col md:flex-row  mt-10 md:w-[60%] mx-auto cstm:w-[51%] max-w-6xl s6shibuyaOuter ">
@@ -578,7 +583,7 @@ function App() {
               <div className='text-bold md:text-3xl xcstm:text-2xl mb-2 xcstm:text-center'>Kiyosumishirakawa</div>
               <div className='font-bold text-5xl'>清澄白河</div>
             </div>
-            <div className='flex flex-col justify-center md:w-[60%] xcstm:w-[90%] md:border-l-2 xcstm:border-t-2 md:border-t-0 border-white md:pl-5 xcstm:pl-0 font-bold xcstm:text-[0.65rem] xcstm:pt-2 md:pt-0 md:text-lg'>
+            <div className='flex flex-col justify-center md:w-[60%] xcstm:w-[90%] md:border-l-2 xcstm:border-t-2 md:border-t-0 border-white md:pl-5 xcstm:pl-0 font-bold xcstm:text-[0.65rem] xcstm:pt-2 md:pt-0 md:text-lg screen11Head'>
               <div>"コーヒーの街として話題沸騰中の清澄白河。</div>
               <div>  自然やアートにも触れられるスポットにも注目!</div>
             </div>
@@ -754,8 +759,12 @@ function App() {
               <div className='text-bold text-3xl mb-2 cstm:text-xl'>Shimokitazawa</div>
               <div className='font-bold text-5xl cstm:text-4xl'>下北沢</div>
             </div>
-            <div className='md:w-[60%] cstm:flex cstm:flex-col-reverse justify-center cstm:text-[14px]  md:border-l-2 xcstm:border-l-0 xcstm:border-t-2 md:border-t-0  border-white pl-5 font-bold xcstm:text-[0.45rem] md:text-[1rem]'>
+            <div className='md:w-[60%] cstm:flex cstm:flex-col-reverse justify-center cstm:text-[14px]  md:border-l-2 xcstm:border-l-0 xcstm:border-t-2 md:border-t-0  border-white pl-5 font-bold xcstm:text-[0.45rem] md:text-[1rem] shibSmall'>
               <div>小田急線線路跡の開発が進み、変化がめまぐるしい下北沢。新しい <br />
+                発見がある“街ぶら”に最適なエリア。</div>
+            </div>
+            <div className='md:w-[60%] cstm:flex cstm:flex-col-reverse justify-center cstm:text-[14px]  md:border-l-2 xcstm:border-l-0 xcstm:border-t-2 md:border-t-0  border-white pl-5 font-bold xcstm:text-[0.45rem] md:text-[1rem] shibSmallMobile'>
+              <div>小田急線線路跡の開発が進み、変化がめまぐるしい下北沢。新しい 
                 発見がある“街ぶら”に最適なエリア。</div>
             </div>
           </div>
