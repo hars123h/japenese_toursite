@@ -206,7 +206,7 @@ function App() {
 
 
             <div className='flex flex-col relative towerOuter  md:w-[70%]'>
-              <div className="part1 p-1 md:text-3xl cstm:text-[1.5rem] text-[#25b7aa] xcstm:text-sm font-bold border-b-4 border-[#25b7aa]">
+              <div className="part1 p-1 md:text-3xl cstm:text-[1.5rem] text-[#25b7aa] xcstm:text-sm font-bold border-b-4 border-[#25b7aa] screen4Head">
                 下町と新しい文化を融合した<br />
                 カジュアルダイニング
               </div>
@@ -251,7 +251,7 @@ function App() {
 
           <div className="box flex  md:flex-row flex-col p-4 mt-10 w-[90%] md:w-[60%] mx-auto cstm:w-[51%] max-w-6xl shop03Outer">
             <div className='flex flex-col  md:w-[60%]  relative shop03OuterTeaxt'>
-              <div className="part1 p-2 md:text-3xl cstm:text-[1.4rem] text-[#25b7aa] font-bold border-b-4 border-[#25b7aa] xcstm:text-sm">
+              <div className="part1 p-2 md:text-3xl cstm:text-[1.4rem] text-[#25b7aa] font-bold border-b-4 border-[#25b7aa] xcstm:text-sm screen4Head">
                 墨田区の魅力を発見できる<br />
                 ショップ&ワークショップの店
               </div>
@@ -325,7 +325,7 @@ function App() {
 
 
             <div className='flex flex-col relative  md:w-[60%] cstm:w-[80%]'>
-              <div className="part1 p-1 md:text-3xl cstm:text-[24px] text-[#f7aa17] font-bold border-b-4 border-[#f7aa17] xcstm:text-sm">
+              <div className="part1 p-1 md:text-3xl cstm:text-[24px] text-[#f7aa17] font-bold border-b-4 border-[#f7aa17] xcstm:text-sm screen4Head">
                 ありとあらゆるものが集まる <br />
                 渋谷の最新スポットを巡る
               </div>
@@ -374,7 +374,7 @@ function App() {
         <div className='w-screen'>
           <div className="box flex flex-col md:flex-row mt-36 md:w-[60%] mx-auto pt-4 cstm:w-[51%] max-w-6xl">
             <div className='flex flex-col  md:w-[60%] cstm:w-[145%]'>
-              <div className=" part1 md:text-3xl  cstm:text-[24px] text-[#f7aa17] cstm:-translate-x-6 font-bold border-b-4 border-[#f7aa17] xcstm:text-xs ">
+              <div className=" part1 md:text-3xl  cstm:text-[24px] text-[#f7aa17] cstm:-translate-x-6 font-bold border-b-4 border-[#f7aa17] xcstm:text-xs screen4Head ">
                 公園・商業施設・ホテルが融合した <br />
                 渋谷の新たなランドマーク
               </div>
@@ -426,7 +426,7 @@ function App() {
 
 
             <div className=' flex flex-col relative  md:w-[60%]  cstm:w-[100%] screen_8wrap'>
-              <div className="part1 p-1 text-3xl text-[#f7aa17] font-bold border-b-4 border-[#f7aa17] screen_8head">
+              <div className="part1 p-1 text-3xl text-[#f7aa17] font-bold border-b-4 border-[#f7aa17] screen4Head screen_8head">
                 パンとコーヒーで <br />
                 素敵なカフェタイムを
               </div>
@@ -479,7 +479,7 @@ function App() {
         <div className='w-screen'>
           <div className="box flex flex-col md:flex-row p-4 mt-32 md:w-[60%] mx-auto cstm:w-[65%] max-w-6xl">
             <div className='flex flex-col  md:w-[60%] cstm:translate-x-8'>
-              <div className="part1 p-2 md:text-3xl cstm:text-[24px] xcstm:text-[1.0rem] text-[#f3bc3c] font-bold border-b-4 border-[#f3bc3c]">
+              <div className="part1 p-2 md:text-3xl cstm:text-[24px] xcstm:text-[1.0rem] text-[#f3bc3c] font-bold border-b-4 border-[#f3bc3c] screen4Head">
                 渋谷区民のみならず <br />
                 多くの来街者に親しまれている場所
               </div>
@@ -529,7 +529,7 @@ function App() {
 
 
             <div className='flex flex-col relative  md:w-[60%]'>
-              <div className="part1 p-1 cstm:text-[24px] md:text-3xl xcstm:text-sm text-[#f7aa17] font-bold border-b-4 border-[#f7aa17]">
+              <div className="part1 p-1 cstm:text-[24px] md:text-3xl xcstm:text-sm text-[#f7aa17] font-bold border-b-4 border-[#f7aa17] screen4Head">
                 日本初出店!世界一の <br />
                 ピンチョスが楽しめるバル
               </div>
@@ -586,7 +586,7 @@ function App() {
 
           <div className="box flex flex-col-reverse md:flex-row p-4 mt-5 md:w-[60%] mx-auto cstm:w-[60%] max-w-6xl cstm:translate-x-12">
             <div className='flex flex-col  md:w-[60%] cstm:w-[50%]'>
-              <div className="part1  pt-2 pb-2 cstm:text-[24px] md:text-3xl xcstm:text-xl text-[#00afde] cstm:translate-x-1 font-bold border-b-4 border-[#00afde]">
+              <div className="part1  pt-2 pb-2 cstm:text-[24px] md:text-3xl xcstm:text-xl text-[#00afde] cstm:translate-x-1 font-bold border-b-4 border-[#00afde] screen4Head">
                 コーヒーをもっと好きになる <br />
                 ここにしかない新しい体験
               </div>
@@ -664,7 +664,7 @@ function App() {
 
 
             <div className='flex flex-col relative  md:w-[60%]'>
-              <div className="part1 p-1 md:text-3xl cstm:text-[24px] xcstm:text-sm text-[#00aee0] font-bold border-b-4 border-[#00aee0]">
+              <div className="part1 p-1 md:text-3xl cstm:text-[24px] xcstm:text-sm text-[#00aee0] font-bold border-b-4 border-[#00aee0] screen4Head">
                 明るく開かれた心地よい空間で <br />
                 美味しいコーヒーとの出会いを
               </div>
@@ -707,7 +707,7 @@ function App() {
 
           <div className="box flex flex-col-reverse md:flex-row  mt-4 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[60%] max-w-6xl screen13Wrap">
             <div className='flex flex-col  md:w-[60%] cstm:w-[50%] cstm:translate-x-10'>
-              <div className="part1 p-2 md:text-3xl cstm:text-[24px] xcstm:text-xl text-[#00afde] font-bold border-b-4 border-[#00afde]">
+              <div className="part1 p-2 md:text-3xl cstm:text-[24px] xcstm:text-xl text-[#00afde] font-bold border-b-4 border-[#00afde] screen4Head">
                 アートを身近に感じられる <br /> 清澄白河のランドマーク
               </div>
               <div className="part2 text-black xcstm:text-[0.4rem] cstm:text-[11.5px] md:text-[0.8rem]  mt-4 screen13Para" style={{ lineHeight: '20px' }}>
@@ -766,7 +766,7 @@ function App() {
                 <img src={s14new_image} alt="" className='p-4 imageWid' />
               </div>
               <div className='lastSectionMobile'>
-                <div className="part1 p-1 md:text-3xl xcstm:text-xl cstm:text-[24px] text-[#ee798c] font-bold border-b-4 border-[#ee798c]">
+                <div className="part1 p-1 md:text-3xl xcstm:text-xl cstm:text-[24px] text-[#ee798c] font-bold border-b-4 border-[#ee798c] screen4Head">
                   人と本がつながる場所
                 </div>
                 <div className="part2 text-black xcstm:text-[0.45rem] cstm:text-[12px] md:text-[0.8rem]  p-1 mt-4 screen14ParaMobile" style={{ lineHeight: '20px' }}>
@@ -793,7 +793,7 @@ function App() {
               </div>
 
               <div className='lastSection2'>
-                <div className="part1 p-1 md:text-[1.4rem] cstm:text-[24px] xcstm:text-sm text-[#ee798c] font-bold border-b-4 border-[#ee798c]  sm:mt-10 md:mt-24 screen14Part1" style={{ lineHeight: '36px', marginTop: '115px' }}>
+                <div className="part1 p-1 md:text-[1.4rem] cstm:text-[24px] xcstm:text-sm text-[#ee798c] font-bold border-b-4 border-[#ee798c]  sm:mt-10 md:mt-24 screen14Part1 screen4Head" style={{ lineHeight: '36px', marginTop: '115px' }}>
                   新しい出会いや感性が刺激される<br />
                   カルチャーの発信地!
                 </div>
@@ -866,7 +866,7 @@ function App() {
              </div>
             <div className='flexLast'>
             <div className='lastSectionMobile2'>
-                <div className="part1 p-1 md:text-[1.4rem] cstm:text-[24px] xcstm:text-sm text-[#ee798c] font-bold border-b-4 border-[#ee798c]  sm:mt-10 md:mt-24 screen14Part1" style={{ lineHeight: '36px', marginTop: '115px' }}>
+                <div className="part1 p-1 md:text-[1.4rem] cstm:text-[24px] xcstm:text-sm text-[#ee798c] font-bold border-b-4 border-[#ee798c]  sm:mt-10 md:mt-24 screen14Part1 screen4Head" style={{ lineHeight: '36px', marginTop: '115px' }}>
                   新しい出会いや感性が刺激される<br />
                   カルチャーの発信地!
                 </div>

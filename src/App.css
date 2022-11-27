@@ -306,6 +306,10 @@
     margin-top: 62px
    
   }
+  .screen4Head {
+    font-size: 16px !important;
+    line-height: 26px !important;
+  }
   .screen11Right {
     width: 110%;
   }
@@ -366,7 +370,8 @@
     padding: 15px !important;
   }
   .screen14Part1 {
-    margin-top: 0 !important;
+    margin-top: 19px !important;
+    
   }
   .screen14Para {
     font-size: 8.9px;
