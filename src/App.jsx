@@ -496,7 +496,7 @@ function App() {
                 芝生ひろばをはじめ、ボルダリングウォール・スケート場・多目的運動施設
                 (サンドコート)を併設。
               </div>
-              <div className="part3 flex flex-col md:flex-row p-2 justify-between mt-5 cstm:text-[12px] screen_9paraMobile" style={{ lineHeight: '20px' }}>
+              <div className="part3 flex flex-col md:flex-row p-2 justify-between mt-5 cstm:text-[12px] screen_9Li" style={{ lineHeight: '20px' }}>
                 <div>
                   <div className='text-[#f3bc3c] '>●渋谷区立宮下公園</div>
                   <div className='text-black '>東京都渋谷区神宮前1-26-5</div>

@@ -111,6 +111,12 @@
   }
 }
 @media only screen and (max-width: 500px) {
+  .planePadding {
+    width: 100% !important;
+  }
+  .widthOuter {
+    width: 100%;
+  }
   .s3Para {
     font-size: 9.4px !important;
   }
@@ -272,6 +278,11 @@
     display: none;
   }
   .screen_9paraMobile {
+    font-size: 11px !important;
+    display: block;
+    padding: 0;
+  }
+  .screen_9Li {
     font-size: 11px !important;
     display: block;
     padding: 0;
