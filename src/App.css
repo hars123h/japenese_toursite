@@ -59,6 +59,19 @@
   margin-right: -50px !important;
 
 }
+.screen4Paramobile {
+  display: none;
+}
+.shop03ParaMobile {
+  display: none;
+}
+.shiParamobile {
+  display: none;
+
+}
+.screenparaMobile {
+  display: none;
+}
 @media only screen and (max-width: 500px) {
   .s3Para {
     font-size: 9.4px !important;
@@ -107,7 +120,18 @@
 
   }
   .shop03Para {
-    font-size: 9.3px !important;
+    font-size: 11px !important;
+    display: none;
+  }
+  .shop03Li {
+    font-size: 11px;
+  }
+  .shop03Li1 {
+    font-size: 11px !important;
+  }
+  .shop03ParaMobile {
+    font-size: 11px !important;
+    display: block;
   }
   .shop03OuterTeaxt {
     margin-top: 30px !important;
@@ -129,13 +153,21 @@
     padding:10px !important;
   }
   .shiPara {
-    font-size: 9.5px !important;
+    font-size: 11px !important;
+    display: none;
+  }
+  .shiParamobile {
+    font-size: 11px !important;
+    display: block;
+
   }
   .shiPara2 {
-    font-size: 14px !important;
+    font-size: 11px !important;
+    line-height: 18px !important;
 
   }
   .screen4Para {
+    display: none;
     font-size: 11px !important;
   }
   .s6cupImg {
@@ -150,7 +182,16 @@
     right: 250px !important;
   }
   .screenpara {
-    font-size: 9px !important;
+    font-size: 11px !important;
+    display: none;
+  }
+  .screenparaLi {
+    font-size: 11px !important;
+  }
+  
+  .screenparaMobile {
+    font-size: 11px !important;
+    display: block;
   }
   .miyashitaImg img {
     width: 85%;
@@ -261,4 +302,12 @@
     padding-left: 1rem;
     padding-right: 1rem;
    }
+   .screen4Paramobile {
+    display: block;
+    font-size: 11px !important;
+  }
+  .screen4ParaLi {
+    font-size: 11px !important;
+    line-height: 18px !important;
+  }
 }

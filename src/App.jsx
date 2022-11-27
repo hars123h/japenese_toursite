@@ -214,11 +214,15 @@ function App() {
                 自家農園の野菜や産地にこだわった食材で作る料理が人気。テイクアウトで <br />
                 きるデリや、テラスでBBQなど、さまざまな楽しみ方ができるのもGood!
               </div>
-              <div className="part3 flex p-1 justify-between mt-5 text-[0.8rem] cstm:text-[12px]" style={{lineHeight:'24px'}}>
+              <div className="part2 text-black cstm:text-[12px] md:text-[0.7rem]  p-1 mt-4 xcstm:text-[10px] screen4Paramobile" style={{lineHeight:'24px'}}>
+                自家農園の野菜や産地にこだわった食材で作る料理が人気。 <br />
+                テイクアウトで きるデリや、テラスでBBQなど、さまざまな<br />楽しみ方ができるのもGood!
+              </div>
+              <div className="part3 flex p-1 justify-between mt-5 text-[0.8rem] cstm:text-[12px] screen4ParaLi" style={{lineHeight:'24px'}}>
                 <div>
                   <div className='text-[#25b7aa] font-bold'>●LAND A</div>
-                  <div className='text-black'><img src={phone_image} alt="phone" className='inline w-[14px]' />東京都墨田区向島1-2-4</div>
-                  <div className='text-black'>03-5637-0107</div>
+                  <div className='text-black'>東京都墨田区向島1-2-4</div>
+                  <div className='text-black'><img src={phone_image} alt="phone" className='inline w-[14px]' />03-5637-0107</div>
                   <div className='text-black'>営/平日 9:00~20:00 <br /> <span className='pl-4'>土日祝9:00~20:00</span> </div>
                   <div className='text-black'>休/不定休</div>
                   <div className='text-black'><img src={instagram_icon} alt="insta_icon" className=' inline' />@land_a_mizumachi</div>
@@ -256,9 +260,14 @@ function App() {
                 <div>田区内の事業者が作った工芸品や雑貨を販売。 2階ではものづくり体験</div>
                 <div>イベントが行われることも。</div>
               </div>
-              <div className="part3 flex flex-col md:flex-row p-2 justify-between mt-5 xcstm:text-xs" style={{lineHeight:'18px'}}>
+              <div className="part2  text-black  cstm:text-[9px] cstm:scale-125  cstm:translate-x-10  p-2 mt-4 md:text-[15px] xcstm:text-[0.45rem] shop03ParaMobile"style={{lineHeight:'18px'}}>
+                <div style={{lineHeight:'24px'}}>墨田区が運営するこちら。1階では「すみだモダン」認証商品をはじめ墨 田区内の事業者が作った工芸品や雑貨を販売。 2階ではものづくり体験 イベントが行われることも。</div>
+                {/* <div>田区内の事業者が作った工芸品や雑貨を販売。 2階ではものづくり体験</div> */}
+                {/* <div>イベントが行われることも。</div> */}
+              </div>
+              <div className="part3 flex flex-col md:flex-row p-2 justify-between mt-5 xcstm:text-xs shop03Li" style={{lineHeight:'18px'}}>
                 <div>
-                  <div className='text-[#25b7aa] font-bold text-[15px] cstm:text-[11px]'>●SHOP & WORKSHOP すみずみ</div>
+                  <div className='text-[#25b7aa]  text-[15px] cstm:text-[11px] shop03Li1'>●SHOP & WORKSHOP すみずみ</div>
                   <div className='text-black '>東京都墨田区向島 1-23-9</div>
                   <div className='text-black '> <img src={phone_image} alt="phone" className='inline w-[14px]' /> 03-6284-1731</div>
                   <div className='text-black '>営/11:00-19:00</div>
@@ -325,6 +334,11 @@ function App() {
                 <div>SHIBUYASKY」は、街を一望できる絶景スポット。 屋内展望回廊「SKY-</div>
                 GALLERY」では映像による空間演出や期間限定の展示が楽しめる。
               </div>
+              <div className="part2 text-black md:text-[0.8rem] p-1 mt-4 xcstm:text-[0.54rem] cstm:text-[11.5px] shiParamobile" style={{lineHeight:'20px'}}>
+                <div>2019年に開業した「渋谷スクランブルスクエア」にある展望施設「SHIBUYASKY」は、街を一望できる絶景スポット。 屋内展望回廊「SKY-GALLERY」では映像による空間演出や期間限定の展示が楽し <br />める。</div>
+                {/* <div>「SHIBUYASKY」は、街を一望できる絶景スポット。 屋内展望回廊「SKY-</div> */}
+                {/* GALLERY」では映像による空間演出や期間限定の展示が楽しめる。 */}
+              </div>
               <div className="part3 flex flex-col md:flex-row p-1 justify-between mt-5 xcstm:text-[0.8rem] md:text-[1.1rem] cstm:text-[0.8rem] shiPara2" style={{lineHeight:'20px'}}>
                 <div>
                   <div className='text-[#f5ac1a]'>●SHIBUYA SKY (渋谷スカイ)</div>
@@ -368,7 +382,11 @@ function App() {
                 <div className=' tracking-tighter'>2020年、渋谷区立宮下公園が新しく生まれ変わり、ショッピングや食べ歩き、スポーツが</div>
                 <div>楽しめる低層複合施設に。</div>
               </div>
-              <div className="part3 cstm:-translate-x-6  mt-5 xcstm:text-sm xcstm:mb-8"style={{lineHeight:'20px'}}>
+              <div className="part2 text-black cstm:text-[12px] cstm:-translate-x-6  mt-4 md:text-[0.7rem] xcstm:text-[0.5rem] nokn:text-[0.6rem] screenparaMobile"style={{lineHeight:'20px'}}>
+                <div className=' tracking-tighter'>2020年、渋谷区立宮下公園が新しく生まれ変わり、ショッピングや食べ歩き、スポーツが 楽しめる低層複合施設に。</div>
+                {/* <div>楽しめる低層複合施設に。</div> */}
+              </div>
+              <div className="part3 cstm:-translate-x-6  mt-5 xcstm:text-sm xcstm:mb-8 screenparaLi "style={{lineHeight:'20px'}}>
                 <div>
                   <div className='text-[#f7aa17] '>●MIYASHITA PARK</div>
                   <div className='text-black '>東京都渋谷区神宮前6-20-10</div>
