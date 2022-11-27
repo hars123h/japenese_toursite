@@ -97,7 +97,7 @@ function App() {
       {/* Screen 3 */}
       <div className="screen_3 flex justify-center">
         <div className='w-screen'>
-          <div className="box text-white bg-[#25b7aa] flex flex-col md:flex-row  p-4 mt-10 md:w-[60%] w-[90%] mx-auto cstm:w-[51%] max-w-6xl">
+          <div className="box text-white bg-[#25b7aa] flex flex-col md:flex-row  p-4 mt-10 md:w-[60%] w-[90%] mx-auto cstm:w-[51%] max-w-6xl widthOuter">
             <div className='flex flex-col justify-center items-center md:w-[40%] pb-5 md:pb-0 md:-translate-y-2'>
               <div className='text-bold text-3xl md:text-[1.5rem] mb-2 text-center cstm:text-[1.5rem] '>Tokyo mizumachi</div>
               <div className='font-bold md:text-[2.8rem] sm:text-lg   font:bold cstm:text-[2rem]'>東京ミズマチ &#174;</div>
@@ -109,7 +109,7 @@ function App() {
             </div>
           </div>
 
-          <div className="box flex flex-col md:flex-row mt-10 md:w-[60%] w-[90%]  mx-auto cstm:w-[51%] lg:w-[40%] max-w-6xl">
+          <div className="box flex flex-col md:flex-row mt-10 md:w-[60%] w-[90%]  mx-auto cstm:w-[51%] lg:w-[40%] max-w-6xl widthOuter">
             <div className='flex flex-col  md:w-[60%]'>
               <div className="part1  text-sm md:text-2xl cstm:text-[1.2rem] text-[#25b7aa] font-bold border-b-4 border-[#25b7aa]">
                 東京スカイツリー® の近く
@@ -173,7 +173,7 @@ function App() {
       <div className="screen_4 flex justify-center mt-[60px] ">
 
         <div className='w-screen'>
-          <div className="box flex flex-col md:flex-row  lg:mt-0 md:w-[60%] w-[120%] mx-auto cstm:w-[58%] max-w-6xl">
+          <div className="box flex flex-col md:flex-row  lg:mt-0 md:w-[60%] w-[120%] mx-auto cstm:w-[58%] max-w-6xl widthOuter">
             <div className='flex flex-col md:w-[65%]'>
               <div className='relative border-l-2 border-white pl-5 font-bold text-lg'>
                 <img src={s4new02} alt="building" className='pr-4 p-y-4 w-[100%] imageS4' />
@@ -249,7 +249,7 @@ function App() {
       <div className="screen_5   flex justify-center mt-[20px]">
         <div className='w-screen'>
 
-          <div className="box flex  md:flex-row flex-col p-4 mt-10 w-[90%] md:w-[60%] mx-auto cstm:w-[51%] max-w-6xl shop03Outer">
+          <div className="box flex  md:flex-row flex-col p-4 mt-10 w-[90%] md:w-[60%] mx-auto cstm:w-[51%] max-w-6xl shop03Outer widthOuter">
             <div className='flex flex-col  md:w-[60%]  relative shop03OuterTeaxt'>
               <div className="part1 p-2 md:text-3xl cstm:text-[1.4rem] text-[#25b7aa] font-bold border-b-4 border-[#25b7aa] xcstm:text-sm screen4Head">
                 墨田区の魅力を発見できる<br />
@@ -299,12 +299,12 @@ function App() {
       <div className="screen_6 flex justify-center mt-[190px] ">
 
         <div className='w-screen'>
-          <div className="box text-white bg-[#f5ac1a] flex flex-col md:flex-row p-4 w-[60%] mx-auto cstm:w-[51%] xcstm:w-[90%] max-w-6xl">
+          <div className="box text-white bg-[#f5ac1a] flex flex-col md:flex-row p-4 w-[60%] mx-auto cstm:w-[51%] xcstm:w-[90%] max-w-6xl widthOuter">
             <div className='flex flex-col justify-center items-center md:w-[40%] pb-5 md:pb-0'>
               <div className='text-bold md:text-3xl cstm:text-xl shiEng'>Shibuya</div>
               <div className='font-bold md:text-5xl cstm:text-3xl shijpy'>渋谷</div>
             </div>
-            <div className='md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold md:text-sm xcstm:text-[0.53rem] nokn:text-xs shibSmall'>
+            <div className='md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold md:text-sm xcstm:text-[0.53rem] nokn:text-xs shibSmall '>
               <div>若者や外国人観光客が集まる流行の発信地・渋谷で、東京の“いま”</div>
               <div>を体感!</div>
             </div>
@@ -315,7 +315,7 @@ function App() {
             </div>
           </div>
 
-          <div className="box flex flex-col md:flex-row  mt-10 md:w-[60%] mx-auto cstm:w-[51%] max-w-6xl s6shibuyaOuter ">
+          <div className="box flex flex-col md:flex-row  mt-10 md:w-[60%] mx-auto cstm:w-[51%] max-w-6xl s6shibuyaOuter widthOuter">
             <div className='flex flex-col md:w-[60%] cstm:w-[80%]'>
               <div className='relative  font-bold text-lg cstm:-translate-x-12 '>
                 <img src={s6shibuya_sky_new} alt="" className='s6shibuya_sky_new' />
@@ -377,7 +377,7 @@ function App() {
       {/* Screen 7 */}
       <div className="screen_7 flex justify-center mt-[-40px] screen7Outer ">
         <div className='w-screen'>
-          <div className="box flex flex-col md:flex-row mt-36 md:w-[60%] mx-auto pt-4 cstm:w-[51%] max-w-6xl">
+          <div className="box flex flex-col md:flex-row mt-36 md:w-[60%] mx-auto pt-4 cstm:w-[51%] max-w-6xl widthOuter">
             <div className='flex flex-col  md:w-[60%] cstm:w-[145%]'>
               <div className=" part1 md:text-3xl  cstm:text-[24px] text-[#f7aa17] cstm:-translate-x-6 font-bold border-b-4 border-[#f7aa17] xcstm:text-xs screen4Head ">
                 公園・商業施設・ホテルが融合した <br />
@@ -416,7 +416,7 @@ function App() {
 
         <div className='w-screen'>
 
-          <div className="relative box flex flex-col md:flex-row mt-10 md:w-[60%] mx-auto cstm:w-[65%] max-w-6xl">
+          <div className="relative box flex flex-col md:flex-row mt-10 md:w-[60%] mx-auto cstm:w-[65%] max-w-6xl widthOuter">
             <div className=' flex flex-col md:w-[60%] cstm:w-[120%]  '>
               <div className='relative  font-bold text-lg'>
                 <img src={s8main_image} alt="" className='p-4 s8main_image' />
@@ -482,7 +482,7 @@ function App() {
       {/* Screen 9 */}
       <div className="screen_9 flex justify-center mt-[-40px]">
         <div className='w-screen'>
-          <div className="box flex flex-col md:flex-row p-4 mt-32 md:w-[60%] mx-auto cstm:w-[65%] max-w-6xl">
+          <div className="box flex flex-col md:flex-row p-4 mt-32 md:w-[60%] mx-auto cstm:w-[65%] max-w-6xl widthOuter">
             <div className='flex flex-col  md:w-[60%] cstm:translate-x-8'>
               <div className="part1 p-2 md:text-3xl cstm:text-[24px] xcstm:text-[1.0rem] text-[#f3bc3c] font-bold border-b-4 border-[#f3bc3c] screen4Head">
                 渋谷区民のみならず <br />
@@ -525,7 +525,7 @@ function App() {
 
         <div className='w-screen'>
 
-          <div className="box flex flex-col md:flex-row p-4 mt-10 md:w-[60%] mx-auto cstm:w-[65%] max-w-6xl">
+          <div className="box flex flex-col md:flex-row p-4 mt-10 md:w-[60%] mx-auto cstm:w-[65%] max-w-6xl widthOuter">
             <div className='flex flex-col md:w-[60%] xcstm:w-[90%]'>
               <div className='relative  font-bold text-lg'>
                 <img src={s10newImage} alt="storefront_image" className='p-4 s10newImage' />
@@ -578,7 +578,7 @@ function App() {
       {/* Screen 11 */}
       <div className="screen_11  flex justify-center mt-[20px]">
         <div className='w-screen'>
-          <div className="box text-white bg-[#00afde] flex flex-col md:flex-row p-4 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[52%] max-w-6xl">
+          <div className="box text-white bg-[#00afde] flex flex-col md:flex-row p-4 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[52%] max-w-6xl widthOuter">
             <div className='flex flex-col justify-center items-center md:w-[40%] xcstm:w-[90%] xcstm:pb-3 md:pb-0'>
               <div className='text-bold md:text-3xl xcstm:text-2xl mb-2 xcstm:text-center'>Kiyosumishirakawa</div>
               <div className='font-bold text-5xl'>清澄白河</div>
@@ -589,7 +589,7 @@ function App() {
             </div>
           </div>
 
-          <div className="box flex flex-col-reverse md:flex-row p-4 mt-5 md:w-[60%] mx-auto cstm:w-[60%] max-w-6xl cstm:translate-x-12">
+          <div className="box flex flex-col-reverse md:flex-row p-4 mt-5 md:w-[60%] mx-auto cstm:w-[60%] max-w-6xl cstm:translate-x-12 widthOuter">
             <div className='flex flex-col  md:w-[60%] cstm:w-[50%]'>
               <div className="part1  pt-2 pb-2 cstm:text-[24px] md:text-3xl xcstm:text-xl text-[#00afde] cstm:translate-x-1 font-bold border-b-4 border-[#00afde] screen4Head">
                 コーヒーをもっと好きになる <br />
@@ -621,7 +621,7 @@ function App() {
             </div>
           </div>
 
-          <div className="box2 flex flex-col md:flex-row justify-between p-4 mx-auto md:w-[60%] cstm:[60%] max-w-6xl">
+          <div className="box2 flex flex-col md:flex-row justify-between p-4 mx-auto md:w-[60%] cstm:[60%] max-w-6xl widthOuter">
             <div className='cstm:translate-x-10 cstm:text-[12px] screen11Para2' style={{ lineHeight: '20px' }}>
               <div className="part2 text-black text-[12px]  p-1 mb-4 screen11Para2" style={{ lineHeight: '20px' }}>
                 築50年ほどの倉庫をリノベーションした店舗、能の舞台を彷彿させ <br />
@@ -659,7 +659,7 @@ function App() {
 
         <div className='w-screen'>
 
-          <div className="box flex flex-col md:flex-row p-4 xcstm:mt-20 md:mt-10 md:w-[60%] mx-auto xcstm:w-[90%] cstm:w-[60%] max-w-6xl screen_12wrap">
+          <div className="box flex flex-col md:flex-row p-4 xcstm:mt-20 md:mt-10 md:w-[60%] mx-auto xcstm:w-[90%] cstm:w-[60%] max-w-6xl screen_12wrap widthOuter">
             <div className='flex flex-col md:w-[60%]'>
               <div className='relative  font-bold xcstm:text-sm md:text-lg cstm:w-[110%] cstm:-translate-x-10'>
                 <img src={s12allpress} alt="storefront_image" className='p-4 s12allpress' />
@@ -697,7 +697,7 @@ function App() {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row  mt-[-8px] md:w-[60%] mx-auto justify-center">
+          <div className="flex flex-col md:flex-row  mt-[-8px] md:w-[60%] mx-auto justify-center widthOuter">
 
             <img src={s12allpress02} alt="all_press" className='s12allpress02' />
           </div>
@@ -710,7 +710,7 @@ function App() {
       <div className="screen_13 flex justify-center mt-[20px]">
         <div className='w-screen'>
 
-          <div className="box flex flex-col-reverse md:flex-row  mt-4 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[60%] max-w-6xl screen13Wrap">
+          <div className="box flex flex-col-reverse md:flex-row  mt-4 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[60%] max-w-6xl screen13Wrap widthOuter">
             <div className='flex flex-col  md:w-[60%] cstm:w-[50%] cstm:translate-x-10'>
               <div className="part1 p-2 md:text-3xl cstm:text-[24px] xcstm:text-xl text-[#00afde] font-bold border-b-4 border-[#00afde] screen4Head">
                 アートを身近に感じられる <br /> 清澄白河のランドマーク
@@ -754,7 +754,7 @@ function App() {
       <div className="screen_14  flex justify-center md:mt-[20px] xcstm:mt-[60px]">
 
         <div className='w-screen'>
-          <div className="box text-white bg-[#ee798c] flex flex-col md:flex-row p-4 mt-10 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[55%] max-w-6xl ">
+          <div className="box text-white bg-[#ee798c] flex flex-col md:flex-row p-4 mt-10 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[55%] max-w-6xl widthOuter ">
             <div className='flex flex-col justify-center items-center md:w-[40%] xcstm:mb-3 md:mb-0 '>
               <div className='text-bold text-3xl mb-2 cstm:text-xl'>Shimokitazawa</div>
               <div className='font-bold text-5xl cstm:text-4xl'>下北沢</div>
@@ -769,7 +769,7 @@ function App() {
             </div>
           </div>
 
-          <div className="box flex flex-col md:flex-row p-4 mt-5 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[58%] max-w-6xl screen14Wrap">
+          <div className="box flex flex-col md:flex-row p-4 mt-5 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[58%] max-w-6xl screen14Wrap widthOuter">
             <div className='flex flex-col md:w-[60%]'>
               <div className='relative  font-bold text-lg cstm:w-[120%] cstm:-translate-x-16'>
                 <img src={s14new_image} alt="" className='p-4 imageWid' />
