@@ -18,7 +18,9 @@ import small_building from './images/small_building.png';
 import s3rightImage from './images/s3rightImage.png';
 // Screen 4 Images
 import s4land from './images/s4land.png';
-import s4lunch from './images/s4lunch.png';
+// import s4lunch from './images/s4lunch.png';
+import s4lunch from './images/lunchS4.png';
+
 import s4new02 from './images/s4new02.png';
 // Screen 5 Images
 import s503image from './images/s503image.png';
@@ -122,7 +124,7 @@ function App() {
             <div className='flex flex-col  md:w-[60%] mobilePad'>
               <div className="part1  text-sm md:text-2xl cstm:text-[1.2rem] text-[#25b7aa] font-bold border-b-4 border-[#25b7aa]" style={{ lineHeight: '1.75em' }}>
                 東京スカイツリー® の近く
-                <br /> 地域に根付いた下町の魅力に出会える場所
+                 地域に根付いた下町の魅力に出会える場所
               </div>
               <div className="part2 text-black   mt-4 cstm:text-[12px] text-[0.60rem] md:text-lg xcstm:text-[11.5px]" style={{ lineHeight: '1.75em' }}>
                 夜はスカイツリーのライティングを眺めることができる。
@@ -216,7 +218,7 @@ function App() {
 
             <div className='flex flex-col relative towerOuter  md:w-[70%]'>
               <div className="part1 py-1 md:text-3xl cstm:text-[1.2rem] text-[#25b7aa] xcstm:text-sm font-bold border-b-4 border-[#25b7aa] screen4Head" style={{ lineHeight: '1.75em' }}>
-                下町と新しい文化を融合した<br />
+                下町と新しい文化を融合した
                 カジュアルダイニング
               </div>
               <div className="part2 text-black cstm:text-[12px] md:text-[0.7rem]  p-0 mt-4 xcstm:text-[10px] screen4Para" style={{ lineHeight: '1.8em' }}>
@@ -227,8 +229,8 @@ function App() {
                 自家農園の野菜や産地にこだわった食材で作る料理が人気。 
                 テイクアウトで きるデリや、テラスでBBQなど、さまざまな楽しみ方ができるのもGood!
               </div>
-              <div className="part3 flex p-1 justify-between mt-5 text-[0.8rem] cstm:text-[12px] screen4ParaLi" style={{ lineHeight: '24px' }}>
-                <div>
+              <div className="part3 flex py-1 justify-between mt-5 text-[0.8rem] cstm:text-[12px] screen4ParaLi" style={{ lineHeight: '24px' }}>
+                <div style={{    width: "50%"}}>
                   <div className='text-[#25b7aa] font-bold'>●LAND A</div>
                   <div className='text-black'>東京都墨田区向島1-2-4</div>
                   <div className='text-black phn'><img src={phone_image} alt="phone" className='inline w-[14px] phn' />03-5637-0107</div>
@@ -238,16 +240,16 @@ function App() {
                   <div className='text-black'><a href=" https://www.instagram.com/land_a_mizumachi/" target="_blank" rel="noreferrer"> <img src={instagram_icon} alt="insta_icon" className=' inline' />@land_a_mizumachi  </a></div>
                 </div>
 
-                <div className='relative'>
-                  <img src={s4lunch} alt="tower" className='cstm:w-[230px] cstm:translate-y-6 towerImg' style={{ marginRight: '70px' }} />
-                  <div className='w-[80px] opacity-80 h-[25px] bg-[#fee33d] absolute cstm:translate-y-6 -top-0.5 rotate-[20deg] left-[35%] z-10 towerStrip'> </div>
+                <div className=''>
+                  <img src={s4lunch} alt="tower" className=' towerImg' style={{ marginLeft: '20px', marginTop:'20px' }} />
+                  {/* <div className='w-[80px] opacity-80 h-[25px] bg-[#fee33d] absolute cstm:translate-y-6 -top-0.5 rotate-[20deg] left-[35%] z-10 towerStrip'> </div> */}
                 </div>
 
-                <div className="absolute cstm:text-[0.6rem] bg-[#25b7aa] cstm:bottom-4  cstm:left-4 bottom-12 text-sm font-bold text-white p-3 lg:bottom-40 lg:left-28 xcstm:text-xs xcstm:-bottom-24 towerBox">
+                {/* <div className="absolute cstm:text-[0.6rem] bg-[#25b7aa] cstm:bottom-4  cstm:left-4 bottom-12 text-sm font-bold text-white p-3 lg:bottom-40 lg:left-28 xcstm:text-xs xcstm:-bottom-24 towerBox">
                   <div className='mb-1'>プロシュートと丸ごとブッラータ</div>
                   <div className='mb-1'>チーズのビアンカビッツァ (3,500円)</div>
                   <div className='mb-1'>LAND特製コブサラダ(R1,800円)</div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -262,7 +264,7 @@ function App() {
           <div className="box flex  md:flex-row flex-col p-4 mt-10 w-[90%] md:w-[60%] mx-auto cstm:w-[51%] max-w-6xl shop03Outer widthOuter">
             <div className='flex flex-col  md:w-[60%]  relative shop03OuterTeaxt'>
               <div className="part1 py-2 md:text-3xl cstm:text-[1.2rem]  text-[#25b7aa] font-bold border-b-4 border-[#25b7aa] xcstm:text-sm screen4Head" style={{ lineHeight: '1.75em' }}>
-                墨田区の魅力を発見できる<br />
+                墨田区の魅力を発見できる
                 ショップ&ワークショップの店
               </div>
               <div className="part2  text-black  cstm:text-[12px] py-2 mt-4 md:text-[15px] xcstm:text-[0.45rem] shop03Para" style={{ lineHeight: '1.8em' }}>
@@ -343,7 +345,7 @@ function App() {
 
             <div className='flex flex-col relative  md:w-[60%] cstm:w-[80%]'>
               <div className="part1 py-1 md:text-3xl cstm:text-[1.2rem] text-[#f7aa17] font-bold border-b-4 border-[#f7aa17] xcstm:text-sm screen4Head" style={{ lineHeight: '1.75em' }}>
-                ありとあらゆるものが集まる <br />
+                ありとあらゆるものが集まる 
                 渋谷の最新スポットを巡る
               </div>
               <div className="part2 text-black md:text-[0.8rem] py-1 mt-4 xcstm:text-[0.54rem] cstm:text-[12px] shiPara" style={{ lineHeight: '1.8em' }}>
@@ -356,7 +358,7 @@ function App() {
                 {/* <div>「SHIBUYASKY」は、街を一望できる絶景スポット。 屋内展望回廊「SKY-</div> */}
                 {/* GALLERY」では映像による空間演出や期間限定の展示が楽しめる。 */}
               </div>
-              <div className="part3 flex flex-col md:flex-row p-1 justify-between mt-5 xcstm:text-[0.8rem] md:text-[1.1rem] cstm:text-[0.8rem] shiPara2" style={{ lineHeight: '1.8em' }}>
+              <div className="part3 flex flex-col md:flex-row p-1 justify-between mt-5 xcstm:text-[0.8rem]  cstm:text-[12px] shiPara2" style={{ lineHeight: '1.8em' }}>
                 <div>
                   <div className='text-[#f5ac1a]'>●SHIBUYA SKY (渋谷スカイ)</div>
                   <div className='text-black '>東京都渋谷区2-24-12 (渋谷駅直結・直上)</div>
@@ -393,7 +395,7 @@ function App() {
           <div className="box flex flex-col md:flex-row mt-36 md:w-[60%] mx-auto pt-4 cstm:w-[51%] max-w-6xl widthOuter">
             <div className='flex flex-col  md:w-[60%] cstm:w-[145%]'>
               <div className=" part1 md:text-3xl  cstm:text-[1.2rem] text-[#f7aa17] cstm:-translate-x-6 font-bold border-b-4 border-[#f7aa17] xcstm:text-xs screen4Head " style={{ lineHeight: '1.75em' }}>
-                公園・商業施設・ホテルが融合した <br />
+                公園・商業施設・ホテルが融合した 
                 渋谷の新たなランドマーク
               </div>
               <div className="part2 text-black cstm:text-[12px] cstm:-translate-x-6  mt-4 md:text-[0.7rem] xcstm:text-[0.5rem] nokn:text-[0.6rem] screenpara" style={{ lineHeight: '1.8em' }}>
@@ -404,7 +406,7 @@ function App() {
                 <div className=' tracking-tighter'>2020年、渋谷区立宮下公園が新しく生まれ変わり、ショッピングや食べ歩き、スポーツが 楽しめる低層複合施設に。</div>
                 {/* <div>楽しめる低層複合施設に。</div> */}
               </div>
-              <div className="part3 cstm:-translate-x-6  mt-5 xcstm:text-sm xcstm:mb-8 screenparaLi " style={{ lineHeight: '1.8em' }}>
+              <div className="part3 cstm:-translate-x-6  mt-5 xcstm:text-sm xcstm:mb-8 screenparaLi cstm:text-[12px] " style={{ lineHeight: '1.8em' }}>
                 <div>
                   <div className='text-[#f7aa17] '>●MIYASHITA PARK</div>
                   <div className='text-black '>東京都渋谷区神宮前6-20-10</div>
@@ -447,10 +449,10 @@ function App() {
 
             <div className=' flex flex-col relative  md:w-[60%]  cstm:w-[100%] screen_8wrap'>
               <div className="part1 py-1 text-3xl text-[#f7aa17] font-bold border-b-4 border-[#f7aa17] cstm:text-[1.2rem]  screen4Head screen_8head" style={{ lineHeight: '1.75em' }}>
-                パンとコーヒーで <br />
+                パンとコーヒーで 
                 素敵なカフェタイムを
               </div>
-              <div className="part2 text-black md:text-[0.7rem]  py-1 mt-4 xcstm:text-[12px] screen_8p" style={{ lineHeight: '1.8em' }}>
+              <div className="part2 text-black   py-1 mt-4 xcstm:text-[12px] screen_8p" style={{ lineHeight: '1.8em' }}>
                 「パンとエスプレッソと」 の姉妹店。こだわり卵を使った限定料理が味わえ 
                 るのはここだけ。 1日の始まりと終わりに足を運んでみて。
               </div>
@@ -502,7 +504,7 @@ function App() {
           <div className="box flex flex-col md:flex-row p-4 mt-32 md:w-[60%] mx-auto cstm:w-[65%] max-w-6xl widthOuter">
             <div className='flex flex-col  md:w-[60%] '>
               <div className="part1 py-2 md:text-3xl cstm:text-[1.2rem] xcstm:text-[1.0rem] text-[#f3bc3c] font-bold border-b-4 border-[#f3bc3c] screen4Head" style={{ lineHeight: '1.75em' }}>
-                渋谷区民のみならず <br />
+                渋谷区民のみならず 
                 多くの来街者に親しまれている場所
               </div>
               <div className="part2 text-black cstm:text-[12px]  py-2 mt-4 xcstm:text-[12px] md:text-[0.9rem] screen_9para me-2" style={{ lineHeight: '1.8em' }}>
@@ -554,7 +556,7 @@ function App() {
 
             <div className='flex flex-col relative  md:w-[60%]'>
               <div className="part1 py-1 cstm:text-[1.2rem] md:text-3xl xcstm:text-sm text-[#f7aa17] font-bold border-b-4 border-[#f7aa17] screen4Head" style={{ lineHeight: '1.75em' }}>
-                日本初出店!世界一の <br />
+                日本初出店!世界一の 
                 ピンチョスが楽しめるバル
               </div>
               <div className="part2 text-black md:text-[0.7rem] cstm:text-[12px] xcstm:text-[0.45rem] py-1 mt-4 screen_10para" style={{ lineHeight: '1.8em' }}>
@@ -612,7 +614,7 @@ function App() {
           <div className="box flex flex-col-reverse md:flex-row p-4 mt-5 md:w-[60%] mx-auto cstm:w-[60%] max-w-6xl cstm:translate-x-12 widthOuter">
             <div className='flex flex-col  md:w-[60%] cstm:w-[50%]'>
               <div className="part1  pt-2 pb-2 cstm:text-[1.2rem] md:text-3xl xcstm:text-xl text-[#00afde] cstm:translate-x-1 font-bold border-b-4 border-[#00afde] screen4Head" style={{ lineHeight: '1.75em' }}>
-                コーヒーをもっと好きになる <br />
+                コーヒーをもっと好きになる 
                 ここにしかない新しい体験
               </div>
               <div className="part2 text-black cstm:text-[12px] py-2 mt-4 md:text-[15px] xcstm:text-[8px] flex flex-col items-center screen11Para " style={{ lineHeight: '1.8em' }}>
@@ -692,7 +694,7 @@ function App() {
 
             <div className='flex flex-col relative  md:w-[60%]'>
               <div className="part1 py-1 md:text-3xl cstm:text-[1.2rem] xcstm:text-sm text-[#00aee0] font-bold border-b-4 border-[#00aee0] screen4Head" style={{ lineHeight: '1.75em' }}>
-                明るく開かれた心地よい空間で <br />
+                明るく開かれた心地よい空間で 
                 美味しいコーヒーとの出会いを
               </div>
               <div className="part2 text-black xcstm:text-[0.45rem] cstm:text-[12px] md:text-[0.8rem]  py-1 mt-4 screen12Para" style={{ lineHeight: '1.8em' }}>
@@ -738,7 +740,7 @@ function App() {
           <div className="box flex flex-col-reverse md:flex-row  mt-4 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[60%] max-w-6xl screen13Wrap widthOuter">
             <div className='flex flex-col  md:w-[60%] cstm:w-[50%] cstm:translate-x-10'>
               <div className="part1 py-2 md:text-3xl cstm:text-[1.2rem] xcstm:text-xl text-[#00afde] font-bold border-b-4 border-[#00afde] screen4Head" style={{ lineHeight: '1.75em' }}>
-                アートを身近に感じられる <br /> 清澄白河のランドマーク
+                アートを身近に感じられる  清澄白河のランドマーク
               </div>
               <div className="part2 text-black xcstm:text-[0.4rem] cstm:text-[12px] md:text-[0.8rem]  mt-4 screen13Para" style={{ lineHeight: '1.8em' }}>
                 豊かな木場公園内にある現代美術専門の美術館図書室には「こども 
@@ -832,7 +834,7 @@ function App() {
 
               <div className='lastSection2'>
                 <div className="part1 py-1 md:text-[1.4rem] cstm:text-[1.2rem] xcstm:text-sm text-[#ee798c] font-bold border-b-4 border-[#ee798c]  sm:mt-10 md:mt-24 screen14Part1 screen4Head" style={{ lineHeight: '1.75em', marginTop: '115px' }}>
-                  新しい出会いや感性が刺激される<br />
+                  新しい出会いや感性が刺激される
                   カルチャーの発信地!
                 </div>
                 <div className="part2 text-black cstm:text-[12px]  xcstm:text-[0.5rem] md:text-[0.7rem] p-1 mt-4 screen14Para" style={{ lineHeight: '1.8em' }}>

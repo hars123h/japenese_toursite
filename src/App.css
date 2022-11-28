@@ -129,6 +129,9 @@
 .screen4Head {
   /* margin-left: -10px !important; */
 }
+.towerImg {
+  width: 120% !important;
+}
 @media only screen and (max-width: 1500px) {
   .planePadding {
     width: 70% !important;
