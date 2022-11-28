@@ -149,7 +149,7 @@ function App() {
 
             <div className='md:w-[40%] cstm:w-[50%] relative border-l-2 border-white pl-5 font-bold text-lg mt-10 md:mt-0'>
               <div className="relative">
-                <img src={s3rightImage} alt="building" className='w-[40rem] cstm:translate-x-8' />
+                <img src={s3rightImage} alt="building" className='w-[40rem] s3rightImage cstm:translate-x-8' />
                 {/* <img src={s3border_new} alt="border" className='absolute  top-1/2 left-1/2 transform -translate-x-[208px] -translate-y-1/2'/> */}
               </div>
               {/* <div className="absolute -top-6 -right- w-[200px]  lg:right-[40%]">
@@ -232,7 +232,7 @@ function App() {
                 テイクアウトで きるデリや、テラスでBBQなど、さまざまな楽しみ方ができるのもGood!
               </div>
               <div className="part3 flex py-1 justify-between mt-5 text-[0.8rem] cstm:text-[12px] screen4ParaLi" style={{ lineHeight: '24px' }}>
-                <div style={{    width: "50%"}}>
+                <div style={{ width: "60%"}}>
                   <div className='text-[#25b7aa] font-bold'>●LAND A</div>
                   <div className='text-black'>東京都墨田区向島1-2-4</div>
                   <div className='text-black phn'><img src={phone_image} alt="phone" className='inline w-[14px] phn' />03-5637-0107</div>
@@ -242,8 +242,10 @@ function App() {
                   <div className='text-black'><a href=" https://www.instagram.com/land_a_mizumachi/" target="_blank" rel="noreferrer"> <img src={instagram_icon} alt="insta_icon" className=' inline' />@land_a_mizumachi  </a></div>
                 </div>
 
-                <div className=''>
-                  <img src={s4lunch} alt="tower" className=' towerImg' style={{ marginLeft: '20px', marginTop:'20px' }} />
+                
+
+                <div className='towerImgOuter'>
+                  <img src={s4lunch} alt="tower" className=' towerImg' style={{ marginTop:'20px' }} />
                   {/* <div className='w-[80px] opacity-80 h-[25px] bg-[#fee33d] absolute cstm:translate-y-6 -top-0.5 rotate-[20deg] left-[35%] z-10 towerStrip'> </div> */}
                 </div>
 
@@ -325,7 +327,7 @@ function App() {
               <div>を体感!</div>
             </div>
 
-            <div className='md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold md:text-sm xcstm:text-[0.53rem] nokn:text-xs shibSmallMobile'>
+            <div className=' pt-3 md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold md:text-sm xcstm:text-[0.53rem] nokn:text-xs shibSmallMobile'>
               <div>若者や外国人観光客が集まる流行の発信地・渋谷で、東京の“いま” を体感!</div>
               {/* <div>を体感!</div> */}
             </div>
@@ -603,13 +605,13 @@ function App() {
       <div className="screen_11  flex justify-center mt-[20px]">
         <div className='w-screen'>
           <div className="box text-white bg-[#00afde] flex flex-col md:flex-row p-4 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[52%] max-w-6xl widthOuter">
-            <div className='flex flex-col justify-center items-center md:w-[40%] xcstm:w-[90%] xcstm:pb-3 md:pb-0'>
+            <div className='flex flex-col justify-center items-center md:w-[40%] xcstm:w-[100%] xcstm:pb-3 md:pb-0'>
               <div className='text-bold md:text-3xl xcstm:text-2xl mb-2 xcstm:text-center engFont'>Kiyosumishirakawa</div>
               <div className='font-bold text-5xl japFont'>清澄白河</div>
             </div>
-            <div className='flex flex-col justify-center md:w-[60%] xcstm:w-[90%] md:border-l-2 xcstm:border-t-2 md:border-t-0 border-white md:pl-5 xcstm:pl-0 font-bold xcstm:text-[0.65rem] xcstm:pt-2 md:pt-0 md:text-lg screen11Head'>
-              <div>"コーヒーの街として話題沸騰中の清澄白河。</div>
-              <div>  自然やアートにも触れられるスポットにも注目!</div>
+            <div className='flex flex-col justify-center md:w-[60%] xcstm:w-[100%] md:border-l-2 xcstm:border-t-2 md:border-t-0 border-white md:pl-5 xcstm:pl-0 font-bold xcstm:text-[0.65rem] xcstm:pt-2 md:pt-0 md:text-lg screen11Head'>
+              <div>"コーヒーの街として話題沸騰中の清澄白河。自然やアートにも触れられるスポットにも注目!</div>
+              {/* <div>  自然やアートにも触れられるスポットにも注目!</div> */}
             </div>
           </div>
 
@@ -794,7 +796,7 @@ function App() {
               <div>小田急線線路跡の開発が進み、変化がめまぐるしい下北沢。新しい <br />
                 発見がある“街ぶら”に最適なエリア。</div>
             </div>
-            <div className='md:w-[60%] cstm:flex cstm:flex-col-reverse justify-center cstm:text-[14px]  md:border-l-2 xcstm:border-l-0 xcstm:border-t-2 md:border-t-0  border-white pl-5 font-bold xcstm:text-[0.45rem] md:text-[1rem] shibSmallMobile'>
+            <div className='md:w-[60%] cstm:flex cstm:flex-col-reverse justify-center cstm:text-[14px]  md:border-l-2 xcstm:border-l-0 xcstm:border-t-2 md:border-t-0  border-white  font-bold xcstm:text-[0.45rem] md:text-[1rem] shibSmallMobile'>
               <div>小田急線線路跡の開発が進み、変化がめまぐるしい下北沢。新しい 
                 発見がある“街ぶら”に最適なエリア。</div>
             </div>

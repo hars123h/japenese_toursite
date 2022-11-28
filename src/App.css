@@ -150,6 +150,12 @@
   }
 }
 @media only screen and (max-width: 500px) {
+  .s3rightImage {
+    display: flex;
+    justify-content: center;
+    width: 90% !important;
+    margin: 0 auto 0 auto !important;
+  }
   .phn {
     display: none;
   }
@@ -183,7 +189,7 @@
     /* font-weight: 100 !important; */
   }
   .imageS4 {
-    width: 70% !important;
+    width: 86% !important;
   }
   .towerOuter {
     padding-left: 10px !important;
@@ -191,8 +197,13 @@
   .towerImg {
     margin-top: 20px !important;
     margin-right:80px !important;
-    width: 150px !important;
+    width: 200px !important;
     
+  }
+  .towerImgOuter {
+    display: flex;
+    flex: 100% !important;
+    width: 100%;
   }
   .towerStrip {
     margin-top: 20px !important;
@@ -253,6 +264,7 @@
   }
 
   .shibSmallMobile {
+    
     font-size: 11px !important;
     display: block;
 
@@ -306,6 +318,7 @@
   }
   .miyashitaImg img {
     width: 85%;
+    margin: 0 auto 0 auto;
   }
   .screen_8Outer {
     padding-top: -35px !important;
@@ -398,7 +411,7 @@
   }
   .screen11Head {
     font-size: 11px;
-    text-align: center !important;
+    /* text-align: center !important; */
   }
   .screen11Right {
     width: 110%;
