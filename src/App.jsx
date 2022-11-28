@@ -455,7 +455,7 @@ function App() {
                   <div className='text-black '>東京都渋谷区神宮前6-20-10</div>
                   <div className='text-black '>MIYASHITA PARK South2F</div>
                   <div className='text-black phn'> <span><img src={phone_image} alt="phone" className='inline w-[14px]' /></span> 03-6805-0830</div>
-                  <div className='text-black phnMobile'> <a href="tel:03-6805-0830"><span><img src={phone_image} alt="phone" className='inline w-[14px]' /></span></a> 03-6805-0830</div>
+                  <div className='text-black phnMobile'><a href="tel:03-6805-0830"><span><img src={phone_image} alt="phone" className='inline w-[14px]' /></span> 03-6805-0830 </a></div>
 
                   <div className='text-black '>営/8:00~23:00 <br />
                     <span className='pl-4'>(フードLO20:30、 その他LO22:00)</span> </div>
@@ -936,7 +936,7 @@ function App() {
       </div>
 
       <div className='flex justify-center p-2'>
-        <a href="https://www.takamatsu-airport.com/narita/" target="_blank" rel="noreferrer" className='mx-auto md:w-[40%] xcstm:w-[90%] bg-[#ef7625] cstm:text-[18px] rounded-sm cursor-pointer text-center xcstm:text-md md:text-xl text-white py-2'>高松-成田線のお得な情報はこちら</a>
+        <a href="https://www.takamatsu-airport.com/narita/"  rel="noreferrer" className='mx-auto md:w-[40%] xcstm:w-[90%] bg-[#ef7625] cstm:text-[18px] rounded-sm cursor-pointer text-center xcstm:text-md md:text-xl text-white py-2'>高松-成田線のお得な情報はこちら</a>
       </div>
 
       <div className='flex justify-center p-7 bg-[#212121] mt-7 footerRes'>
