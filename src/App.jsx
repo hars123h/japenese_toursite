@@ -64,7 +64,7 @@ function App() {
 
       {/* Screen 1 */}
       <div className='screen_1'>
-        <img className="w-screen md:h-screen bg-cover" src={s1newimage} alt="homepage_image" />
+        <img className="w-screen md:h-screen bg-cover homeImage" src={s1newimage} alt="homepage_image" />
       </div>
 
       {/* Screen 2 */}
