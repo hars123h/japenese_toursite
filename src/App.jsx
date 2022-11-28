@@ -222,8 +222,8 @@ function App() {
                 <div>
                   <div className='text-[#25b7aa] font-bold'>●LAND A</div>
                   <div className='text-black'>東京都墨田区向島1-2-4</div>
-                  <div className='text-black'><img src={phone_image} alt="phone" className='inline w-[14px] phn' />03-5637-0107</div>
-                  <div className='text-black'><a href="tel:03-5637-0107"><img src={phone_image} alt="phone" className='inline w-[14px] phnMobile' />03-5637-0107</a></div>
+                  <div className='text-black phn'><img src={phone_image} alt="phone" className='inline w-[14px] phn' />03-5637-0107</div>
+                  <div className='text-black phnMobile'><a href="tel:03-5637-0107"><img src={phone_image} alt="phone" className='inline w-[14px] ' />03-5637-0107</a></div>
                   <div className='text-black'>営/平日 9:00~20:00 <br /> <span className='pl-4'>土日祝9:00~20:00</span> </div>
                   <div className='text-black'>休/不定休</div>
                   <div className='text-black'><img src={instagram_icon} alt="insta_icon" className=' inline' />@land_a_mizumachi</div>
@@ -912,7 +912,7 @@ function App() {
       </div>
 
       <div className='flex justify-center p-2'>
-        <a href="https://www.takamatsu-airport.com/narita/" target="_blank" className='mx-auto md:w-[40%] xcstm:w-[90%] bg-[#ef7625] cstm:text-[18px] rounded-sm cursor-pointer text-center xcstm:text-md md:text-xl text-white py-2'>高松-成田線のお得な情報はこちら</a>
+        <a href="https://www.takamatsu-airport.com/narita/" target="_blank" rel="noreferrer" className='mx-auto md:w-[40%] xcstm:w-[90%] bg-[#ef7625] cstm:text-[18px] rounded-sm cursor-pointer text-center xcstm:text-md md:text-xl text-white py-2'>高松-成田線のお得な情報はこちら</a>
       </div>
 
       <div className='flex justify-center p-7 bg-[#212121] mt-7 footerRes'>
