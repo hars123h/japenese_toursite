@@ -124,7 +124,7 @@ function App() {
                   <div className='text-[#25b7aa]'>●東京ミズマチ</div>
                   <div className='text-black '>東京都墨田区向島1</div>
                   <div className='text-black '><img src={phone_image} alt="phone" className='inline w-[14px]' />※各店舗にお問合せください</div>
-                  <div className='text-black '> <img src={instagram_icon} alt="insta_icon" className=' inline' />@tokyo_mizumachi</div>
+                  <div className='text-black '> <a href=" https://www.instagram.com/tokyo_mizumachi/" target="_blank" rel="noreferrer"> <img src={instagram_icon} alt="insta_icon" className=' inline' />@tokyo_mizumachi </a></div>
                 </div>
 
                 <div className='relative cstm:w-[40%] cstm:translate-x-10 cstm:translate-y-6'>
@@ -226,7 +226,7 @@ function App() {
                   <div className='text-black phnMobile'><a href="tel:03-5637-0107"><img src={phone_image} alt="phone" className='inline w-[14px] ' />03-5637-0107</a></div>
                   <div className='text-black'>営/平日 9:00~20:00 <br /> <span className='pl-4'>土日祝9:00~20:00</span> </div>
                   <div className='text-black'>休/不定休</div>
-                  <div className='text-black'><img src={instagram_icon} alt="insta_icon" className=' inline' />@land_a_mizumachi</div>
+                  <div className='text-black'><a href=" https://www.instagram.com/land_a_mizumachi/" target="_blank" rel="noreferrer"> <img src={instagram_icon} alt="insta_icon" className=' inline' />@land_a_mizumachi  </a></div>
                 </div>
 
                 <div className='relative'>
@@ -275,7 +275,7 @@ function App() {
 
                   <div className='text-black '>営/11:00-19:00</div>
                   <div className='text-black '>休/月曜(祝日の場合は翌日)</div>
-                  <div className='text-black '> <img src={instagram_icon} alt="insta_icon" className=' inline' />  @shopandworkshopsumizumi</div>
+                  <div className='text-black '> <a href=" https://www.instagram.com/shopandworkshopsumizumi/" target="_blank" rel="noreferrer"> <img src={instagram_icon} alt="insta_icon" className=' inline' />  @shopandworkshopsumizumi</a></div>
                 </div>
 
 
@@ -402,7 +402,7 @@ function App() {
                   <div className='text-black phn'><span><img src={phone_image} alt="phone" className='inline w-[14px]' /></span> 03-6712-5630 (代) <br /> <span className='pl-4'>(受付 11:00~18:00)</span> </div>
                   <div className='text-black phnMobile'> <a href="tel:03-6712-5630"><span><img src={phone_image} alt="phone" className='inline w-[14px]' /></span> 03-6712-5630 (代) </a><br /><span className='pl-4'>(受付 11:00~18:00)</span></div>
 
-                  <div className='text-black '><span><img src={instagram_icon} alt="insta" className='inline' /></span> {"@miyashitapark_"}</div>
+                  <div className='text-black '> <a href="https://www.instagram.com/miyashitapark_/" target="_blank" rel="noreferrer"><span><img src={instagram_icon} alt="insta" className='inline' /></span> {"@miyashitapark_"} </a></div>
                 </div>
 
 
@@ -460,7 +460,7 @@ function App() {
                   <div className='text-black '>営/8:00~23:00 <br />
                     <span className='pl-4'>(フードLO20:30、 その他LO22:00)</span> </div>
                   <div className='text-black '>休/施設に準ずる</div>
-                  <div className='text-black '><span><img src={instagram_icon} alt="instal" className='inline' /> </span> {"@bread.espresso.and.machiawase"}</div>
+                  <div className='text-black '><a href=" https://www.instagram.com/bread.espresso.and.machiawase/" target="_blank" rel="noreferrer"><span><img src={instagram_icon} alt="instal" className='inline' /> </span> {"@bread.espresso.and.machiawase"}</a></div>
                 </div>
 
               </div>
@@ -570,7 +570,7 @@ function App() {
 
                   <div className='text-black '>営/11:00~23:00 (フードLO22:00 ドリンクLO22:30)</div>
                   <div className='text-black '>体/施設に準ずる</div>
-                  <div className='text-black '> <span><img src={instagram_icon} alt="insta" className='inline' /></span> {"@gransol shibuya"}</div>
+                  <div className='text-black '> <a href=" https://www.instagram.com/gransol_shibuya/" target="_blank" rel="noreferrer"><span><img src={instagram_icon} alt="insta" className='inline' /></span> {"@gransol shibuya"}</a></div>
                 </div>
 
               </div>
@@ -646,7 +646,7 @@ function App() {
 
               <div className='text-black '>営/11:00-19:00</div>
               <div className='text-black '>休/無休</div>
-              <div className='text-black '><span><img src={instagram_icon} alt="insta" className='inline' /></span> @koffee_mameya_kakeru</div>
+              <div className='text-black '><a href="https://www.instagram.com/koffee_mameya_kakeru/" target="_blank" rel="noreferrer"><span><img src={instagram_icon} alt="insta" className='inline' /></span> @koffee_mameya_kakeru </a></div>
             </div>
 
             <div className="image_part flex justify-center items-center xcstm:translate-y-20 md:translate-y-0 cstm:-translate-x-5">
@@ -707,7 +707,7 @@ function App() {
                   
                   <div className='text-black  mb-[2px]'>営/9:00-17:00</div>
                   <div className='text-black  mb-[2px]'>休/無休</div>
-                  <div className='text-black  mb-[2px]'><span><img src={instagram_icon} alt="insta" className='inline' /></span> {"@allpressespressojapan"}</div>
+                  <div className='text-black  mb-[2px]'> <a href=" https://www.instagram.com/allpressespressojapan/" target="_blank" rel="noreferrer"><span><img src={instagram_icon} alt="insta" className='inline' /></span> {"@allpressespressojapan"}</a></div>
                 </div>
 
               </div>
@@ -812,7 +812,7 @@ function App() {
 
                     <div className='text-black'>営/11:00-19:00 <br /> &nbsp; &nbsp;(日によって変動あり)</div>
                     <div className='text-black'> 休/無休(年末年始および <br />&nbsp; &nbsp; 特別な場合を除く)</div>
-                    <div className='text-black'><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@books_and_beer_"}</div>
+                    <div className='text-black'><a href="https://www.instagram.com/books_and_beer_/" target="_blank" rel="noreferrer"><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@books_and_beer_"} </a></div>
 
                   </div>
 
@@ -840,7 +840,9 @@ function App() {
                     <div className='text-[#ee798c] '>●BONUS TRACK</div>
                     <div className='text-black '>東京都世田谷区代田2-36-12~15</div>
                     <div className='text-black '><span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span><span>※各店舗へお問合せください</span></div>
-                    <div className='text-black '><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@bonustrack_skz"}</div>
+                    {/* <div className='text-black '><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@bonustrack_skz"}</div> */}
+                    <div className='text-black '><a href="https://www.instagram.com/bonustrack_skz/" target="_blank" rel="noreferrer"><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@bonustrack_skz"}</a></div>
+
                   </div>
                 </div>
               </div>
@@ -885,7 +887,9 @@ function App() {
                   <div className='text-black'><span><img src={phone_image} alt="phone" className='inline w-[15px] mr-1' /></span>03-6450-8272</div>
                   <div className='text-black'>営/11:00-19:00 <br /> &nbsp; &nbsp;(日によって変動あり)</div>
                   <div className='text-black'> 休/無休(年末年始および <br />&nbsp; &nbsp; 特別な場合を除く)</div>
-                  <div className='text-black'><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@books_and_beer_"}</div>
+                  {/* <div className='text-black'><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@books_and_beer_"}</div> */}
+                  <div className='text-black'><a href="https://www.instagram.com/books_and_beer_/" target="_blank" rel="noreferrer"><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@books_and_beer_"} </a></div>
+
 
                 </div>
 
@@ -913,7 +917,7 @@ function App() {
                     <div className='text-[#ee798c] '>●BONUS TRACK</div>
                     <div className='text-black '>東京都世田谷区代田2-36-12~15</div>
                     <div className='text-black '><span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span><span>※各店舗へお問合せください</span></div>
-                    <div className='text-black '><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@bonustrack_skz"}</div>
+                    <div className='text-black '><a href="https://www.instagram.com/bonustrack_skz/" target="_blank" rel="noreferrer"><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@bonustrack_skz"}</a></div>
                   </div>
                 </div>
               </div>
