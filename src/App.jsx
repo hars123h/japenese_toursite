@@ -85,7 +85,7 @@ function App() {
           <img src={happy_girl1} alt="女" className='absolute -bottom-8 cstm:-bottom-6 -left-16 z-10 invisible md:visible md:w-[125px]' />
           <div className="par1 relative">
             <img src={girl_image1}
-             alt="快適な機内&サービスで 成田空港までのフライトも あっという間に感じる!" />
+             alt="ジェットスターの内装" />
             <img src={textbox_image2} alt="約1時間半の フライトを 快適に過ごせます!" className='absolute top-2 right-2 w-[100px] md:w-[130px]' />
           </div>
           <div className="part2 flex flex-col p-2 ml-2 planeOuter">
@@ -141,7 +141,7 @@ function App() {
                 </div>
 
                 <div className='relative cstm:w-[40%] cstm:translate-x-10 cstm:translate-y-6'>
-                  <img src={small_building} alt="tower" />
+                  <img src={small_building} alt="スカイツリー 夜景" />
                   <div className='w-[80px] opacity-80 h-[25px] bg-[#fee33d] absolute -top-1 rotate-[20deg] left-[35%] z-10'> </div>
                 </div>
               </div>
@@ -149,7 +149,7 @@ function App() {
 
             <div className='md:w-[40%] cstm:w-[50%] relative border-l-2 border-white pl-5 font-bold text-lg mt-10 md:mt-0'>
               <div className="relative">
-                <img src={s3rightImage} alt="building" className='w-[40rem] s3rightImage cstm:translate-x-8' />
+                <img src={s3rightImage} alt="スカイツリー" className='w-[40rem] s3rightImage cstm:translate-x-8' />
                 {/* <img src={s3border_new} alt="border" className='absolute  top-1/2 left-1/2 transform -translate-x-[208px] -translate-y-1/2'/> */}
               </div>
               {/* <div className="absolute -top-6 -right- w-[200px]  lg:right-[40%]">
@@ -189,7 +189,7 @@ function App() {
           <div className="box flex flex-col md:flex-row  lg:mt-0 md:w-[60%] w-[120%] mx-auto cstm:w-[58%] max-w-6xl widthOuter">
             <div className='flex flex-col md:w-[65%]'>
               <div className='relative border-l-2 border-white pl-5 font-bold text-lg'>
-                <img src={s4new02} alt="building" className='pr-4 p-y-4 w-[100%] imageS4' />
+                <img src={s4new02} alt="カジュアルダイニング" className='pr-4 p-y-4 w-[100%] imageS4' />
                 {/* <img src={s4ideabox} alt="ideabox" className='absolute left-2 top-[25%] w-[120px] md:w-[180px]' /> */}
                 {/* <div className="absolute -top-6 -left-10 w-[200px]">
                   <div className='bg-[#fbee17] flex h-[80px]'>
@@ -212,7 +212,7 @@ function App() {
 
 
               <div className='relative mt-10 mx-auto'>
-                <img src={s4land} alt="tower" className='w-[14rem]' />
+                <img src={s4land} alt="ヘルシー料理" className='w-[14rem]' />
                 <div className='w-[80px] cstm:w-[60px] opacity-90 h-[20px] bg-[#fee33d] absolute -top-2 rotate-[20deg] left-[35%] z-10'> </div>
               </div>
             </div>
@@ -245,7 +245,7 @@ function App() {
                 
 
                 <div className='towerImgOuter'>
-                  <img src={s4lunch} alt="tower" className=' towerImg' style={{ marginTop:'20px' }} />
+                  <img src={s4lunch} alt="ヘルシー料理" className=' towerImg' style={{ marginTop:'20px' }} />
                   {/* <div className='w-[80px] opacity-80 h-[25px] bg-[#fee33d] absolute cstm:translate-y-6 -top-0.5 rotate-[20deg] left-[35%] z-10 towerStrip'> </div> */}
                 </div>
 
@@ -295,14 +295,14 @@ function App() {
 
 
                 <div className='absolute md:translate-x-16 z-20 mt-5 md:mt-0  -right-48 cstm:translate-x-52 top-[11rem] shop03ImageGirl '>
-                  <img src={s5lower_image} alt="tower" className='cstm:w-[600px]' />
+                  <img src={s5lower_image} alt="墨田区" className='cstm:w-[600px]' />
                   {/* <div className='w-[80px] opacity-80 h-[25px] bg-[#fee33d] absolute -top-1  rotate-[20deg] left-[35%] z-10'> </div> */}
                 </div>
               </div>
             </div>
 
             <div className='md:w-[40%] cstm:w-[70%] cstm:translate-x-10 relative  pl-5 font-bold text-lg md:mt-0 mt-10 max-w-6xl shop03Image'>
-              <img src={s503image} alt="building" />
+              <img src={s503image} alt="売店兼工房すみずみ" />
               {/* <div className='relative float-right mt-7'>
                 <img src={s5door} alt="tower" />
                 <div className='w-[80px] opacity-80 h-[25px] bg-[#fee33d] absolute -top-1 rotate-[20deg] left-[35%] z-10'> </div>
@@ -336,12 +336,12 @@ function App() {
           <div className="box flex flex-col md:flex-row  mt-10 md:w-[60%] mx-auto cstm:w-[51%] max-w-6xl s6shibuyaOuter widthOuter">
             <div className='flex flex-col md:w-[60%] cstm:w-[80%]'>
               <div className='relative  font-bold text-lg cstm:-translate-x-12 '>
-                <img src={s6shibuya_sky_new} alt="" className='s6shibuya_sky_new' />
+                <img src={s6shibuya_sky_new} alt="渋谷スカイ" className='s6shibuya_sky_new' />
               </div>
 
 
               <div className='relative mt-2 mx-auto cstm:translate-y-5 cstm:w-[60%] cstm:-translate-x-6'>
-                <img src={s6smallimg} alt="tower" />
+                <img src={s6smallimg} alt="スカイギャラリー" />
                 <div className='w-[80px] opacity-90 h-[25px] bg-[#fee33d] absolute -top-1 rotate-[20deg] left-[35%] z-10'> </div>
               </div>
             </div>
@@ -376,7 +376,7 @@ function App() {
                 </div>
 
                 <div className='absolute z-20 md:-bottom-12 md:right-0 -bottom-52 cstm:-right-12 right-0 text-sm font-bold text-white p-3 s6cupImg'>
-                  <img src={s6cupimg} alt="tower" className='mb-5 s6cupImg' />
+                  <img src={s6cupimg} alt="渋谷区のシンボル" className='mb-5 s6cupImg' />
                 </div>
 
                 <div className="absolute bg-[#f5ac1a] md:-bottom-12 md:right-56 -bottom-[240px] cstm:-bottom-6 cstm:right-48 right-48 md:text-sm xcstm:text-[0.6rem] font-bold text-white p-3 s6cupImgBox">
@@ -425,7 +425,7 @@ function App() {
             </div>
 
             <div className='md:w-[40%]  cstm:w-[95%] cstm:translate-x-[30px] relative font-bold text-lg miyashitaImg'>
-              <img src={miyashita_part} alt="building" />
+              <img src={miyashita_part} alt="MIYASHITA PARK" />
             </div>
           </div>
 
@@ -440,12 +440,12 @@ function App() {
           <div className="relative box flex flex-col md:flex-row mt-10 md:w-[60%] mx-auto cstm:w-[65%] max-w-6xl widthOuter">
             <div className=' flex flex-col md:w-[60%] cstm:w-[120%]  '>
               <div className='relative  font-bold text-lg'>
-                <img src={s8main_image} alt="" className='p-4 s8main_image' />
+                <img src={s8main_image} alt="パンとコーヒーのあるカフェ" className='p-4 s8main_image' />
               </div>
 
 
               <div className='relative mt-2 mx-auto cstm:w-[50%]' >
-                <img src={s8note} alt="tower" className='' />
+                <img src={s8note} alt="パン、エスプレッソ" className='' />
                 <div className='w-[80px]  opacity-80 h-[25px] bg-[#fee33d] absolute -top-1 rotate-[20deg] left-[35%] z-10'> </div>
               </div>
             </div>
@@ -480,7 +480,7 @@ function App() {
 
               </div>
               <div className='part4 relative mt-2 h-[150px]'>
-                <img src={s8coffeeStraw} alt="coffee" className='z-10 absolute right-0' />
+                <img src={s8coffeeStraw} alt="アイスカプチーノ" className='z-10 absolute right-0' />
                 <div className="absolute bg-[#f5ac1a] top-0 right-28 z-0 text-sm font-bold text-white p-6">
                   <div className='mb-1'>アイスカプチーノ <br />
                     (600円)</div>
@@ -488,7 +488,7 @@ function App() {
               </div>
 
               <div className='part5 relative mt-2 h-[150px] xcstm:mt-14'>
-                <img src={s8bread} alt="coffee" className='z-10 absolute cstm:-left-16 cstm:bottom-20 left-0 xcstm:w-[190px] nokn:w-[240px] md:left-8' />
+                <img src={s8bread} alt="まちあわせのクロックマダム " className='z-10 absolute cstm:-left-16 cstm:bottom-20 left-0 xcstm:w-[190px] nokn:w-[240px] md:left-8' />
                 <div className="absolute bg-[#f5ac1a] -bottom-20 cstm:left-[20%] left-[50%] cstm:-bottom-4 z-0 text-sm font-bold text-white p-6">
                   まちあわせの <br />
                   クロックマダム (900円) <br />
@@ -535,9 +535,9 @@ function App() {
             </div>
 
             <div className='md:w-[40%] relative xcstm:mt-10 md:mt-0  pl-5 font-bold text-lg cstm:w-[70%]'>
-              <img src={s9new_image} alt="building" className='s9new_image' />
+              <img src={s9new_image} alt="渋谷区" className='s9new_image' />
 
-              <img src={s9belowImage} alt="2nd" className='absolute cstm:-bottom-[100px] cstm:-left-36 w-[220px] s9belowImage' />
+              <img src={s9belowImage} alt="宮下公園" className='absolute cstm:-bottom-[100px] cstm:-left-36 w-[220px] s9belowImage' />
 
             </div>
           </div>
@@ -553,7 +553,7 @@ function App() {
           <div className="box flex flex-col md:flex-row p-4 mt-10 md:w-[60%] mx-auto cstm:w-[65%] max-w-6xl widthOuter">
             <div className='flex flex-col md:w-[60%] xcstm:w-[90%]'>
               <div className='relative  font-bold text-lg'>
-                <img src={s10newImage} alt="storefront_image" className='p-4 s10newImage' />
+                <img src={s10newImage} alt="グランソル東京" className='p-4 s10newImage' />
               </div>
             </div>
 
@@ -593,7 +593,7 @@ function App() {
 
           <div className="flex flex-col md:flex-row md:mt-5 cstm:w-[65%] md:w-[60%] xcstm:w-[90%] mx-auto cstm:items-center justify-center md:translate-x-20 xcstm:mt-10">
 
-            <img src={s10combined} alt="combined" className='w-[80%] s10bottom' />
+            <img src={s10combined} alt="グランソル東京ディッシュ" className='w-[80%] s10bottom' />
 
           </div>
 
@@ -632,7 +632,7 @@ function App() {
               <div className="part3 flex p-2 justify-between mt-5">
 
                 <div className='relative cstm:-translate-x-5'>
-                  <img src={s11cupimage} alt="cupimage" />
+                  <img src={s11cupimage} alt="KOFFEE MAMEYA-Kakeru" />
                   {/* <div className='w-[80px] opacity-80 h-[25px] bg-[#fee33d] absolute -top-1 rotate-[20deg] left-[35%] z-10'> </div>
                   <div className="bg-[#00afde] absolute -z-10 text-sm xcstm:-bottom-20 cstm:-right-40 md:-bottom-3 md:-right-44 xcstm:-right-0  font-bold text-white p-4 boxXy">
                     <div className='mb-1'>Koffee Mameya Course <br /> コーヒーマメヤコース <br /> (3,000円)
@@ -643,7 +643,7 @@ function App() {
             </div>
 
             <div className='md:w-[40%] cstm:w-[60%]  relative pl-5 xcstm:mt-28 md:mt-0 font-bold text-lg s11Koffee'>
-              <img src={s11Koffee} alt="couple_date" className='s11Koffee' />
+              <img src={s11Koffee} alt="KOFFEE MAMEYA" className='s11Koffee' />
             </div>
           </div>
 
@@ -665,12 +665,12 @@ function App() {
 
             <div className="image_part flex justify-center items-center xcstm:translate-y-20 md:translate-y-0 cstm:-translate-x-5">
               <div className='relative translate-x-12 screen11Right'>
-                <img src={s11downleft} alt="leftimage" className='w-[270px]' />
+                <img src={s11downleft} alt="コーヒー豆屋 内観" className='w-[270px]' />
                 <div className='w-[80px] opacity-80 h-[25px] bg-[#fee33d] absolute -top-1 rotate-[20deg] left-[35%] z-10'> </div>
               </div>
 
               <div className='relative -translate-y-14'>
-                <img src={s11downright} alt="rightimage" className='w-[240px] screen11Left' />
+                <img src={s11downright} alt="コーヒー豆屋 内観" className='w-[240px] screen11Left' />
                 <div className='w-[60px] opacity-80 h-[25px] bg-[#fee33d] absolute -top-1 rotate-[20deg] left-[35%] z-10'> </div>
               </div>
 
@@ -690,7 +690,7 @@ function App() {
           <div className="box flex flex-col md:flex-row p-4 xcstm:mt-20 md:mt-10 md:w-[60%] mx-auto xcstm:w-[90%] cstm:w-[60%] max-w-6xl screen_12wrap widthOuter">
             <div className='flex flex-col md:w-[60%]'>
               <div className='relative  font-bold xcstm:text-sm md:text-lg cstm:w-[110%] cstm:-translate-x-10'>
-                <img src={s12allpress} alt="storefront_image" className='p-4 s12allpress' />
+                <img src={s12allpress} alt="Allpress Espresso Tokyo Roastery&Cafe" className='p-4 s12allpress' />
 
               </div>
             </div>
@@ -730,7 +730,7 @@ function App() {
 
           <div className="flex flex-col md:flex-row  mt-[-8px] md:w-[60%] mx-auto justify-center widthOuter">
 
-            <img src={s12allpress02} alt="all_press" className='s12allpress02' />
+            <img src={s12allpress02} alt="内部ビュー" className='s12allpress02' />
           </div>
 
         </div>
@@ -775,7 +775,7 @@ function App() {
             </div>
 
             <div className='md:w-[40%] cstm:w-[60%] cstm:translate-x-10 relative xcstm:mt-20 md:mt-0  font-bold text-lg s13rightPart '>
-              <img src={s13rightPart} alt="Right_Part" />
+              <img src={s13rightPart} alt="東京都現代美術館" />
             </div>
           </div>
 
@@ -805,7 +805,7 @@ function App() {
           <div className="box flex flex-col md:flex-row p-4 mt-5 md:w-[60%] xcstm:w-[90%] mx-auto cstm:w-[58%] max-w-6xl screen14Wrap widthOuter">
             <div className='flex flex-col md:w-[60%]'>
               <div className='relative  font-bold text-lg cstm:w-[120%] cstm:-translate-x-16'>
-                <img src={s14new_image} alt="" className='p-4 imageWid' />
+                <img src={s14new_image} alt="本屋 B&B" className='p-4 imageWid' />
               </div>
               <div className='lastSectionMobile'>
                 <div className="part1 py-1 md:text-3xl xcstm:text-xl cstm:text-[1.2rem] text-[#ee798c] font-bold border-b-4 border-[#ee798c] screen4Head" style={{ lineHeight: '1.75em' }}>
@@ -831,7 +831,7 @@ function App() {
                   </div>
 
                   <div>
-                    <img src={s14outdoorstairs} alt="outdoorstairs" className='w-[80%] ' />
+                    <img src={s14outdoorstairs} alt="B&B アウター ビュー" className='w-[80%] ' />
                   </div>
                 </div>
               </div>
@@ -939,7 +939,7 @@ function App() {
 
               <div className='relative mt-10'>
                 <div className='relative flex justify-center cstm:w-[120%]'>
-                  <img src={s14bonus_track} alt="couple_date" className=' w-[85%] imageWid2' />
+                  <img src={s14bonus_track} alt="BONUS TRACK" className=' w-[85%] imageWid2' />
                   {/* <img src={s6border} alt="text" className='absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2' /> */}
                 </div>
               </div>
