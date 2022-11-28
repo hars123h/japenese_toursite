@@ -112,13 +112,13 @@ function App() {
         <div className='w-screen'>
           <div className="box text-white bg-[#25b7aa] flex flex-col md:flex-row  p-4 mt-10 md:w-[60%] w-[90%] mx-auto cstm:w-[51%] max-w-6xl widthOuter">
             <div className='flex flex-col justify-center items-center md:w-[40%] pb-5 md:pb-0 md:-translate-y-2'>
-              <div className='text-bold text-3xl md:text-[1.5rem] mb-2 text-center cstm:text-[1.5rem] '>Tokyo mizumachi</div>
-              <div className='font-bold md:text-[2.8rem] sm:text-lg   font:bold cstm:text-[2rem] '>東京ミズマチ &#174;</div>
+              <div className='text-bold text-3xl md:text-[1.5rem] mb-2 text-center cstm:text-[20px] '>Tokyo mizumachi</div>
+              <div className='font-bold md:text-[2.8rem] sm:text-lg   font:bold cstm:text-[40px] '>東京ミズマチ &#174;</div>
             </div>
-            <div className='md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center cstm:leading-6  xcstm:text-[10px] border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold text-[0.60rem] md:text-[16px] s3Para'>
-              <div className=' cstm:text-[12.5px] cstm:tracking-widest'>2020年開業。浅草~東京スカイツリータウン&#174;エリアを散策できる</div>
-              <div className=' cstm:text-[12.5px] cstm:tracking-widest'>新机点。</div>
-              <div className=' cstm:text-[12.5px] cstm:tracking-widest'>カフェ・雑貨・ホステルなど個性豊かなお店が集結!</div>
+            <div className='md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center cstm:leading-6  xcstm:text-[10px] border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold text-[0.60rem] md:text-[16px] s3Para' style={{lineHeight:"20px"}}>
+              <div className=' cstm:text-[14px] cstm:tracking-widest'>2020年開業。浅草~東京スカイツリータウン&#174;エリアを散策できる新机点。</div>
+              {/* <div className=' cstm:text-[14px] cstm:tracking-widest'>新机点。</div> */}
+              <div className=' cstm:text-[14px] cstm:tracking-widest'>カフェ・雑貨・ホステルなど個性豊かなお店が集結!</div>
             </div>
           </div>
 
@@ -322,7 +322,7 @@ function App() {
               <div className='text-bold md:text-3xl cstm:text-xl shiEng engFont'>Shibuya</div>
               <div className='font-bold md:text-5xl cstm:text-3xl shijpy japFont'>渋谷</div>
             </div>
-            <div className='md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold md:text-sm xcstm:text-[0.53rem] nokn:text-xs shibSmall '>
+            <div className='md:w-[60%] cstm:flex cstm:flex-col cstm:justify-center cstm:text-[14px] border-t-2 md:border-t-0 border-white md:border-l-2 md:border-white md:pl-5 pl-0 font-bold md:text-sm xcstm:text-[0.53rem] nokn:text-xs shibSmall '>
               <div>若者や外国人観光客が集まる流行の発信地・渋谷で、東京の“いま”</div>
               <div>を体感!</div>
             </div>
@@ -358,7 +358,7 @@ function App() {
                 {/* GALLERY」では映像による空間演出や期間限定の展示が楽しめる。 */}
               </div>
               <div className="part2 text-black md:text-[0.8rem] p-1 mt-4 xcstm:text-[0.54rem] cstm:text-[11.5px] shiParamobile" style={{ lineHeight: '1.8em' }}>
-                <div>2019年に開業した「渋谷スクランブルスクエア」にある展望施設「SHIBUYASKY」は、街を一望できる絶景スポット。 屋内展望回廊「SKY-GALLERY」では映像による空間演出や期間限定の展示が楽し <br />める。</div>
+                <div>2019年に開業した「渋谷スクランブルスクエア」にある展望施設「SHIBUYASKY」は、街を一望できる絶景スポット。 屋内展望回廊「SKY-GALLERY」では映像による空間演出や期間限定の展示が楽しめる</div>
                 {/* <div>「SHIBUYASKY」は、街を一望できる絶景スポット。 屋内展望回廊「SKY-</div> */}
                 {/* GALLERY」では映像による空間演出や期間限定の展示が楽しめる。 */}
               </div>
