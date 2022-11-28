@@ -270,7 +270,9 @@ function App() {
                 <div>
                   <div className='text-[#25b7aa]  text-[15px] cstm:text-[11px] shop03Li1'>●SHOP & WORKSHOP すみずみ</div>
                   <div className='text-black '>東京都墨田区向島 1-23-9</div>
-                  <div className='text-black '> <img src={phone_image} alt="phone" className='inline w-[14px]' /> 03-6284-1731</div>
+                  <div className='text-black phn'> <img src={phone_image} alt="phone" className='inline w-[14px]' /> 03-6284-1731</div>
+                  <div className='text-black phnMobile'> <a href="tel:03-6284-1731"><img src={phone_image} alt="phone" className='inline w-[14px]' /> 03-6284-1731 </a></div>
+
                   <div className='text-black '>営/11:00-19:00</div>
                   <div className='text-black '>休/月曜(祝日の場合は翌日)</div>
                   <div className='text-black '> <img src={instagram_icon} alt="insta_icon" className=' inline' />  @shopandworkshopsumizumi</div>
@@ -349,7 +351,8 @@ function App() {
                 <div>
                   <div className='text-[#f5ac1a]'>●SHIBUYA SKY (渋谷スカイ)</div>
                   <div className='text-black '>東京都渋谷区2-24-12 (渋谷駅直結・直上)</div>
-                  <div className='text-black '> <img src={phone_image} alt="phone" className='inline w-[12px]' /> 03-4221-0229 (受付10:00-20:00)</div>
+                  <div className='text-black phn'> <img src={phone_image} alt="phone" className='inline w-[12px]' /> 03-4221-0229 (受付10:00-20:00)</div>
+                  <div className='text-black phnMobile'> <a href="tel:03-4221-0229"><img src={phone_image} alt="phone" className='inline w-[12px]' />03-4221-0229 </a>(受付10:00-20:00)</div>
                   <div className='text-black '>営/ 10:00~22:30 (最終入場21:20) <br />
                     <span className='pl-4'>※屋外は悪天時閉鎖</span> </div>
                   <div className='text-black '>休/無休</div>
@@ -396,7 +399,9 @@ function App() {
                 <div>
                   <div className='text-[#f7aa17] '>●MIYASHITA PARK</div>
                   <div className='text-black '>東京都渋谷区神宮前6-20-10</div>
-                  <div className='text-black '><span><img src={phone_image} alt="phone" className='inline w-[14px]' /></span> 03-6712-5630 (代) <br /> <span className='pl-4'>(受付 11:00~18:00)</span> </div>
+                  <div className='text-black phn'><span><img src={phone_image} alt="phone" className='inline w-[14px]' /></span> 03-6712-5630 (代) <br /> <span className='pl-4'>(受付 11:00~18:00)</span> </div>
+                  <div className='text-black phnMobile'> <a href="tel:03-6712-5630"><span><img src={phone_image} alt="phone" className='inline w-[14px]' /></span> 03-6712-5630 (代) </a><br /><span className='pl-4'>(受付 11:00~18:00)</span></div>
+
                   <div className='text-black '><span><img src={instagram_icon} alt="insta" className='inline' /></span> {"@miyashitapark_"}</div>
                 </div>
 
@@ -449,7 +454,9 @@ function App() {
                   <div className='text-[#f5ac1a] '>●パンとエスプレッソとまちあわせ</div>
                   <div className='text-black '>東京都渋谷区神宮前6-20-10</div>
                   <div className='text-black '>MIYASHITA PARK South2F</div>
-                  <div className='text-black '> <span><img src={phone_image} alt="phone" className='inline w-[14px]' /></span> 03-6805-0830</div>
+                  <div className='text-black phn'> <span><img src={phone_image} alt="phone" className='inline w-[14px]' /></span> 03-6805-0830</div>
+                  <div className='text-black phnMobile'> <a href="tel:03-6805-0830"><span><img src={phone_image} alt="phone" className='inline w-[14px]' /></span></a> 03-6805-0830</div>
+
                   <div className='text-black '>営/8:00~23:00 <br />
                     <span className='pl-4'>(フードLO20:30、 その他LO22:00)</span> </div>
                   <div className='text-black '>休/施設に準ずる</div>
@@ -501,7 +508,9 @@ function App() {
                 <div>
                   <div className='text-[#f3bc3c] '>●渋谷区立宮下公園</div>
                   <div className='text-black '>東京都渋谷区神宮前1-26-5</div>
-                  <div className='text-black '> <span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span> 03-6712-5291</div>
+                  <div className='text-black phn'> <span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span> 03-6712-5291</div>
+                  <div className='text-black phnMobile'> <a href="tel:03-6712-5291"><span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span> 03-6712-5291 </a></div>
+
                   <div className='text-black '>営/ (公園) 8:00~23:00 <br />
                     <span className="pl-4">(スポーツ施設) 9:00~22:00 </span> <br />
                     <span className="pl-4">(受付は21:30まで)</span> </div>
@@ -556,7 +565,9 @@ function App() {
                   <div className='text-[#f5ac1a] '>●GRAN SOL TOKYO</div>
                   <div className='text-black '>東京都渋谷区神宮前6-20-10</div>
                   <div className='text-black '>MIYASHITA PARK North3F</div>
-                  <div className='text-black '> <span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span> 03-5468-3378</div>
+                  <div className='text-black phn'> <span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span> 03-5468-3378</div>
+                  <div className='text-black phnMobile'> <a href="tel:03-5468-3378"><span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span> 03-5468-3378</a></div>
+
                   <div className='text-black '>営/11:00~23:00 (フードLO22:00 ドリンクLO22:30)</div>
                   <div className='text-black '>体/施設に準ずる</div>
                   <div className='text-black '> <span><img src={instagram_icon} alt="insta" className='inline' /></span> {"@gransol shibuya"}</div>
@@ -630,7 +641,9 @@ function App() {
               </div>
               <div className='text-[#00afde] '>●KOFFEE MAMEYA-Kakeru-</div>
               <div className='text-black '>東京都江東区平野2-16-14</div>
-              <div className='text-black '><span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span> 03-6240-3072 (予約優先)</div>
+              <div className='text-black phn'><span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span> 03-6240-3072 (予約優先)</div>
+              <div className='text-black phnMobile'> <a href="tel:03-6240-3072"> <span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span> 03-6240-3072 (予約優先)</a></div>
+
               <div className='text-black '>営/11:00-19:00</div>
               <div className='text-black '>休/無休</div>
               <div className='text-black '><span><img src={instagram_icon} alt="insta" className='inline' /></span> @koffee_mameya_kakeru</div>
@@ -688,7 +701,10 @@ function App() {
                 <div>
                   <div className='text-[#00aee0]  mb-[2px]'>●Allpress Espresso Tokyo Roastery&Cafe</div>
                   <div className='text-black  mb-[2px]'>東京都江東区平野3-7-2</div>
-                  <div className='text-black  mb-[2px]'> <span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span> 03-5875-9131</div>
+                  <div className='text-black  mb-[2px] phn'> <span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span> 03-5875-9131</div>
+                  <div className='text-black  mb-[2px] phnMobile'> <a href="tel:03-5875-9131"> <span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span> 03-5875-9131</a></div>
+
+                  
                   <div className='text-black  mb-[2px]'>営/9:00-17:00</div>
                   <div className='text-black  mb-[2px]'>休/無休</div>
                   <div className='text-black  mb-[2px]'><span><img src={instagram_icon} alt="insta" className='inline' /></span> {"@allpressespressojapan"}</div>
@@ -730,7 +746,9 @@ function App() {
                 <div>
                   <div className='text-[#00aee0] cstm:mb-[5px] '>●東京都現代美術館</div>
                   <div className='text-black cstm:mb-[5px]'>東京都江東区三好4-1-1 (木場公園内)</div>
-                  <div className="text-black cstm:mb-[5px]"><span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span> 050-5541-8600(ハローダイヤル) </div>
+                  <div className="text-black cstm:mb-[5px] phn"><span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span> 050-5541-8600(ハローダイヤル) </div>
+                  <div className="text-black cstm:mb-[5px] phnMobile"> <a href="tel: 050-5541-8600"><span><img src={phone_image} alt="phone" className='inline w-[15px]' /></span> 050-5541-8600(ハローダイヤル) </a></div>
+
                   <div className='text-black cstm:mb-[5px]'>閉館/10:00~18:00 (展示室入室は17:30まで)</div>
                   <div className='text-black cstm:mb-[5px]'>休/月曜(祝日の場合は翌平日) <br />
                     <span className="pl-4 cstm:mt-[4px]">※展示入替期間、年末年始は休館</span> </div>
@@ -789,7 +807,9 @@ function App() {
                     <div className='text-[#ee798c]'>●本屋 B&B</div>
                     <div className='text-black'>東京都世田谷区代田2-36-15</div>
                     <div className='text-black'>BONUS TRACK 2F</div>
-                    <div className='text-black'><span><img src={phone_image} alt="phone" className='inline w-[15px] mr-1' /></span>03-6450-8272</div>
+                    <div className='text-black phn'><span><img src={phone_image} alt="phone" className='inline w-[15px] mr-1' /></span>03-6450-8272</div>
+                    <div className='text-black phnMobile'> <a href="tel:03-6450-8272"><span><img src={phone_image} alt="phone" className='inline w-[15px] mr-1' /></span>03-6450-8272</a></div>
+
                     <div className='text-black'>営/11:00-19:00 <br /> &nbsp; &nbsp;(日によって変動あり)</div>
                     <div className='text-black'> 休/無休(年末年始および <br />&nbsp; &nbsp; 特別な場合を除く)</div>
                     <div className='text-black'><span><img src={instagram_icon} alt="insta" className='inline' /></span>{"@books_and_beer_"}</div>
